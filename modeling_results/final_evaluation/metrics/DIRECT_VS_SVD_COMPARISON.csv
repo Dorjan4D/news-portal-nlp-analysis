@@ -1,0 +1,9 @@
+source_topic,target_topic,direction,comparison_family,direct_weighted_macro_f1,svd_weighted_macro_f1,direct_minus_svd
+topicA,topicA,topicA_to_topicA,classical,0.8740762872437449,0.8496529758555628,0.0244233113881821
+topicA,topicA,topicA_to_topicA,MLP seed mean,0.8892921805089763,0.8639395594248155,0.02535262108416081
+topicA,topicB,topicA_to_topicB,classical,0.5738020258125281,0.5555658333939265,0.018236192418601638
+topicA,topicB,topicA_to_topicB,MLP seed mean,0.4939768942753059,0.5161093211214912,-0.022132426846185327
+topicB,topicA,topicB_to_topicA,classical,0.45991127566871565,0.5093522644070625,-0.04944098873834685
+topicB,topicA,topicB_to_topicA,MLP seed mean,0.3608502010938616,0.4445052618550386,-0.08365506076117696
+topicB,topicB,topicB_to_topicB,classical,0.8824398254710303,0.8913011677400619,-0.008861342269031569
+topicB,topicB,topicB_to_topicB,MLP seed mean,0.8003640469178791,0.8769680078283667,-0.0766039609104876

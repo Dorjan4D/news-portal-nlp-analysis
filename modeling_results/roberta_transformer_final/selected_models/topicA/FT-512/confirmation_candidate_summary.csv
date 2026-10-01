@@ -1,0 +1,3 @@
+config_id,learning_rate,weight_decay,config_order,mean_best_val_weighted_macro_f1,std_best_val_weighted_macro_f1,mean_best_val_weighted_accuracy,mean_best_val_weighted_cross_entropy,mean_best_epoch,mean_skipped_amp_optimizer_steps
+512_lr1e-05_wd0e+00,1e-05,0.0,0,0.9302416931129686,0.00919318000602767,0.9306451612903226,0.3400034958090452,16.0,4.333333333333333
+512_lr1e-05_wd1e-02,1e-05,0.01,1,0.9398861025245878,0.006361441285287375,0.9400238948626045,0.23637944892905205,15.333333333333334,5.0

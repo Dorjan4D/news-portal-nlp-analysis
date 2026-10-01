@@ -1,0 +1,241 @@
+topic,family,coefficient_row,direction,rank,feature,coefficient
+topicA,svc_linear,aljazeera_vs_bbc,positive,1,captives,1.5132431778999504
+topicA,svc_linear,aljazeera_vs_bbc,positive,2,united,1.3513356369626734
+topicA,svc_linear,aljazeera_vs_bbc,positive,3,enclave,1.0855215679347057
+topicA,svc_linear,aljazeera_vs_bbc,positive,4,war on,1.0465643761487482
+topicA,svc_linear,aljazeera_vs_bbc,positive,5,on gaza,1.0413001046906518
+topicA,svc_linear,aljazeera_vs_bbc,positive,6,united states,1.018163164905729
+topicA,svc_linear,aljazeera_vs_bbc,positive,7,the united,0.9164014572426571
+topicA,svc_linear,aljazeera_vs_bbc,positive,8,united nations,0.8413032966101452
+topicA,svc_linear,aljazeera_vs_bbc,positive,9,states,0.814801240254092
+topicA,svc_linear,aljazeera_vs_bbc,positive,10,israeli captives,0.7833874509121233
+topicA,svc_linear,aljazeera_vs_bbc,positive,11,captive,0.7465825678365263
+topicA,svc_linear,aljazeera_vs_bbc,positive,12,the captives,0.7454504845061128
+topicA,svc_linear,aljazeera_vs_bbc,positive,13,the enclave,0.7247091873422761
+topicA,svc_linear,aljazeera_vs_bbc,positive,14,nations,0.7189520365528819
+topicA,svc_linear,aljazeera_vs_bbc,positive,15,israel war,0.6782641118336697
+topicA,svc_linear,aljazeera_vs_bbc,positive,16,ministry of,0.6343504979749133
+topicA,svc_linear,aljazeera_vs_bbc,positive,17,percent,0.6314806166472706
+topicA,svc_linear,aljazeera_vs_bbc,positive,18,army,0.5279853958858289
+topicA,svc_linear,aljazeera_vs_bbc,positive,19,the palestinian,0.5147858457978985
+topicA,svc_linear,aljazeera_vs_bbc,positive,20,percent of,0.5103643567701324
+topicA,svc_linear,aljazeera_vs_bbc,positive,21,israeli army,0.5049768238649188
+topicA,svc_linear,aljazeera_vs_bbc,positive,22,palestinians,0.5014572261789729
+topicA,svc_linear,aljazeera_vs_bbc,positive,23,november,0.48701588235706755
+topicA,svc_linear,aljazeera_vs_bbc,positive,24,assault,0.4785811694773504
+topicA,svc_linear,aljazeera_vs_bbc,positive,25,assault on,0.4725518052196685
+topicA,svc_linear,aljazeera_vs_bbc,positive,26,states president,0.46359930363986385
+topicA,svc_linear,aljazeera_vs_bbc,positive,27,139 people,0.4586034085140268
+topicA,svc_linear,aljazeera_vs_bbc,positive,28,said in,0.4533534505940169
+topicA,svc_linear,aljazeera_vs_bbc,positive,29,captives in,0.4488045514920241
+topicA,svc_linear,aljazeera_vs_bbc,positive,30,has killed,0.43744523874604735
+topicA,svc_linear,aljazeera_vs_bbc,positive,31,139,0.43300814362316686
+topicA,svc_linear,aljazeera_vs_bbc,positive,32,killed at,0.4259082525057202
+topicA,svc_linear,aljazeera_vs_bbc,positive,33,the besieged,0.414408040327985
+topicA,svc_linear,aljazeera_vs_bbc,positive,34,israeli forces,0.40667102094169205
+topicA,svc_linear,aljazeera_vs_bbc,positive,35,since october,0.40543292125985997
+topicA,svc_linear,aljazeera_vs_bbc,positive,36,captives and,0.4016344077751079
+topicA,svc_linear,aljazeera_vs_bbc,positive,37,of health,0.3992779483508001
+topicA,svc_linear,aljazeera_vs_bbc,positive,38,palestinian group,0.3989344443862959
+topicA,svc_linear,aljazeera_vs_bbc,positive,39,affairs,0.39815512412505377
+topicA,svc_linear,aljazeera_vs_bbc,positive,40,besieged,0.3975099875901841
+topicA,svc_linear,aljazeera_vs_bbc,negative,1,hostages,-1.4448870275114163
+topicA,svc_linear,aljazeera_vs_bbc,negative,2,idf,-1.3390903219610346
+topicA,svc_linear,aljazeera_vs_bbc,negative,3,hamas run,-1.26015699092377
+topicA,svc_linear,aljazeera_vs_bbc,negative,4,hostage,-1.0453558969900998
+topicA,svc_linear,aljazeera_vs_bbc,negative,5,run health,-1.02105150961804
+topicA,svc_linear,aljazeera_vs_bbc,negative,6,run,-1.0090956557353679
+topicA,svc_linear,aljazeera_vs_bbc,negative,7,the idf,-0.9930114934923946
+topicA,svc_linear,aljazeera_vs_bbc,negative,8,mr,-0.9274459233001192
+topicA,svc_linear,aljazeera_vs_bbc,negative,9,251,-0.9266239752626999
+topicA,svc_linear,aljazeera_vs_bbc,negative,10,200 people,-0.9256990424630662
+topicA,svc_linear,aljazeera_vs_bbc,negative,11,hamas,-0.9011000237379334
+topicA,svc_linear,aljazeera_vs_bbc,negative,12,uk,-0.8688129305178856
+topicA,svc_linear,aljazeera_vs_bbc,negative,13,israeli hostages,-0.7834893023980539
+topicA,svc_linear,aljazeera_vs_bbc,negative,14,taken hostage,-0.7714756051577927
+topicA,svc_linear,aljazeera_vs_bbc,negative,15,health ministry,-0.7692755901129285
+topicA,svc_linear,aljazeera_vs_bbc,negative,16,about 200,-0.7623109580845671
+topicA,svc_linear,aljazeera_vs_bbc,negative,17,says,-0.7447880378215527
+topicA,svc_linear,aljazeera_vs_bbc,negative,18,response,-0.7416738958985283
+topicA,svc_linear,aljazeera_vs_bbc,negative,19,251 others,-0.7239528888156328
+topicA,svc_linear,aljazeera_vs_bbc,negative,20,terrorist,-0.7231902314744547
+topicA,svc_linear,aljazeera_vs_bbc,negative,21,had been,-0.7103356460781144
+topicA,svc_linear,aljazeera_vs_bbc,negative,22,idf said,-0.7087334193467029
+topicA,svc_linear,aljazeera_vs_bbc,negative,23,and 251,-0.7062377265833408
+topicA,svc_linear,aljazeera_vs_bbc,negative,24,in response,-0.7006906759400757
+topicA,svc_linear,aljazeera_vs_bbc,negative,25,the hamas,-0.6932811636021057
+topicA,svc_linear,aljazeera_vs_bbc,negative,26,200,-0.689579307701585
+topicA,svc_linear,aljazeera_vs_bbc,negative,27,sir,-0.6826731196838801
+topicA,svc_linear,aljazeera_vs_bbc,negative,28,the uk,-0.6717650868647624
+topicA,svc_linear,aljazeera_vs_bbc,negative,29,the un,-0.6467329759637728
+topicA,svc_linear,aljazeera_vs_bbc,negative,30,said it,-0.6459693056671003
+topicA,svc_linear,aljazeera_vs_bbc,negative,31,sir keir,-0.6393122066191774
+topicA,svc_linear,aljazeera_vs_bbc,negative,32,response to,-0.6299980299512564
+topicA,svc_linear,aljazeera_vs_bbc,negative,33,which about,-0.6103288558535457
+topicA,svc_linear,aljazeera_vs_bbc,negative,34,since then,-0.609649064872958
+topicA,svc_linear,aljazeera_vs_bbc,negative,35,forces idf,-0.6088469075114106
+topicA,svc_linear,aljazeera_vs_bbc,negative,36,had,-0.6020239768885494
+topicA,svc_linear,aljazeera_vs_bbc,negative,37,israel defense,-0.6006345113584818
+topicA,svc_linear,aljazeera_vs_bbc,negative,38,the israel,-0.5933237423244664
+topicA,svc_linear,aljazeera_vs_bbc,negative,39,un,-0.5920381048216501
+topicA,svc_linear,aljazeera_vs_bbc,negative,40,defense forces,-0.5898178773046832
+topicA,svc_linear,aljazeera_vs_guardian,positive,1,united,1.9354448949669734
+topicA,svc_linear,aljazeera_vs_guardian,positive,2,captives,1.805442534616347
+topicA,svc_linear,aljazeera_vs_guardian,positive,3,enclave,1.5708624434031602
+topicA,svc_linear,aljazeera_vs_guardian,positive,4,on gaza,1.399618397520995
+topicA,svc_linear,aljazeera_vs_guardian,positive,5,united states,1.3882135708259289
+topicA,svc_linear,aljazeera_vs_guardian,positive,6,war on,1.358668564534936
+topicA,svc_linear,aljazeera_vs_guardian,positive,7,united nations,1.3462484962798993
+topicA,svc_linear,aljazeera_vs_guardian,positive,8,the united,1.2751485946598962
+topicA,svc_linear,aljazeera_vs_guardian,positive,9,nations,1.2066477005951257
+topicA,svc_linear,aljazeera_vs_guardian,positive,10,states,1.1075416944833105
+topicA,svc_linear,aljazeera_vs_guardian,positive,11,the enclave,1.0591195669669273
+topicA,svc_linear,aljazeera_vs_guardian,positive,12,percent,1.002827752989791
+topicA,svc_linear,aljazeera_vs_guardian,positive,13,israeli captives,0.9250262790996683
+topicA,svc_linear,aljazeera_vs_guardian,positive,14,ministry of,0.9167938688704881
+topicA,svc_linear,aljazeera_vs_guardian,positive,15,the captives,0.9154607898743263
+topicA,svc_linear,aljazeera_vs_guardian,positive,16,captive,0.8878932776315822
+topicA,svc_linear,aljazeera_vs_guardian,positive,17,percent of,0.8372560124819244
+topicA,svc_linear,aljazeera_vs_guardian,positive,18,president donald,0.8037543320072124
+topicA,svc_linear,aljazeera_vs_guardian,positive,19,israel war,0.7872300459598238
+topicA,svc_linear,aljazeera_vs_guardian,positive,20,news agency,0.6884107778041
+topicA,svc_linear,aljazeera_vs_guardian,positive,21,occupied,0.6539326725625763
+topicA,svc_linear,aljazeera_vs_guardian,positive,22,occupied west,0.635694521336109
+topicA,svc_linear,aljazeera_vs_guardian,positive,23,states president,0.6273041816084013
+topicA,svc_linear,aljazeera_vs_guardian,positive,24,palestinian group,0.616708503189283
+topicA,svc_linear,aljazeera_vs_guardian,positive,25,president,0.6165640313919383
+topicA,svc_linear,aljazeera_vs_guardian,positive,26,palestinians,0.5884554850100256
+topicA,svc_linear,aljazeera_vs_guardian,positive,27,added,0.5854483230715881
+topicA,svc_linear,aljazeera_vs_guardian,positive,28,attacks,0.576893074465344
+topicA,svc_linear,aljazeera_vs_guardian,positive,29,israeli forces,0.5720510753819708
+topicA,svc_linear,aljazeera_vs_guardian,positive,30,el,0.5663076843477327
+topicA,svc_linear,aljazeera_vs_guardian,positive,31,139,0.5531942310580008
+topicA,svc_linear,aljazeera_vs_guardian,positive,32,added that,0.538058648843232
+topicA,svc_linear,aljazeera_vs_guardian,positive,33,deir el,0.5378471417674437
+topicA,svc_linear,aljazeera_vs_guardian,positive,34,el balah,0.5378471417674437
+topicA,svc_linear,aljazeera_vs_guardian,positive,35,israeli attacks,0.5284654080297937
+topicA,svc_linear,aljazeera_vs_guardian,positive,36,139 people,0.5279010979757955
+topicA,svc_linear,aljazeera_vs_guardian,positive,37,palestinian enclave,0.5222221073695096
+topicA,svc_linear,aljazeera_vs_guardian,positive,38,israeli army,0.5220893019820423
+topicA,svc_linear,aljazeera_vs_guardian,positive,39,the besieged,0.5177052933827043
+topicA,svc_linear,aljazeera_vs_guardian,positive,40,ceasefire agreement,0.5163507312421568
+topicA,svc_linear,aljazeera_vs_guardian,negative,1,hostages,-1.642496583680074
+topicA,svc_linear,aljazeera_vs_guardian,negative,2,airstrikes,-1.2618779865344574
+topicA,svc_linear,aljazeera_vs_guardian,negative,3,militants,-1.0593255256996241
+topicA,svc_linear,aljazeera_vs_guardian,negative,4,hostage,-1.0345686185903757
+topicA,svc_linear,aljazeera_vs_guardian,negative,5,militant,-0.9670591268546616
+topicA,svc_linear,aljazeera_vs_guardian,negative,6,idf,-0.959789511978815
+topicA,svc_linear,aljazeera_vs_guardian,negative,7,airstrike,-0.7426081901953324
+topicA,svc_linear,aljazeera_vs_guardian,negative,8,militant group,-0.7303408042224282
+topicA,svc_linear,aljazeera_vs_guardian,negative,9,the prime,-0.7205691246213756
+topicA,svc_linear,aljazeera_vs_guardian,negative,10,did not,-0.6867782737285772
+topicA,svc_linear,aljazeera_vs_guardian,negative,11,israeli hostages,-0.6622606967912326
+topicA,svc_linear,aljazeera_vs_guardian,negative,12,the un,-0.6553367358013906
+topicA,svc_linear,aljazeera_vs_guardian,negative,13,wrote,-0.6391608898068363
+topicA,svc_linear,aljazeera_vs_guardian,negative,14,had,-0.6328079167620899
+topicA,svc_linear,aljazeera_vs_guardian,negative,15,defense,-0.6242080608568218
+topicA,svc_linear,aljazeera_vs_guardian,negative,16,had been,-0.6178325397554348
+topicA,svc_linear,aljazeera_vs_guardian,negative,17,terrorist,-0.6131930838313111
+topicA,svc_linear,aljazeera_vs_guardian,negative,18,by hamas,-0.6005379010991021
+topicA,svc_linear,aljazeera_vs_guardian,negative,19,the idf,-0.5895156772878564
+topicA,svc_linear,aljazeera_vs_guardian,negative,20,it was,-0.5775374648599327
+topicA,svc_linear,aljazeera_vs_guardian,negative,21,un,-0.5711142004197103
+topicA,svc_linear,aljazeera_vs_guardian,negative,22,uk,-0.554217072611885
+topicA,svc_linear,aljazeera_vs_guardian,negative,23,the israel,-0.5534067492240576
+topicA,svc_linear,aljazeera_vs_guardian,negative,24,spokesperson,-0.5511479584241341
+topicA,svc_linear,aljazeera_vs_guardian,negative,25,defense forces,-0.537664613403942
+topicA,svc_linear,aljazeera_vs_guardian,negative,26,allies,-0.5369576683611624
+topicA,svc_linear,aljazeera_vs_guardian,negative,27,mostly,-0.5349087595756434
+topicA,svc_linear,aljazeera_vs_guardian,negative,28,conflict,-0.5225604115128559
+topicA,svc_linear,aljazeera_vs_guardian,negative,29,israel defense,-0.5151666268697113
+topicA,svc_linear,aljazeera_vs_guardian,negative,30,turkey,-0.5106570954970826
+topicA,svc_linear,aljazeera_vs_guardian,negative,31,the hostages,-0.50587362132344
+topicA,svc_linear,aljazeera_vs_guardian,negative,32,hamas,-0.5028031545575273
+topicA,svc_linear,aljazeera_vs_guardian,negative,33,with the,-0.49823783824564294
+topicA,svc_linear,aljazeera_vs_guardian,negative,34,ordered,-0.49369920015180346
+topicA,svc_linear,aljazeera_vs_guardian,negative,35,the territory,-0.484341646804605
+topicA,svc_linear,aljazeera_vs_guardian,negative,36,did,-0.48397071336598985
+topicA,svc_linear,aljazeera_vs_guardian,negative,37,the militant,-0.48306463854829385
+topicA,svc_linear,aljazeera_vs_guardian,negative,38,increase,-0.4771701126111941
+topicA,svc_linear,aljazeera_vs_guardian,negative,39,operation,-0.47418990973902064
+topicA,svc_linear,aljazeera_vs_guardian,negative,40,the west,-0.47301097542011017
+topicA,svc_linear,bbc_vs_guardian,positive,1,hamas run,1.5675639998863184
+topicA,svc_linear,bbc_vs_guardian,positive,2,run health,1.406254759532161
+topicA,svc_linear,bbc_vs_guardian,positive,3,says,1.3626773880884042
+topicA,svc_linear,bbc_vs_guardian,positive,4,mr,1.3048709952798572
+topicA,svc_linear,bbc_vs_guardian,positive,5,run,1.2431719869958864
+topicA,svc_linear,bbc_vs_guardian,positive,6,sir,1.048771404299746
+topicA,svc_linear,bbc_vs_guardian,positive,7,251 others,1.0245767333489497
+topicA,svc_linear,bbc_vs_guardian,positive,8,251,1.0124079367957561
+topicA,svc_linear,bbc_vs_guardian,positive,9,sir keir,0.9987529442042362
+topicA,svc_linear,bbc_vs_guardian,positive,10,since then,0.885737881007701
+topicA,svc_linear,bbc_vs_guardian,positive,11,and 251,0.8754901626411786
+topicA,svc_linear,bbc_vs_guardian,positive,12,air strikes,0.8747853632546819
+topicA,svc_linear,bbc_vs_guardian,positive,13,air,0.8571405301335975
+topicA,svc_linear,bbc_vs_guardian,positive,14,others,0.8530102218291495
+topicA,svc_linear,bbc_vs_guardian,positive,15,the hamas,0.8280548362258074
+topicA,svc_linear,bbc_vs_guardian,positive,16,200 people,0.8129570695747597
+topicA,svc_linear,bbc_vs_guardian,positive,17,spokesman,0.8089325524484055
+topicA,svc_linear,bbc_vs_guardian,positive,18,air strike,0.8054046091027416
+topicA,svc_linear,bbc_vs_guardian,positive,19,idf,0.7967826043917965
+topicA,svc_linear,bbc_vs_guardian,positive,20,territory hamas,0.7850137345820632
+topicA,svc_linear,bbc_vs_guardian,positive,21,response,0.7708911705948981
+topicA,svc_linear,bbc_vs_guardian,positive,22,which about,0.7658008725365324
+topicA,svc_linear,bbc_vs_guardian,positive,23,in response,0.7543022310350673
+topicA,svc_linear,bbc_vs_guardian,positive,24,ms,0.7507164635952762
+topicA,svc_linear,bbc_vs_guardian,positive,25,health ministry,0.723604981803374
+topicA,svc_linear,bbc_vs_guardian,positive,26,others were,0.7020710219850744
+topicA,svc_linear,bbc_vs_guardian,positive,27,idf said,0.6995738212527784
+topicA,svc_linear,bbc_vs_guardian,positive,28,people were,0.6943554385653109
+topicA,svc_linear,bbc_vs_guardian,positive,29,about 200,0.6805880024004645
+topicA,svc_linear,bbc_vs_guardian,positive,30,then according,0.6689891181872085
+topicA,svc_linear,bbc_vs_guardian,positive,31,israeli air,0.6524663410993841
+topicA,svc_linear,bbc_vs_guardian,positive,32,the idf,0.6513943689642006
+topicA,svc_linear,bbc_vs_guardian,positive,33,response to,0.6382264649116424
+topicA,svc_linear,bbc_vs_guardian,positive,34,launched campaign,0.5999906378608887
+topicA,svc_linear,bbc_vs_guardian,positive,35,president donald,0.5992442557261284
+topicA,svc_linear,bbc_vs_guardian,positive,36,uk,0.5854581176223805
+topicA,svc_linear,bbc_vs_guardian,positive,37,hamas,0.5823997660611933
+topicA,svc_linear,bbc_vs_guardian,positive,38,200,0.5785887840438283
+topicA,svc_linear,bbc_vs_guardian,positive,39,gazans,0.5753767260568674
+topicA,svc_linear,bbc_vs_guardian,positive,40,were taken,0.566432510617543
+topicA,svc_linear,bbc_vs_guardian,negative,1,militants,-1.0480757242421832
+topicA,svc_linear,bbc_vs_guardian,negative,2,airstrikes,-1.022961791024116
+topicA,svc_linear,bbc_vs_guardian,negative,3,militant,-0.7823943148365561
+topicA,svc_linear,bbc_vs_guardian,negative,4,spokesperson,-0.6869238426736315
+topicA,svc_linear,bbc_vs_guardian,negative,5,mostly,-0.5829801103979859
+topicA,svc_linear,bbc_vs_guardian,negative,6,airstrike,-0.5662167355690658
+topicA,svc_linear,bbc_vs_guardian,negative,7,militant group,-0.5639596603715646
+topicA,svc_linear,bbc_vs_guardian,negative,8,said in,-0.5551267360640327
+topicA,svc_linear,bbc_vs_guardian,negative,9,did not,-0.5325135725141462
+topicA,svc_linear,bbc_vs_guardian,negative,10,washington,-0.5274067928420546
+topicA,svc_linear,bbc_vs_guardian,negative,11,officials,-0.5237220152341369
+topicA,svc_linear,bbc_vs_guardian,negative,12,further,-0.5091115495064866
+topicA,svc_linear,bbc_vs_guardian,negative,13,deaths,-0.5029822211051167
+topicA,svc_linear,bbc_vs_guardian,negative,14,albanese,-0.48538075461200947
+topicA,svc_linear,bbc_vs_guardian,negative,15,mostly civilians,-0.478902049954384
+topicA,svc_linear,bbc_vs_guardian,negative,16,from the,-0.4485474009696657
+topicA,svc_linear,bbc_vs_guardian,negative,17,said on,-0.4457149631221373
+topicA,svc_linear,bbc_vs_guardian,negative,18,visit,-0.4436529867591896
+topicA,svc_linear,bbc_vs_guardian,negative,19,aid,-0.4348622228163319
+topicA,svc_linear,bbc_vs_guardian,negative,20,wrote,-0.43474160363332964
+topicA,svc_linear,bbc_vs_guardian,negative,21,such,-0.4330137347327728
+topicA,svc_linear,bbc_vs_guardian,negative,22,palestinian militant,-0.4261734549612048
+topicA,svc_linear,bbc_vs_guardian,negative,23,comments,-0.41243368260265717
+topicA,svc_linear,bbc_vs_guardian,negative,24,killed at,-0.4111502929216122
+topicA,svc_linear,bbc_vs_guardian,negative,25,on friday,-0.39380817979171967
+topicA,svc_linear,bbc_vs_guardian,negative,26,head of,-0.3917481256257952
+topicA,svc_linear,bbc_vs_guardian,negative,27,claimed,-0.38838766448732864
+topicA,svc_linear,bbc_vs_guardian,negative,28,scale,-0.38750026674262206
+topicA,svc_linear,bbc_vs_guardian,negative,29,israeli airstrikes,-0.38704756447531574
+topicA,svc_linear,bbc_vs_guardian,negative,30,administration,-0.38498994428676914
+topicA,svc_linear,bbc_vs_guardian,negative,31,increase,-0.3847337657555713
+topicA,svc_linear,bbc_vs_guardian,negative,32,friday,-0.3831517048306228
+topicA,svc_linear,bbc_vs_guardian,negative,33,much of,-0.38281433862299663
+topicA,svc_linear,bbc_vs_guardian,negative,34,did,-0.3827486906658294
+topicA,svc_linear,bbc_vs_guardian,negative,35,hunger,-0.3801399894378457
+topicA,svc_linear,bbc_vs_guardian,negative,36,israeli troops,-0.37925015442425647
+topicA,svc_linear,bbc_vs_guardian,negative,37,policy,-0.37653524242091113
+topicA,svc_linear,bbc_vs_guardian,negative,38,director,-0.3686768022878351
+topicA,svc_linear,bbc_vs_guardian,negative,39,toll,-0.3620173747036137
+topicA,svc_linear,bbc_vs_guardian,negative,40,ordered,-0.3611934353871964

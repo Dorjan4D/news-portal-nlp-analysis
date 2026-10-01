@@ -1,0 +1,91 @@
+topic,portal,rank,feature,coefficient
+topicB,aljazeera,1,percent,3.6859376558758714
+topicB,aljazeera,2,percent of,1.134091456266405
+topicB,aljazeera,3,united,1.0605902424823268
+topicB,aljazeera,4,25 percent,0.916975025072928
+topicB,aljazeera,5,united states,0.8999230264615818
+topicB,aljazeera,6,percent in,0.8802026298120271
+topicB,aljazeera,7,states,0.8132002629087607
+topicB,aljazeera,8,10 percent,0.7739141883672102
+topicB,aljazeera,9,states president,0.7697558057724244
+topicB,aljazeera,10,percent tariff,0.7425192097611568
+topicB,aljazeera,11,percent on,0.6803348588453254
+topicB,aljazeera,12,president donald,0.6758041582336299
+topicB,aljazeera,13,50 percent,0.6585804220118894
+topicB,aljazeera,14,percent the,0.6064248963927461
+topicB,aljazeera,15,billion,0.6031772972093405
+topicB,aljazeera,16,percent and,0.5848850616469735
+topicB,aljazeera,17,percent tariffs,0.5800486245117406
+topicB,aljazeera,18,the united,0.5648081257773847
+topicB,aljazeera,19,to percent,0.5459812383639294
+topicB,aljazeera,20,percent to,0.5045810795563038
+topicB,aljazeera,21,20 percent,0.49815107385887514
+topicB,aljazeera,22,euros,0.4581778473794262
+topicB,aljazeera,23,trillion,0.44829389569028005
+topicB,aljazeera,24,of percent,0.43132524735727057
+topicB,aljazeera,25,percent from,0.4053815111304252
+topicB,aljazeera,26,gmt,0.39488207348562376
+topicB,aljazeera,27,by percent,0.39213546567493335
+topicB,aljazeera,28,million,0.38543527568390784
+topicB,aljazeera,29,said in,0.38493693973003723
+topicB,aljazeera,30,billion euros,0.3847270499583745
+topicB,bbc,1,mr,1.4405968381843317
+topicB,bbc,2,ms,0.7413653582131889
+topicB,bbc,3,scotland,0.6276868315720431
+topicB,bbc,4,sir,0.6230177904128021
+topicB,bbc,5,sir keir,0.5460981904852056
+topicB,bbc,6,taxes,0.5137263363001506
+topicB,bbc,7,import taxes,0.4874313526333965
+topicB,bbc,8,seen,0.4822447468431596
+topicB,bbc,9,scottish,0.46325358649544823
+topicB,bbc,10,boost,0.45096362128354095
+topicB,bbc,11,added,0.43911698496129087
+topicB,bbc,12,currently,0.43502593545641505
+topicB,bbc,13,around,0.4347590835490908
+topicB,bbc,14,president donald,0.4189184342165051
+topicB,bbc,15,he added,0.41460360100862936
+topicB,bbc,16,some,0.41424771141195144
+topicB,bbc,17,ons,0.4060574900065831
+topicB,bbc,18,president trump,0.39887359237343817
+topicB,bbc,19,other,0.3954586937667762
+topicB,bbc,20,import,0.38679963666397815
+topicB,bbc,21,following,0.37917157730026274
+topicB,bbc,22,money,0.3747907893275346
+topicB,bbc,23,compared to,0.3727533680158335
+topicB,bbc,24,she,0.37195525062574736
+topicB,bbc,25,england,0.35823340365327366
+topicB,bbc,26,the firm,0.3506228297712509
+topicB,bbc,27,businesses,0.34783358726550345
+topicB,bbc,28,rises,0.34452495211295375
+topicB,bbc,29,figure,0.3431606490617446
+topicB,bbc,30,of england,0.34310538861553697
+topicB,guardian,1,australia,0.48996184970364626
+topicB,guardian,2,rba,0.488452485374812
+topicB,guardian,3,the rba,0.47189693976471264
+topicB,guardian,4,britain,0.46239930991558215
+topicB,guardian,5,australian,0.45668370601172603
+topicB,guardian,6,reeves,0.4458284599024782
+topicB,guardian,7,quarter,0.44474469937173533
+topicB,guardian,8,the chief,0.40889066118403244
+topicB,guardian,9,global,0.382650379159432
+topicB,guardian,10,amid,0.3511904453426515
+topicB,guardian,11,spring,0.3479775818221718
+topicB,guardian,12,risk,0.3411395371066413
+topicB,guardian,13,pressure,0.3365003373330048
+topicB,guardian,14,officials,0.3358117401432393
+topicB,guardian,15,the president,0.3336862289975999
+topicB,guardian,16,week,0.3274840749650151
+topicB,guardian,17,over,0.3244940754665072
+topicB,guardian,18,london,0.3229922717777444
+topicB,guardian,19,weeks,0.32206730156082114
+topicB,guardian,20,starmer,0.32116189968635195
+topicB,guardian,21,our,0.31727276423992434
+topicB,guardian,22,autumn budget,0.31581410753508987
+topicB,guardian,23,australians,0.3139298444205531
+topicB,guardian,24,compared with,0.3107209364238824
+topicB,guardian,25,the australian,0.3071016255813453
+topicB,guardian,26,reduction,0.30009159552491194
+topicB,guardian,27,companies,0.2967378938221899
+topicB,guardian,28,the chancellor,0.29615993111436417
+topicB,guardian,29,wall,0.2918545462466002
+topicB,guardian,30,street,0.28715646656759664

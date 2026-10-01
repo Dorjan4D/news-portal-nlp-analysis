@@ -1,0 +1,25 @@
+{
+  "arch": "MEAN",
+  "confirmation_seeds": [
+    20260912,
+    20260918,
+    20260924,
+    20260930,
+    20261006
+  ],
+  "family": "FE",
+  "selected_config": {
+    "arch": "MEAN",
+    "config_id": "MEAN_lr1e-02_wd0e+00",
+    "config_order": 14,
+    "learning_rate": 0.01,
+    "mean_best_epoch": 38.4,
+    "mean_best_val_weighted_accuracy": 0.7718376168376169,
+    "mean_best_val_weighted_cross_entropy": 0.5961025599282133,
+    "mean_best_val_weighted_macro_f1": 0.7687826638982579,
+    "std_best_val_weighted_macro_f1": 0.013855435976680588,
+    "topic": "topicB",
+    "weight_decay": 0.0
+  },
+  "topic": "topicB"
+}

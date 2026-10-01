@@ -1,0 +1,141 @@
+{
+  "accepted_months_by_number_of_length_bins": {
+    "topicA": {
+      "1": 4,
+      "2": 12,
+      "3": 1
+    },
+    "topicB": {
+      "1": 12,
+      "2": 2,
+      "3": 1
+    }
+  },
+  "balanced_capacity_articles_by_split_topic": {
+    "test": {
+      "topicA": 186,
+      "topicB": 111
+    },
+    "train": {
+      "topicA": 543,
+      "topicB": 327
+    },
+    "validation": {
+      "topicA": 186,
+      "topicB": 111
+    }
+  },
+  "balanced_capacity_per_portal_by_split_topic": {
+    "test": {
+      "topicA": 62,
+      "topicB": 37
+    },
+    "train": {
+      "topicA": 181,
+      "topicB": 109
+    },
+    "validation": {
+      "topicA": 62,
+      "topicB": 37
+    }
+  },
+  "eligible_counts_by_portal_topic": {
+    "aljazeera": {
+      "topicA": 558,
+      "topicB": 188
+    },
+    "bbc": {
+      "topicA": 346,
+      "topicB": 325
+    },
+    "guardian": {
+      "topicA": 460,
+      "topicB": 690
+    }
+  },
+  "excluded_articles": 197,
+  "excluded_months_by_topic": {
+    "topicA": [
+      "2024-07",
+      "2026-01"
+    ],
+    "topicB": [
+      "2024-07",
+      "2024-08",
+      "2024-10",
+      "2025-06"
+    ]
+  },
+  "experiment_eligible_articles": 2567,
+  "frozen_corpus_articles": 2764,
+  "frozen_corpus_counts_by_portal_topic": {
+    "aljazeera": {
+      "topicA": 599,
+      "topicB": 197
+    },
+    "bbc": {
+      "topicA": 353,
+      "topicB": 360
+    },
+    "guardian": {
+      "topicA": 470,
+      "topicB": 785
+    }
+  },
+  "pre_split_balanced_capacity_by_topic": {
+    "topicA": 915,
+    "topicB": 549
+  },
+  "split_counts_by_topic_portal": {
+    "test": {
+      "topicA": {
+        "aljazeera": 115,
+        "bbc": 71,
+        "guardian": 95
+      },
+      "topicB": {
+        "aljazeera": 38,
+        "bbc": 65,
+        "guardian": 134
+      }
+    },
+    "train": {
+      "topicA": {
+        "aljazeera": 332,
+        "bbc": 207,
+        "guardian": 272
+      },
+      "topicB": {
+        "aljazeera": 112,
+        "bbc": 194,
+        "guardian": 415
+      }
+    },
+    "validation": {
+      "topicA": {
+        "aljazeera": 111,
+        "bbc": 68,
+        "guardian": 93
+      },
+      "topicB": {
+        "aljazeera": 38,
+        "bbc": 66,
+        "guardian": 141
+      }
+    }
+  },
+  "split_totals_by_topic": {
+    "test": {
+      "topicA": 281,
+      "topicB": 237
+    },
+    "train": {
+      "topicA": 811,
+      "topicB": 721
+    },
+    "validation": {
+      "topicA": 272,
+      "topicB": 245
+    }
+  }
+}

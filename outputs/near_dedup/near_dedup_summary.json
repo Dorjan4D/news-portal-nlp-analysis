@@ -1,0 +1,23 @@
+{
+  "input_articles": 2801,
+  "sketch_candidate_pairs": 181,
+  "review_pairs": 37,
+  "auto_pairs_at_remove_threshold": 30,
+  "canonical_bbc_url_duplicate_groups": 37,
+  "canonical_bbc_url_duplicate_extra_rows": 37,
+  "auto_groups": 37,
+  "removed_articles": 37,
+  "output_articles": 2764,
+  "retained_nontrivial_duplicate_split_groups": 0,
+  "report_threshold": 0.94,
+  "remove_threshold": 0.985,
+  "counts_by_portal_topic": {
+    "aljazeera/topicA": 599,
+    "aljazeera/topicB": 197,
+    "bbc/topicA": 353,
+    "bbc/topicB": 360,
+    "guardian/topicA": 470,
+    "guardian/topicB": 785
+  },
+  "rapidfuzz_used": true
+}

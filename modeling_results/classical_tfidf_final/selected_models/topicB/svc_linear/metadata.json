@@ -1,0 +1,79 @@
+{
+  "classifier_spec": {
+    "C": 1.0,
+    "family": "svc_linear",
+    "grid_order": 12
+  },
+  "family": "svc_linear",
+  "protocol_hash": "e17602edbdfe5e440fcac47c3e1b490e2071a37cd88fb4e057422ca85552e8b1",
+  "test_evaluated": false,
+  "tfidf_config": {
+    "min_df": 5,
+    "ngram_range": [
+      1,
+      1
+    ],
+    "sublinear_tf": true
+  },
+  "topic": "topicB",
+  "validation_metrics": {
+    "raw_accuracy": 0.8979591836734694,
+    "raw_confusion_matrix": [
+      [
+        36,
+        1,
+        1
+      ],
+      [
+        0,
+        52,
+        14
+      ],
+      [
+        0,
+        9,
+        132
+      ]
+    ],
+    "raw_macro_f1": 0.9007132132132133,
+    "weighted_accuracy": 0.8865401115401116,
+    "weighted_confusion_matrix": [
+      [
+        35.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        28.633333333333336,
+        8.366666666666667
+      ],
+      [
+        0.0,
+        2.2273809523809525,
+        34.77261904761903
+      ]
+    ],
+    "weighted_f1_by_class": {
+      "aljazeera": 0.9722222222222222,
+      "bbc": 0.8316304479366561,
+      "guardian": 0.8571093211262226
+    },
+    "weighted_macro_f1": 0.8869873304283669,
+    "weighted_precision_by_class": {
+      "aljazeera": 1.0,
+      "bbc": 0.8987034338452341,
+      "guardian": 0.7877929713838759
+    },
+    "weighted_recall_by_class": {
+      "aljazeera": 0.9459459459459459,
+      "bbc": 0.7738738738738736,
+      "guardian": 0.9398005148005147
+    },
+    "weighted_support_by_class": {
+      "aljazeera": 37.0,
+      "bbc": 37.000000000000014,
+      "guardian": 36.999999999999986
+    }
+  }
+}

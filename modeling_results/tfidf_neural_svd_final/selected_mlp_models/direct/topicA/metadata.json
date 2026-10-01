@@ -1,0 +1,59 @@
+{
+  "confirmation_master_seeds": [
+    20260911,
+    20260917,
+    20260923,
+    20260929,
+    20261005
+  ],
+  "family": "direct",
+  "protocol_hash": "936e424d488c95ab4c3b8df23af51aea4759ceb3e380139958cf1876d70057c9",
+  "representation_metadata": {
+    "build_seconds": 1.0099172592163086,
+    "idf_sha256": "659da7d70674a0b04181f7ed4ddfd357b3a6762918ec3036e524d04e1a1b3148",
+    "n_tfidf_features": 11599,
+    "protocol_hash": "936e424d488c95ab4c3b8df23af51aea4759ceb3e380139958cf1876d70057c9",
+    "rep_id": "direct__ng12_df10_sub1",
+    "tfidf_config": {
+      "min_df": 10,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true
+    },
+    "tfidf_config_id": "ng12_df10_sub1",
+    "topic": "topicA",
+    "train_ids_sha256": "02ddbd3e1839e268e752c3b9c03e55191d889a9c763ede1f3f20c7a32aa61eb5",
+    "validation_ids_sha256": "217d689129a966fbd36556f29363fadeaa826d0aade94ecd17a1fbe414815e5b",
+    "vocabulary_sha256": "b2c02983d8576376ad6e53fce448c11dca53a445af0b482904d6f33044113a92"
+  },
+  "selected_checkpoints": [
+    "selected_mlp_models/direct/topicA/mlp_seed_20260911.pt",
+    "selected_mlp_models/direct/topicA/mlp_seed_20260917.pt",
+    "selected_mlp_models/direct/topicA/mlp_seed_20260923.pt",
+    "selected_mlp_models/direct/topicA/mlp_seed_20260929.pt",
+    "selected_mlp_models/direct/topicA/mlp_seed_20261005.pt"
+  ],
+  "selected_config": {
+    "config_id": "cfg02__direct__ng12_df10_sub1__h128x64_d0p3_lr1em03_wd1em03",
+    "config_index": 1,
+    "dropout": 0.3,
+    "hidden_layers": [
+      128,
+      64
+    ],
+    "learning_rate": 0.001,
+    "mean_best_epoch": 14.6,
+    "mean_val_weighted_accuracy": 0.9016129032258065,
+    "mean_val_weighted_cross_entropy": 0.28665582892126923,
+    "mean_val_weighted_macro_f1": 0.9021438154844885,
+    "n_parameters": 1493251,
+    "rep_id": "direct__ng12_df10_sub1",
+    "std_val_weighted_macro_f1": 0.004218297824425169,
+    "topic": "topicA",
+    "weight_decay": 0.001
+  },
+  "test_evaluated": false,
+  "topic": "topicA"
+}

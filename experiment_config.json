@@ -1,0 +1,31 @@
+{
+  "input_corpus": "frozen_data/corpus_frozen.jsonl",
+  "expected_corpus_sha256": "c07d1fcc31fb3fe5e92a308f95e2ea6578c391b6cb6a3d38216573c0e1c6e12e",
+  "output_dir": "experiment_data",
+  "expected_portals": [
+    "aljazeera",
+    "bbc",
+    "guardian"
+  ],
+  "expected_topics": [
+    "topicA",
+    "topicB"
+  ],
+  "max_length_bins": 3,
+  "min_balanced_cell_support": 7,
+  "split_fractions": {
+    "train": 0.6,
+    "validation": 0.2,
+    "test": 0.2
+  },
+  "base_seed": 20260901,
+  "body_length_field": "model_text",
+  "notes": "Length bins are defined before splitting, independently per topic/year_month, using portal-equal-weighted empirical quantiles. All portals use the same cutoffs within a month. Try 3 bins, then 2, then 1; exclude a month only if one-bin minimum portal support is < 7. Split all eligible articles 60/20/20 within topic/year_month/length_bin/portal. Training uses balanced per-stratum deterministic cycling and a fresh deterministic global shuffle each epoch. Validation/test use every held-out article with fixed balancing weights. Post-split diagnostics are run on TRAIN -> VALIDATION only; TEST remains sealed. Primary length-control success is assessed with body word count only because that is the variable used to define the bins.",
+  "diagnostics": {
+    "seed": 20260901,
+    "length_word_accuracy_near_chance_tolerance": 0.05,
+    "tfidf_max_features": 45000,
+    "tfidf_min_df": 3,
+    "tfidf_top_features_per_portal": 30
+  }
+}

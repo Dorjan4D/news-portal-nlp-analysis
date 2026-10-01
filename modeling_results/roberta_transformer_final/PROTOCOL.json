@@ -1,0 +1,138 @@
+{
+  "architectures": {
+    "512": "first chunk <s> representation only",
+    "ATTN": {
+      "attention_hidden_size": 128,
+      "chunk_position_embeddings": false,
+      "formula": "score_j = v^T tanh(W h_j + b); softmax(score_j + log(content_token_count_j)); weighted sum",
+      "multihead_attention": false,
+      "score_vector_initialization": "zeros, so initial pooling equals token-count prior",
+      "second_level_transformer": false,
+      "type": "single-head additive attention pooling"
+    },
+    "MEAN": "all chunks; token-count-weighted mean of chunk <s> representations"
+  },
+  "backbone": {
+    "article_chunk_cap": null,
+    "attention_implementation_requested": "sdpa",
+    "chunk_overlap": 0,
+    "chunk_representation": "final hidden state of <s>",
+    "content_tokens_per_chunk": 510,
+    "head_dropout": 0.1,
+    "max_sequence_length": 512,
+    "model_name": "FacebookAI/roberta-base",
+    "requested_revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "tokenizer": "original pretrained RoBERTa byte-level BPE; no vocabulary retraining/additions"
+  },
+  "balance": {
+    "effective_article_batch_size": 16,
+    "evaluation": "all raw train/validation articles with frozen balance_weight",
+    "training": "canonical BalancedEpochSampler; article-level balanced sampling; no class/sample weights in loss"
+  },
+  "expected_corpus_sha256": "c07d1fcc31fb3fe5e92a308f95e2ea6578c391b6cb6a3d38216573c0e1c6e12e",
+  "expected_manifest_sha256": "282e1544747c4fe06898a7250043c6d813a8d890b9c88bd40e47bc5f7046ba9f",
+  "experiment_manifest": "experiment_data/experiment_manifest.jsonl",
+  "fine_tuning": {
+    "confirmation_seeds": [
+      20260912,
+      20260918,
+      20260924,
+      20260930,
+      20261006
+    ],
+    "gradient_checkpointing": "hardware preflight chooses on/off independently for FT-512 and hierarchical FT",
+    "gradient_clipping_global_norm": 1.0,
+    "gradient_diagnostics": "record pre-clipping global gradient norm per optimizer step; report mean/median/max and fraction above clipping threshold",
+    "hierarchical_memory_method": "preflight selects fastest safe option among direct backprop and exact gradient-cache/replay, each with/without checkpointing where useful; replay is audited against direct gradients",
+    "keep_per_arch_for_confirmation": 2,
+    "learning_rates": [
+      1e-05,
+      2e-05,
+      3e-05
+    ],
+    "max_epochs": 15,
+    "min_epochs": "max(3, full fair-sampler coverage epochs), computed per topic",
+    "mixed_precision": "FP16 encoder autocast + GradScaler on CUDA; article pooling/head kept FP32",
+    "optimizer": "AdamW; no weight decay on bias/LayerNorm",
+    "patience": 3,
+    "scheduler": "10% linear warmup then linear decay toward zero over the 15-epoch maximum schedule",
+    "warmup_ratio": 0.1,
+    "weight_decays": [
+      0.0,
+      0.01
+    ]
+  },
+  "frozen_feature_training": {
+    "confirmation_seeds": [
+      20260912,
+      20260918,
+      20260924,
+      20260930,
+      20261006
+    ],
+    "gradient_clipping_global_norm": 1.0,
+    "gradient_diagnostics": "record pre-clipping global gradient norm per optimizer step; report mean/median/max and fraction above clipping threshold",
+    "keep_per_arch_for_confirmation": 2,
+    "learning_rates": [
+      0.0003,
+      0.001,
+      0.003,
+      0.01
+    ],
+    "max_epochs": 80,
+    "min_epochs": "max(3, full fair-sampler coverage epochs), computed per topic",
+    "optimizer": "AdamW",
+    "patience": 10,
+    "scheduler": null,
+    "warmup": null,
+    "weight_decays": [
+      0.0,
+      0.01
+    ]
+  },
+  "input_corpus": "frozen_data/corpus_frozen.jsonl",
+  "loss": "multiclass cross entropy on article logits; no label smoothing; no class weights",
+  "portals": [
+    "aljazeera",
+    "bbc",
+    "guardian"
+  ],
+  "randomness": {
+    "confirmation_master_seeds": [
+      20260912,
+      20260918,
+      20260924,
+      20260930,
+      20261006
+    ],
+    "cublas_workspace_config": ":4096:8",
+    "derived_streams": [
+      "classifier init",
+      "attention init",
+      "training RNG/dropout",
+      "sampler",
+      "global article shuffle"
+    ],
+    "deterministic_algorithms": "strict",
+    "paired_across_configs": true,
+    "search_master_seed": 20260904
+  },
+  "selection": {
+    "checkpoint_best_updates_on_any_actual_improvement": true,
+    "confirmation": "mean of each seed run's best validation weighted macro-F1; then mean accuracy; then lower mean CE; predefined order",
+    "patience_min_delta_f1": 0.001,
+    "primary": "best validation weighted macro-F1",
+    "ties": [
+      "weighted accuracy",
+      "lower weighted cross-entropy",
+      "earlier/predefined order"
+    ]
+  },
+  "stage_name": "roberta_transformer_final",
+  "test_policy": "Test metadata counted for integrity only; test text is never loaded/tokenized/embedded/predicted/evaluated.",
+  "text_field": "model_text",
+  "topics": [
+    "topicA",
+    "topicB"
+  ]
+}

@@ -1,0 +1,13 @@
+topic,split,portal,raw_n,effective_weight_mass
+topicA,train,aljazeera,332,181.0
+topicA,train,bbc,207,181.0
+topicA,train,guardian,272,181.0
+topicA,validation,aljazeera,111,62.0
+topicA,validation,bbc,68,61.99999999999999
+topicA,validation,guardian,93,62.0
+topicB,train,aljazeera,112,109.0
+topicB,train,bbc,194,109.0
+topicB,train,guardian,415,108.99999999999999
+topicB,validation,aljazeera,38,37.0
+topicB,validation,bbc,66,37.00000000000001
+topicB,validation,guardian,141,37.0

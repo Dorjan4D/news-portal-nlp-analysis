@@ -1,0 +1,27 @@
+source_topic,display_model,model_key,within_target,cross_target,within_weighted_macro_f1,cross_weighted_macro_f1,absolute_drop,sd_absolute_drop_across_seeds,retention_ratio,sd_retention_ratio_across_seeds,transfer_kind
+topicA,Direct TF-IDF MLP,direct_mlp,topicA,topicB,0.8892921805089763,0.4939768942753059,0.3953152862336706,0.026363535372020342,0.5554646476536648,0.029777779636062835,configuration / paired predefined seeds where available
+topicA,Direct TF-IDF classical,direct_classical__linear_svc,topicA,topicB,0.8740762872437449,0.5738020258125281,0.3002742614312167,,0.6564667571773604,,configuration / paired predefined seeds where available
+topicA,FE-512,FE-512,topicA,topicB,0.627448214029398,0.2189422703484738,0.40850594368092424,0.010207138241809436,0.3469708724458767,0.045445240504681454,configuration / paired predefined seeds where available
+topicA,FE-ATTN,FE-ATTN,topicA,topicB,0.6372803062752899,0.28109379874818574,0.3561865075271042,0.05904972701395563,0.44098102852153803,0.09273061633978254,configuration / paired predefined seeds where available
+topicA,FE-MEAN,FE-MEAN,topicA,topicB,0.7267435575263091,0.24612806839157328,0.4806154891347358,0.01673060909643694,0.3380477263831236,0.03025854976149535,configuration / paired predefined seeds where available
+topicA,FT-512,FT-512,topicA,topicB,0.9082676560297682,0.8662112492011033,0.042056406828664884,0.02828613847834686,0.9541647273916141,0.0301579761967112,configuration / paired predefined seeds where available
+topicA,FT-ATTN,FT-ATTN,topicA,topicB,0.9215491775400061,0.8862778618946013,0.035271315645404866,0.053628835781021365,0.9619769845626397,0.05765087222570043,configuration / paired predefined seeds where available
+topicA,FT-MEAN,FT-MEAN,topicA,topicB,0.9133176723397227,0.8765988778524737,0.03671879448724898,0.006028353120532242,0.959799659465551,0.006367732357020089,configuration / paired predefined seeds where available
+topicA,RANDOM-512,RANDOM-512,topicA,topicB,0.36585487911565256,0.3732872098446962,-0.007432330729043646,,1.0203149695502467,,configuration / paired predefined seeds where available
+topicA,RANDOM-ATTN,RANDOM-ATTN,topicA,topicB,0.1742081015465199,0.1666666666666664,0.007541434879853481,,0.9567101942280242,,configuration / paired predefined seeds where available
+topicA,RANDOM-MEAN,RANDOM-MEAN,topicA,topicB,0.691877253385111,0.6498210480247096,0.04205620536040133,,0.9392143546349657,,configuration / paired predefined seeds where available
+topicA,Weighted-SVD MLP,svd_mlp,topicA,topicB,0.8639395594248155,0.5161093211214912,0.34783023830332427,0.014137299266745918,0.5972543426035439,0.019047291147216695,configuration / paired predefined seeds where available
+topicA,Weighted-SVD classical,svd_classical__linear_svc,topicA,topicB,0.8496529758555628,0.5555658333939265,0.29408714246163625,,0.6538738157593063,,configuration / paired predefined seeds where available
+topicB,Direct TF-IDF MLP,direct_mlp,topicB,topicA,0.8003640469178791,0.3608502010938616,0.4395138458240175,0.023815672308710453,0.45081613707624174,0.028355942292830078,configuration / paired predefined seeds where available
+topicB,Direct TF-IDF classical,direct_classical__linear_svc,topicB,topicA,0.8824398254710303,0.45991127566871565,0.42252854980231463,,0.5211814589433601,,configuration / paired predefined seeds where available
+topicB,FE-512,FE-512,topicB,topicA,0.7523804674096908,0.38793118720337244,0.3644492802063183,0.0629743063814763,0.5160783419543147,0.08044245182087655,configuration / paired predefined seeds where available
+topicB,FE-ATTN,FE-ATTN,topicB,topicA,0.7362963430701163,0.3592968708559206,0.37699947221419566,0.03643352992547774,0.4876773903869818,0.04752635510067784,configuration / paired predefined seeds where available
+topicB,FE-MEAN,FE-MEAN,topicB,topicA,0.7995648672567558,0.38764187714454174,0.4119229901122141,0.023829222836054764,0.4848743775057013,0.027101602516071844,configuration / paired predefined seeds where available
+topicB,FT-512,FT-512,topicB,topicA,0.9278372020652234,0.7054666192307323,0.22237058283449118,0.012165760971214697,0.7598282025561667,0.021694708132700292,configuration / paired predefined seeds where available
+topicB,FT-ATTN,FT-ATTN,topicB,topicA,0.9448335389736279,0.7606768114771647,0.18415672749646328,0.0227806327358871,0.805075369875271,0.024264347029440865,configuration / paired predefined seeds where available
+topicB,FT-MEAN,FT-MEAN,topicB,topicA,0.9564023677255311,0.7166247165629197,0.23977765116261132,0.03828059927140429,0.7496890552439668,0.036210768192634225,configuration / paired predefined seeds where available
+topicB,RANDOM-512,RANDOM-512,topicB,topicA,0.48079998182037825,0.2504770199836308,0.23032296183674744,,0.5209588798969763,,configuration / paired predefined seeds where available
+topicB,RANDOM-ATTN,RANDOM-ATTN,topicB,topicA,0.5005790306746006,0.2767744605821399,0.22380457009246074,,0.5529086190629028,,configuration / paired predefined seeds where available
+topicB,RANDOM-MEAN,RANDOM-MEAN,topicB,topicA,0.5005790306746006,0.2767744605821399,0.22380457009246074,,0.5529086190629028,,configuration / paired predefined seeds where available
+topicB,Weighted-SVD MLP,svd_mlp,topicB,topicA,0.8769680078283667,0.4445052618550386,0.4324627459733281,0.0471229962997935,0.50635714274357,0.05911696870087615,configuration / paired predefined seeds where available
+topicB,Weighted-SVD classical,svd_classical__svc_sigmoid,topicB,topicA,0.8913011677400619,0.5093522644070625,0.38194890333299936,,0.571470433162957,,configuration / paired predefined seeds where available

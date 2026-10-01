@@ -1,0 +1,25 @@
+{
+  "arch": "ATTN",
+  "confirmation_seeds": [
+    20260912,
+    20260918,
+    20260924,
+    20260930,
+    20261006
+  ],
+  "family": "FE",
+  "selected_config": {
+    "arch": "ATTN",
+    "config_id": "ATTN_lr1e-02_wd0e+00",
+    "config_order": 22,
+    "learning_rate": 0.01,
+    "mean_best_epoch": 21.8,
+    "mean_best_val_weighted_accuracy": 0.7070609318996416,
+    "mean_best_val_weighted_cross_entropy": 0.7601398702588718,
+    "mean_best_val_weighted_macro_f1": 0.70832045134472,
+    "std_best_val_weighted_macro_f1": 0.010357602227185538,
+    "topic": "topicA",
+    "weight_decay": 0.0
+  },
+  "topic": "topicA"
+}

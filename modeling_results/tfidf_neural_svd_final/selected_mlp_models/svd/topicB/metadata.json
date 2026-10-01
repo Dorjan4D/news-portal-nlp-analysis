@@ -1,0 +1,92 @@
+{
+  "confirmation_master_seeds": [
+    20260911,
+    20260917,
+    20260923,
+    20260929,
+    20261005
+  ],
+  "family": "svd",
+  "protocol_hash": "936e424d488c95ab4c3b8df23af51aea4759ceb3e380139958cf1876d70057c9",
+  "representation_metadata": {
+    "build_seconds": 1.8793134689331055,
+    "explained_variance_ratio_sum": 0.9274853459841897,
+    "n_tfidf_features": 3801,
+    "protocol_hash": "936e424d488c95ab4c3b8df23af51aea4759ceb3e380139958cf1876d70057c9",
+    "rep_id": "svd__ng11_df10_sub1__k0512",
+    "svd_components": 512,
+    "svd_n_iter": 7,
+    "svd_seed": 20260902,
+    "tfidf_config": {
+      "min_df": 10,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true
+    },
+    "tfidf_config_id": "ng11_df10_sub1",
+    "tfidf_idf_sha256": "6b61ac0db3bb13bb35ecc9e7f844b520811e3eada49c1c757a042d12e4ba795e",
+    "tfidf_vocabulary_sha256": "425b1eb55d04b674ef2cd326428bfd4a5608f10cf756c97ea7dce3c7d5bd659a",
+    "top_singular_values": [
+      7.346282952630803,
+      2.7714052753597898,
+      2.0051905372507117,
+      1.7042864687865882,
+      1.6489292000099627,
+      1.6136050194526073,
+      1.5763306094264005,
+      1.4457635751065565,
+      1.4265486630358686,
+      1.3960616999944886,
+      1.3583714312907658,
+      1.3354346582353598,
+      1.3169421812626054,
+      1.2897918908412878,
+      1.2725710071123446,
+      1.2163775404737762,
+      1.2007615355809595,
+      1.1858411185853501,
+      1.1621728538482514,
+      1.1560119941554392
+    ],
+    "topic": "topicB",
+    "train_shape": [
+      721,
+      512
+    ],
+    "validation_shape": [
+      245,
+      512
+    ],
+    "weighted_svd": true
+  },
+  "selected_checkpoints": [
+    "selected_mlp_models/svd/topicB/mlp_seed_20260911.pt",
+    "selected_mlp_models/svd/topicB/mlp_seed_20260917.pt",
+    "selected_mlp_models/svd/topicB/mlp_seed_20260923.pt",
+    "selected_mlp_models/svd/topicB/mlp_seed_20260929.pt",
+    "selected_mlp_models/svd/topicB/mlp_seed_20261005.pt"
+  ],
+  "selected_config": {
+    "config_id": "cfg03__svd__ng11_df10_sub1__k0512__h128x64_d0p3_lr3em04_wd0e00",
+    "config_index": 2,
+    "dropout": 0.3,
+    "hidden_layers": [
+      128,
+      64
+    ],
+    "learning_rate": 0.0003,
+    "mean_best_epoch": 41.4,
+    "mean_val_weighted_accuracy": 0.8951517101517101,
+    "mean_val_weighted_cross_entropy": 0.47968296635136437,
+    "mean_val_weighted_macro_f1": 0.8946739797461054,
+    "n_parameters": 74115,
+    "rep_id": "svd__ng11_df10_sub1__k0512",
+    "std_val_weighted_macro_f1": 0.004322038848594914,
+    "topic": "topicB",
+    "weight_decay": 0.0
+  },
+  "test_evaluated": false,
+  "topic": "topicB"
+}

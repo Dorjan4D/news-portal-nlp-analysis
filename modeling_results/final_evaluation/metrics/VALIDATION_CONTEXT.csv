@@ -1,0 +1,47 @@
+model_key,family,topic,validation_weighted_macro_f1,validation_kind,validation_sd
+direct_classical__logistic_regression,direct_classical,topicA,0.9068361615988215,single selected family winner,
+svd_classical__logistic_regression,svd_classical,topicA,0.9050210911627542,single selected family winner,
+direct_classical__linear_svc,direct_classical,topicA,0.9203423067934048,single selected family winner,
+svd_classical__linear_svc,svd_classical,topicA,0.9055184475619509,single selected family winner,
+direct_classical__svc_linear,direct_classical,topicA,0.906064741315283,single selected family winner,
+svd_classical__svc_linear,svd_classical,topicA,0.8966449954570729,single selected family winner,
+direct_classical__svc_rbf,direct_classical,topicA,0.897078223547931,single selected family winner,
+svd_classical__svc_rbf,svd_classical,topicA,0.8533868110044504,single selected family winner,
+direct_classical__svc_poly,direct_classical,topicA,0.9044643547819935,single selected family winner,
+svd_classical__svc_poly,svd_classical,topicA,0.901683970453479,single selected family winner,
+direct_classical__svc_sigmoid,direct_classical,topicA,0.9178989136639789,single selected family winner,
+svd_classical__svc_sigmoid,svd_classical,topicA,0.9003295442789288,single selected family winner,
+direct_classical__logistic_regression,direct_classical,topicB,0.8959249896562419,single selected family winner,
+svd_classical__logistic_regression,svd_classical,topicB,0.891752143233977,single selected family winner,
+direct_classical__linear_svc,direct_classical,topicB,0.9106814035930801,single selected family winner,
+svd_classical__linear_svc,svd_classical,topicB,0.8901757765822795,single selected family winner,
+direct_classical__svc_linear,direct_classical,topicB,0.8869873304283669,single selected family winner,
+svd_classical__svc_linear,svd_classical,topicB,0.893477028437339,single selected family winner,
+direct_classical__svc_rbf,direct_classical,topicB,0.8775657389221236,single selected family winner,
+svd_classical__svc_rbf,svd_classical,topicB,0.7778422556932189,single selected family winner,
+direct_classical__svc_poly,direct_classical,topicB,0.8799222182012763,single selected family winner,
+svd_classical__svc_poly,svd_classical,topicB,0.8858437134412908,single selected family winner,
+direct_classical__svc_sigmoid,direct_classical,topicB,0.8946750204817375,single selected family winner,
+svd_classical__svc_sigmoid,svd_classical,topicB,0.9061604044123938,single selected family winner,
+direct_mlp,direct_mlp,topicA,0.9021438154844885,confirmation-seed mean,0.004218297824425169
+direct_mlp,direct_mlp,topicB,0.8124220804677545,confirmation-seed mean,0.00463877443715727
+svd_mlp,svd_mlp,topicA,0.9186151309162813,confirmation-seed mean,0.0023810181969440088
+svd_mlp,svd_mlp,topicB,0.8946739797461054,confirmation-seed mean,0.004322038848594914
+FE-512,FE,topicA,0.6960920938014525,confirmation-seed mean,0.0310500090923236
+FE-MEAN,FE,topicA,0.7786574284929652,confirmation-seed mean,0.0279636869535773
+FE-ATTN,FE,topicA,0.70832045134472,confirmation-seed mean,0.0103576022271855
+FT-512,FT,topicA,0.9398861025245878,confirmation-seed mean,0.0063614412852873
+FT-MEAN,FT,topicA,0.9472563953945716,confirmation-seed mean,0.0196343640118101
+FT-ATTN,FT,topicA,0.9539123190623408,confirmation-seed mean,0.0043797070307778
+FE-512,FE,topicB,0.7417860734909607,confirmation-seed mean,0.0121810895174533
+FE-MEAN,FE,topicB,0.7687826638982579,confirmation-seed mean,0.0138554359766805
+FE-ATTN,FE,topicB,0.7073656584512623,confirmation-seed mean,0.0197729540118586
+FT-512,FT,topicB,0.94131234511273,confirmation-seed mean,0.0156959860287178
+FT-MEAN,FT,topicB,0.9674541138292646,confirmation-seed mean,0.0142337017367441
+FT-ATTN,FT,topicB,0.9753313891568044,confirmation-seed mean,0.0135710903826784
+RANDOM-512,RANDOM,topicA,0.3627159821307118,single predefined control,
+RANDOM-MEAN,RANDOM,topicA,0.7387780456179174,single predefined control,
+RANDOM-ATTN,RANDOM,topicA,0.1677943166441137,single predefined control,
+RANDOM-512,RANDOM,topicB,0.521822422122272,single predefined control,
+RANDOM-MEAN,RANDOM,topicB,0.5423631596197968,single predefined control,
+RANDOM-ATTN,RANDOM,topicB,0.5423631596197968,single predefined control,

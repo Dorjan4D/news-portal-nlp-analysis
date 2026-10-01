@@ -1,0 +1,3 @@
+config_id,learning_rate,weight_decay,config_order,mean_best_val_weighted_macro_f1,std_best_val_weighted_macro_f1,mean_best_val_weighted_accuracy,mean_best_val_weighted_cross_entropy,mean_best_epoch,mean_skipped_amp_optimizer_steps
+ATTN_lr1e-05_wd0e+00,1e-05,0.0,12,0.9513600015988617,0.0050930549082543195,0.9512246117084827,0.18322084336228583,13.666666666666666,4.0
+ATTN_lr1e-05_wd1e-02,1e-05,0.01,13,0.9539123190623409,0.004379707030777867,0.9539426523297491,0.19604025240196835,17.0,3.6666666666666665

@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Model checkpoints / large ML artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.joblib
+*.npz
+
+# Hugging Face / ML caches
+.cache/
+huggingface/
+transformers_cache/
+
+# Experiment tracking / temporary outputs
+wandb/
+mlruns/
+runs/
+tmp/
+temp/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Article corpora - not distributed publicly
+data/
+frozen_data/
+
+# Generated numerical arrays
+*.npy

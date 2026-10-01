@@ -1,0 +1,776 @@
+{
+  "classical_model_grid": [
+    {
+      "C": 0.01,
+      "family": "logistic_regression",
+      "grid_order": 0
+    },
+    {
+      "C": 0.1,
+      "family": "logistic_regression",
+      "grid_order": 1
+    },
+    {
+      "C": 1.0,
+      "family": "logistic_regression",
+      "grid_order": 2
+    },
+    {
+      "C": 10.0,
+      "family": "logistic_regression",
+      "grid_order": 3
+    },
+    {
+      "C": 100.0,
+      "family": "logistic_regression",
+      "grid_order": 4
+    },
+    {
+      "C": 0.01,
+      "family": "linear_svc",
+      "grid_order": 5
+    },
+    {
+      "C": 0.1,
+      "family": "linear_svc",
+      "grid_order": 6
+    },
+    {
+      "C": 1.0,
+      "family": "linear_svc",
+      "grid_order": 7
+    },
+    {
+      "C": 10.0,
+      "family": "linear_svc",
+      "grid_order": 8
+    },
+    {
+      "C": 100.0,
+      "family": "linear_svc",
+      "grid_order": 9
+    },
+    {
+      "C": 0.01,
+      "family": "svc_linear",
+      "grid_order": 10
+    },
+    {
+      "C": 0.1,
+      "family": "svc_linear",
+      "grid_order": 11
+    },
+    {
+      "C": 1.0,
+      "family": "svc_linear",
+      "grid_order": 12
+    },
+    {
+      "C": 10.0,
+      "family": "svc_linear",
+      "grid_order": 13
+    },
+    {
+      "C": 100.0,
+      "family": "svc_linear",
+      "grid_order": 14
+    },
+    {
+      "C": 0.1,
+      "family": "svc_rbf",
+      "gamma": "scale",
+      "grid_order": 15
+    },
+    {
+      "C": 0.1,
+      "family": "svc_rbf",
+      "gamma": 0.1,
+      "grid_order": 16
+    },
+    {
+      "C": 0.1,
+      "family": "svc_rbf",
+      "gamma": 0.3,
+      "grid_order": 17
+    },
+    {
+      "C": 0.1,
+      "family": "svc_rbf",
+      "gamma": 1.0,
+      "grid_order": 18
+    },
+    {
+      "C": 0.1,
+      "family": "svc_rbf",
+      "gamma": 3.0,
+      "grid_order": 19
+    },
+    {
+      "C": 1.0,
+      "family": "svc_rbf",
+      "gamma": "scale",
+      "grid_order": 20
+    },
+    {
+      "C": 1.0,
+      "family": "svc_rbf",
+      "gamma": 0.1,
+      "grid_order": 21
+    },
+    {
+      "C": 1.0,
+      "family": "svc_rbf",
+      "gamma": 0.3,
+      "grid_order": 22
+    },
+    {
+      "C": 1.0,
+      "family": "svc_rbf",
+      "gamma": 1.0,
+      "grid_order": 23
+    },
+    {
+      "C": 1.0,
+      "family": "svc_rbf",
+      "gamma": 3.0,
+      "grid_order": 24
+    },
+    {
+      "C": 10.0,
+      "family": "svc_rbf",
+      "gamma": "scale",
+      "grid_order": 25
+    },
+    {
+      "C": 10.0,
+      "family": "svc_rbf",
+      "gamma": 0.1,
+      "grid_order": 26
+    },
+    {
+      "C": 10.0,
+      "family": "svc_rbf",
+      "gamma": 0.3,
+      "grid_order": 27
+    },
+    {
+      "C": 10.0,
+      "family": "svc_rbf",
+      "gamma": 1.0,
+      "grid_order": 28
+    },
+    {
+      "C": 10.0,
+      "family": "svc_rbf",
+      "gamma": 3.0,
+      "grid_order": 29
+    },
+    {
+      "C": 100.0,
+      "family": "svc_rbf",
+      "gamma": "scale",
+      "grid_order": 30
+    },
+    {
+      "C": 100.0,
+      "family": "svc_rbf",
+      "gamma": 0.1,
+      "grid_order": 31
+    },
+    {
+      "C": 100.0,
+      "family": "svc_rbf",
+      "gamma": 0.3,
+      "grid_order": 32
+    },
+    {
+      "C": 100.0,
+      "family": "svc_rbf",
+      "gamma": 1.0,
+      "grid_order": 33
+    },
+    {
+      "C": 100.0,
+      "family": "svc_rbf",
+      "gamma": 3.0,
+      "grid_order": 34
+    },
+    {
+      "C": 0.1,
+      "coef0": 0.0,
+      "degree": 2,
+      "family": "svc_poly",
+      "gamma": "scale",
+      "grid_order": 35
+    },
+    {
+      "C": 0.1,
+      "coef0": 1.0,
+      "degree": 2,
+      "family": "svc_poly",
+      "gamma": "scale",
+      "grid_order": 36
+    },
+    {
+      "C": 0.1,
+      "coef0": 0.0,
+      "degree": 2,
+      "family": "svc_poly",
+      "gamma": 0.1,
+      "grid_order": 37
+    },
+    {
+      "C": 0.1,
+      "coef0": 1.0,
+      "degree": 2,
+      "family": "svc_poly",
+      "gamma": 0.1,
+      "grid_order": 38
+    },
+    {
+      "C": 0.1,
+      "coef0": 0.0,
+      "degree": 3,
+      "family": "svc_poly",
+      "gamma": "scale",
+      "grid_order": 39
+    },
+    {
+      "C": 0.1,
+      "coef0": 1.0,
+      "degree": 3,
+      "family": "svc_poly",
+      "gamma": "scale",
+      "grid_order": 40
+    },
+    {
+      "C": 0.1,
+      "coef0": 0.0,
+      "degree": 3,
+      "family": "svc_poly",
+      "gamma": 0.1,
+      "grid_order": 41
+    },
+    {
+      "C": 0.1,
+      "coef0": 1.0,
+      "degree": 3,
+      "family": "svc_poly",
+      "gamma": 0.1,
+      "grid_order": 42
+    },
+    {
+      "C": 1.0,
+      "coef0": 0.0,
+      "degree": 2,
+      "family": "svc_poly",
+      "gamma": "scale",
+      "grid_order": 43
+    },
+    {
+      "C": 1.0,
+      "coef0": 1.0,
+      "degree": 2,
+      "family": "svc_poly",
+      "gamma": "scale",
+      "grid_order": 44
+    },
+    {
+      "C": 1.0,
+      "coef0": 0.0,
+      "degree": 2,
+      "family": "svc_poly",
+      "gamma": 0.1,
+      "grid_order": 45
+    },
+    {
+      "C": 1.0,
+      "coef0": 1.0,
+      "degree": 2,
+      "family": "svc_poly",
+      "gamma": 0.1,
+      "grid_order": 46
+    },
+    {
+      "C": 1.0,
+      "coef0": 0.0,
+      "degree": 3,
+      "family": "svc_poly",
+      "gamma": "scale",
+      "grid_order": 47
+    },
+    {
+      "C": 1.0,
+      "coef0": 1.0,
+      "degree": 3,
+      "family": "svc_poly",
+      "gamma": "scale",
+      "grid_order": 48
+    },
+    {
+      "C": 1.0,
+      "coef0": 0.0,
+      "degree": 3,
+      "family": "svc_poly",
+      "gamma": 0.1,
+      "grid_order": 49
+    },
+    {
+      "C": 1.0,
+      "coef0": 1.0,
+      "degree": 3,
+      "family": "svc_poly",
+      "gamma": 0.1,
+      "grid_order": 50
+    },
+    {
+      "C": 10.0,
+      "coef0": 0.0,
+      "degree": 2,
+      "family": "svc_poly",
+      "gamma": "scale",
+      "grid_order": 51
+    },
+    {
+      "C": 10.0,
+      "coef0": 1.0,
+      "degree": 2,
+      "family": "svc_poly",
+      "gamma": "scale",
+      "grid_order": 52
+    },
+    {
+      "C": 10.0,
+      "coef0": 0.0,
+      "degree": 2,
+      "family": "svc_poly",
+      "gamma": 0.1,
+      "grid_order": 53
+    },
+    {
+      "C": 10.0,
+      "coef0": 1.0,
+      "degree": 2,
+      "family": "svc_poly",
+      "gamma": 0.1,
+      "grid_order": 54
+    },
+    {
+      "C": 10.0,
+      "coef0": 0.0,
+      "degree": 3,
+      "family": "svc_poly",
+      "gamma": "scale",
+      "grid_order": 55
+    },
+    {
+      "C": 10.0,
+      "coef0": 1.0,
+      "degree": 3,
+      "family": "svc_poly",
+      "gamma": "scale",
+      "grid_order": 56
+    },
+    {
+      "C": 10.0,
+      "coef0": 0.0,
+      "degree": 3,
+      "family": "svc_poly",
+      "gamma": 0.1,
+      "grid_order": 57
+    },
+    {
+      "C": 10.0,
+      "coef0": 1.0,
+      "degree": 3,
+      "family": "svc_poly",
+      "gamma": 0.1,
+      "grid_order": 58
+    },
+    {
+      "C": 100.0,
+      "coef0": 0.0,
+      "degree": 2,
+      "family": "svc_poly",
+      "gamma": "scale",
+      "grid_order": 59
+    },
+    {
+      "C": 100.0,
+      "coef0": 1.0,
+      "degree": 2,
+      "family": "svc_poly",
+      "gamma": "scale",
+      "grid_order": 60
+    },
+    {
+      "C": 100.0,
+      "coef0": 0.0,
+      "degree": 2,
+      "family": "svc_poly",
+      "gamma": 0.1,
+      "grid_order": 61
+    },
+    {
+      "C": 100.0,
+      "coef0": 1.0,
+      "degree": 2,
+      "family": "svc_poly",
+      "gamma": 0.1,
+      "grid_order": 62
+    },
+    {
+      "C": 100.0,
+      "coef0": 0.0,
+      "degree": 3,
+      "family": "svc_poly",
+      "gamma": "scale",
+      "grid_order": 63
+    },
+    {
+      "C": 100.0,
+      "coef0": 1.0,
+      "degree": 3,
+      "family": "svc_poly",
+      "gamma": "scale",
+      "grid_order": 64
+    },
+    {
+      "C": 100.0,
+      "coef0": 0.0,
+      "degree": 3,
+      "family": "svc_poly",
+      "gamma": 0.1,
+      "grid_order": 65
+    },
+    {
+      "C": 100.0,
+      "coef0": 1.0,
+      "degree": 3,
+      "family": "svc_poly",
+      "gamma": 0.1,
+      "grid_order": 66
+    },
+    {
+      "C": 0.1,
+      "coef0": 0.0,
+      "family": "svc_sigmoid",
+      "gamma": "scale",
+      "grid_order": 67
+    },
+    {
+      "C": 0.1,
+      "coef0": 1.0,
+      "family": "svc_sigmoid",
+      "gamma": "scale",
+      "grid_order": 68
+    },
+    {
+      "C": 0.1,
+      "coef0": 0.0,
+      "family": "svc_sigmoid",
+      "gamma": 0.1,
+      "grid_order": 69
+    },
+    {
+      "C": 0.1,
+      "coef0": 1.0,
+      "family": "svc_sigmoid",
+      "gamma": 0.1,
+      "grid_order": 70
+    },
+    {
+      "C": 0.1,
+      "coef0": 0.0,
+      "family": "svc_sigmoid",
+      "gamma": 0.3,
+      "grid_order": 71
+    },
+    {
+      "C": 0.1,
+      "coef0": 1.0,
+      "family": "svc_sigmoid",
+      "gamma": 0.3,
+      "grid_order": 72
+    },
+    {
+      "C": 1.0,
+      "coef0": 0.0,
+      "family": "svc_sigmoid",
+      "gamma": "scale",
+      "grid_order": 73
+    },
+    {
+      "C": 1.0,
+      "coef0": 1.0,
+      "family": "svc_sigmoid",
+      "gamma": "scale",
+      "grid_order": 74
+    },
+    {
+      "C": 1.0,
+      "coef0": 0.0,
+      "family": "svc_sigmoid",
+      "gamma": 0.1,
+      "grid_order": 75
+    },
+    {
+      "C": 1.0,
+      "coef0": 1.0,
+      "family": "svc_sigmoid",
+      "gamma": 0.1,
+      "grid_order": 76
+    },
+    {
+      "C": 1.0,
+      "coef0": 0.0,
+      "family": "svc_sigmoid",
+      "gamma": 0.3,
+      "grid_order": 77
+    },
+    {
+      "C": 1.0,
+      "coef0": 1.0,
+      "family": "svc_sigmoid",
+      "gamma": 0.3,
+      "grid_order": 78
+    },
+    {
+      "C": 10.0,
+      "coef0": 0.0,
+      "family": "svc_sigmoid",
+      "gamma": "scale",
+      "grid_order": 79
+    },
+    {
+      "C": 10.0,
+      "coef0": 1.0,
+      "family": "svc_sigmoid",
+      "gamma": "scale",
+      "grid_order": 80
+    },
+    {
+      "C": 10.0,
+      "coef0": 0.0,
+      "family": "svc_sigmoid",
+      "gamma": 0.1,
+      "grid_order": 81
+    },
+    {
+      "C": 10.0,
+      "coef0": 1.0,
+      "family": "svc_sigmoid",
+      "gamma": 0.1,
+      "grid_order": 82
+    },
+    {
+      "C": 10.0,
+      "coef0": 0.0,
+      "family": "svc_sigmoid",
+      "gamma": 0.3,
+      "grid_order": 83
+    },
+    {
+      "C": 10.0,
+      "coef0": 1.0,
+      "family": "svc_sigmoid",
+      "gamma": 0.3,
+      "grid_order": 84
+    },
+    {
+      "C": 100.0,
+      "coef0": 0.0,
+      "family": "svc_sigmoid",
+      "gamma": "scale",
+      "grid_order": 85
+    },
+    {
+      "C": 100.0,
+      "coef0": 1.0,
+      "family": "svc_sigmoid",
+      "gamma": "scale",
+      "grid_order": 86
+    },
+    {
+      "C": 100.0,
+      "coef0": 0.0,
+      "family": "svc_sigmoid",
+      "gamma": 0.1,
+      "grid_order": 87
+    },
+    {
+      "C": 100.0,
+      "coef0": 1.0,
+      "family": "svc_sigmoid",
+      "gamma": 0.1,
+      "grid_order": 88
+    },
+    {
+      "C": 100.0,
+      "coef0": 0.0,
+      "family": "svc_sigmoid",
+      "gamma": 0.3,
+      "grid_order": 89
+    },
+    {
+      "C": 100.0,
+      "coef0": 1.0,
+      "family": "svc_sigmoid",
+      "gamma": 0.3,
+      "grid_order": 90
+    }
+  ],
+  "corpus_sha256": "c07d1fcc31fb3fe5e92a308f95e2ea6578c391b6cb6a3d38216573c0e1c6e12e",
+  "fit_weights": "frozen train balance_weight globally rescaled to mean 1",
+  "manifest_sha256": "282e1544747c4fe06898a7250043c6d813a8d890b9c88bd40e47bc5f7046ba9f",
+  "parallelism": {
+    "backend": "loky",
+    "n_jobs": 4,
+    "native_threads_per_worker": 1
+  },
+  "protocol_hash": "e17602edbdfe5e440fcac47c3e1b490e2071a37cd88fb4e057422ca85552e8b1",
+  "selection_metric": "validation_weighted_macro_f1",
+  "stage_name": "classical_tfidf_final",
+  "test_policy": "Test metadata counted for integrity only; test article text is never loaded/transformed/predicted/evaluated.",
+  "tfidf_fixed": {
+    "lowercase": true,
+    "max_df": 1.0,
+    "max_features": null,
+    "norm": "l2",
+    "smooth_idf": true,
+    "stop_words": null,
+    "token_pattern": "(?u)\\b\\w\\w+\\b",
+    "use_idf": true
+  },
+  "tfidf_grid": [
+    {
+      "min_df": 2,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false
+    },
+    {
+      "min_df": 2,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true
+    },
+    {
+      "min_df": 3,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false
+    },
+    {
+      "min_df": 3,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true
+    },
+    {
+      "min_df": 5,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false
+    },
+    {
+      "min_df": 5,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true
+    },
+    {
+      "min_df": 10,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false
+    },
+    {
+      "min_df": 10,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true
+    },
+    {
+      "min_df": 2,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false
+    },
+    {
+      "min_df": 2,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true
+    },
+    {
+      "min_df": 3,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false
+    },
+    {
+      "min_df": 3,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true
+    },
+    {
+      "min_df": 5,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false
+    },
+    {
+      "min_df": 5,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true
+    },
+    {
+      "min_df": 10,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false
+    },
+    {
+      "min_df": 10,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true
+    }
+  ],
+  "validation_weights": "frozen validation balance_weight"
+}

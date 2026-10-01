@@ -1,0 +1,3017 @@
+{
+  "bin_rule": "bin 0: words <= cutoff[0]; middle bins: previous cutoff < words <= current cutoff; final: words > last cutoff",
+  "max_length_bins": 3,
+  "method": "portal-equal-weighted empirical body-word quantiles, common cutoffs per topic/year_month",
+  "min_balanced_cell_support": 7,
+  "topics": {
+    "topicA": {
+      "2024-07": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 4,
+                "bbc": 2,
+                "guardian": 0
+              },
+              "1": {
+                "aljazeera": 2,
+                "bbc": 1,
+                "guardian": 2
+              },
+              "2": {
+                "aljazeera": 4,
+                "bbc": 0,
+                "guardian": 3
+              }
+            },
+            "cutoffs_words_inclusive": [
+              576,
+              777
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              0,
+              1,
+              0
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 4,
+                "bbc": 3,
+                "guardian": 1
+              },
+              "1": {
+                "aljazeera": 6,
+                "bbc": 0,
+                "guardian": 4
+              }
+            },
+            "cutoffs_words_inclusive": [
+              600
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              1,
+              0
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 10,
+                "bbc": 3,
+                "guardian": 5
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              3
+            ],
+            "passed": false
+          }
+        ],
+        "counts_by_bin_portal": {},
+        "cutoffs_words_inclusive": [],
+        "eligible": false,
+        "exclusion_reason": "month cannot satisfy minimum balanced support T=7; aljazeera=10, bbc=3, guardian=5",
+        "minimum_portal_count_by_bin": [],
+        "num_length_bins": 0
+      },
+      "2024-08": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 11,
+                "bbc": 6,
+                "guardian": 7
+              },
+              "1": {
+                "aljazeera": 5,
+                "bbc": 8,
+                "guardian": 10
+              },
+              "2": {
+                "aljazeera": 11,
+                "bbc": 4,
+                "guardian": 8
+              }
+            },
+            "cutoffs_words_inclusive": [
+              655,
+              909
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              6,
+              5,
+              4
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 15,
+                "bbc": 9,
+                "guardian": 12
+              },
+              "1": {
+                "aljazeera": 12,
+                "bbc": 9,
+                "guardian": 13
+              }
+            },
+            "cutoffs_words_inclusive": [
+              727
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              9,
+              9
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 15,
+            "bbc": 9,
+            "guardian": 12
+          },
+          "1": {
+            "aljazeera": 12,
+            "bbc": 9,
+            "guardian": 13
+          }
+        },
+        "cutoffs_words_inclusive": [
+          727
+        ],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          9,
+          9
+        ],
+        "num_length_bins": 2
+      },
+      "2024-09": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 15,
+                "bbc": 4,
+                "guardian": 7
+              },
+              "1": {
+                "aljazeera": 5,
+                "bbc": 6,
+                "guardian": 13
+              },
+              "2": {
+                "aljazeera": 5,
+                "bbc": 8,
+                "guardian": 11
+              }
+            },
+            "cutoffs_words_inclusive": [
+              627,
+              825
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              4,
+              5,
+              5
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 18,
+                "bbc": 8,
+                "guardian": 12
+              },
+              "1": {
+                "aljazeera": 7,
+                "bbc": 10,
+                "guardian": 19
+              }
+            },
+            "cutoffs_words_inclusive": [
+              715
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              8,
+              7
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 18,
+            "bbc": 8,
+            "guardian": 12
+          },
+          "1": {
+            "aljazeera": 7,
+            "bbc": 10,
+            "guardian": 19
+          }
+        },
+        "cutoffs_words_inclusive": [
+          715
+        ],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          8,
+          7
+        ],
+        "num_length_bins": 2
+      },
+      "2024-10": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 14,
+                "bbc": 9,
+                "guardian": 7
+              },
+              "1": {
+                "aljazeera": 11,
+                "bbc": 5,
+                "guardian": 14
+              },
+              "2": {
+                "aljazeera": 9,
+                "bbc": 9,
+                "guardian": 10
+              }
+            },
+            "cutoffs_words_inclusive": [
+              637,
+              930
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              7,
+              5,
+              9
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 20,
+                "bbc": 13,
+                "guardian": 12
+              },
+              "1": {
+                "aljazeera": 14,
+                "bbc": 10,
+                "guardian": 19
+              }
+            },
+            "cutoffs_words_inclusive": [
+              785
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              12,
+              10
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 20,
+            "bbc": 13,
+            "guardian": 12
+          },
+          "1": {
+            "aljazeera": 14,
+            "bbc": 10,
+            "guardian": 19
+          }
+        },
+        "cutoffs_words_inclusive": [
+          785
+        ],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          12,
+          10
+        ],
+        "num_length_bins": 2
+      },
+      "2024-11": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 20,
+                "bbc": 4,
+                "guardian": 6
+              },
+              "1": {
+                "aljazeera": 10,
+                "bbc": 6,
+                "guardian": 11
+              },
+              "2": {
+                "aljazeera": 6,
+                "bbc": 9,
+                "guardian": 8
+              }
+            },
+            "cutoffs_words_inclusive": [
+              641,
+              880
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              4,
+              6,
+              6
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 25,
+                "bbc": 7,
+                "guardian": 11
+              },
+              "1": {
+                "aljazeera": 11,
+                "bbc": 12,
+                "guardian": 14
+              }
+            },
+            "cutoffs_words_inclusive": [
+              745
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              7,
+              11
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 25,
+            "bbc": 7,
+            "guardian": 11
+          },
+          "1": {
+            "aljazeera": 11,
+            "bbc": 12,
+            "guardian": 14
+          }
+        },
+        "cutoffs_words_inclusive": [
+          745
+        ],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          7,
+          11
+        ],
+        "num_length_bins": 2
+      },
+      "2024-12": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 12,
+                "bbc": 1,
+                "guardian": 5
+              },
+              "1": {
+                "aljazeera": 6,
+                "bbc": 5,
+                "guardian": 4
+              },
+              "2": {
+                "aljazeera": 2,
+                "bbc": 4,
+                "guardian": 7
+              }
+            },
+            "cutoffs_words_inclusive": [
+              705,
+              792
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              1,
+              4,
+              2
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 18,
+                "bbc": 3,
+                "guardian": 6
+              },
+              "1": {
+                "aljazeera": 2,
+                "bbc": 7,
+                "guardian": 10
+              }
+            },
+            "cutoffs_words_inclusive": [
+              764
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              3,
+              2
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 20,
+                "bbc": 10,
+                "guardian": 16
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              10
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 20,
+            "bbc": 10,
+            "guardian": 16
+          }
+        },
+        "cutoffs_words_inclusive": [],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          10
+        ],
+        "num_length_bins": 1
+      },
+      "2025-01": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 14,
+                "bbc": 9,
+                "guardian": 7
+              },
+              "1": {
+                "aljazeera": 10,
+                "bbc": 7,
+                "guardian": 13
+              },
+              "2": {
+                "aljazeera": 11,
+                "bbc": 5,
+                "guardian": 16
+              }
+            },
+            "cutoffs_words_inclusive": [
+              718,
+              980
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              7,
+              7,
+              5
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 18,
+                "bbc": 14,
+                "guardian": 12
+              },
+              "1": {
+                "aljazeera": 17,
+                "bbc": 7,
+                "guardian": 24
+              }
+            },
+            "cutoffs_words_inclusive": [
+              806
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              12,
+              7
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 18,
+            "bbc": 14,
+            "guardian": 12
+          },
+          "1": {
+            "aljazeera": 17,
+            "bbc": 7,
+            "guardian": 24
+          }
+        },
+        "cutoffs_words_inclusive": [
+          806
+        ],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          12,
+          7
+        ],
+        "num_length_bins": 2
+      },
+      "2025-02": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 15,
+                "bbc": 5,
+                "guardian": 4
+              },
+              "1": {
+                "aljazeera": 2,
+                "bbc": 12,
+                "guardian": 6
+              },
+              "2": {
+                "aljazeera": 8,
+                "bbc": 7,
+                "guardian": 6
+              }
+            },
+            "cutoffs_words_inclusive": [
+              652,
+              887
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              4,
+              2,
+              6
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 16,
+                "bbc": 11,
+                "guardian": 7
+              },
+              "1": {
+                "aljazeera": 9,
+                "bbc": 13,
+                "guardian": 9
+              }
+            },
+            "cutoffs_words_inclusive": [
+              753
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              7,
+              9
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 16,
+            "bbc": 11,
+            "guardian": 7
+          },
+          "1": {
+            "aljazeera": 9,
+            "bbc": 13,
+            "guardian": 9
+          }
+        },
+        "cutoffs_words_inclusive": [
+          753
+        ],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          7,
+          9
+        ],
+        "num_length_bins": 2
+      },
+      "2025-03": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 13,
+                "bbc": 5,
+                "guardian": 4
+              },
+              "1": {
+                "aljazeera": 6,
+                "bbc": 7,
+                "guardian": 8
+              },
+              "2": {
+                "aljazeera": 3,
+                "bbc": 5,
+                "guardian": 13
+              }
+            },
+            "cutoffs_words_inclusive": [
+              613,
+              923
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              4,
+              6,
+              3
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 14,
+                "bbc": 10,
+                "guardian": 7
+              },
+              "1": {
+                "aljazeera": 8,
+                "bbc": 7,
+                "guardian": 18
+              }
+            },
+            "cutoffs_words_inclusive": [
+              745
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              7,
+              7
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 14,
+            "bbc": 10,
+            "guardian": 7
+          },
+          "1": {
+            "aljazeera": 8,
+            "bbc": 7,
+            "guardian": 18
+          }
+        },
+        "cutoffs_words_inclusive": [
+          745
+        ],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          7,
+          7
+        ],
+        "num_length_bins": 2
+      },
+      "2025-04": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 11,
+                "bbc": 4,
+                "guardian": 5
+              },
+              "1": {
+                "aljazeera": 11,
+                "bbc": 4,
+                "guardian": 4
+              },
+              "2": {
+                "aljazeera": 3,
+                "bbc": 7,
+                "guardian": 6
+              }
+            },
+            "cutoffs_words_inclusive": [
+              616,
+              808
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              4,
+              4,
+              3
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 17,
+                "bbc": 7,
+                "guardian": 6
+              },
+              "1": {
+                "aljazeera": 8,
+                "bbc": 8,
+                "guardian": 9
+              }
+            },
+            "cutoffs_words_inclusive": [
+              736
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              6,
+              8
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 25,
+                "bbc": 15,
+                "guardian": 15
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              15
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 25,
+            "bbc": 15,
+            "guardian": 15
+          }
+        },
+        "cutoffs_words_inclusive": [],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          15
+        ],
+        "num_length_bins": 1
+      },
+      "2025-05": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 19,
+                "bbc": 9,
+                "guardian": 6
+              },
+              "1": {
+                "aljazeera": 14,
+                "bbc": 9,
+                "guardian": 9
+              },
+              "2": {
+                "aljazeera": 9,
+                "bbc": 10,
+                "guardian": 10
+              }
+            },
+            "cutoffs_words_inclusive": [
+              630,
+              945
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              6,
+              9,
+              9
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 28,
+                "bbc": 13,
+                "guardian": 10
+              },
+              "1": {
+                "aljazeera": 14,
+                "bbc": 15,
+                "guardian": 15
+              }
+            },
+            "cutoffs_words_inclusive": [
+              789
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              10,
+              14
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 28,
+            "bbc": 13,
+            "guardian": 10
+          },
+          "1": {
+            "aljazeera": 14,
+            "bbc": 15,
+            "guardian": 15
+          }
+        },
+        "cutoffs_words_inclusive": [
+          789
+        ],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          10,
+          14
+        ],
+        "num_length_bins": 2
+      },
+      "2025-06": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 9,
+                "bbc": 4,
+                "guardian": 4
+              },
+              "1": {
+                "aljazeera": 6,
+                "bbc": 3,
+                "guardian": 8
+              },
+              "2": {
+                "aljazeera": 10,
+                "bbc": 1,
+                "guardian": 8
+              }
+            },
+            "cutoffs_words_inclusive": [
+              564,
+              739
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              4,
+              3,
+              1
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 12,
+                "bbc": 5,
+                "guardian": 8
+              },
+              "1": {
+                "aljazeera": 13,
+                "bbc": 3,
+                "guardian": 12
+              }
+            },
+            "cutoffs_words_inclusive": [
+              641
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              5,
+              3
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 25,
+                "bbc": 8,
+                "guardian": 20
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              8
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 25,
+            "bbc": 8,
+            "guardian": 20
+          }
+        },
+        "cutoffs_words_inclusive": [],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          8
+        ],
+        "num_length_bins": 1
+      },
+      "2025-07": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 20,
+                "bbc": 5,
+                "guardian": 13
+              },
+              "1": {
+                "aljazeera": 7,
+                "bbc": 13,
+                "guardian": 15
+              },
+              "2": {
+                "aljazeera": 10,
+                "bbc": 10,
+                "guardian": 15
+              }
+            },
+            "cutoffs_words_inclusive": [
+              720,
+              935
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              5,
+              7,
+              10
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 26,
+                "bbc": 10,
+                "guardian": 20
+              },
+              "1": {
+                "aljazeera": 11,
+                "bbc": 18,
+                "guardian": 23
+              }
+            },
+            "cutoffs_words_inclusive": [
+              809
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              10,
+              11
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 26,
+            "bbc": 10,
+            "guardian": 20
+          },
+          "1": {
+            "aljazeera": 11,
+            "bbc": 18,
+            "guardian": 23
+          }
+        },
+        "cutoffs_words_inclusive": [
+          809
+        ],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          10,
+          11
+        ],
+        "num_length_bins": 2
+      },
+      "2025-08": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 24,
+                "bbc": 8,
+                "guardian": 6
+              },
+              "1": {
+                "aljazeera": 12,
+                "bbc": 9,
+                "guardian": 13
+              },
+              "2": {
+                "aljazeera": 9,
+                "bbc": 7,
+                "guardian": 19
+              }
+            },
+            "cutoffs_words_inclusive": [
+              574,
+              829
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              6,
+              9,
+              7
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 30,
+                "bbc": 11,
+                "guardian": 15
+              },
+              "1": {
+                "aljazeera": 15,
+                "bbc": 13,
+                "guardian": 23
+              }
+            },
+            "cutoffs_words_inclusive": [
+              682
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              11,
+              13
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 30,
+            "bbc": 11,
+            "guardian": 15
+          },
+          "1": {
+            "aljazeera": 15,
+            "bbc": 13,
+            "guardian": 23
+          }
+        },
+        "cutoffs_words_inclusive": [
+          682
+        ],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          11,
+          13
+        ],
+        "num_length_bins": 2
+      },
+      "2025-09": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 23,
+                "bbc": 6,
+                "guardian": 12
+              },
+              "1": {
+                "aljazeera": 11,
+                "bbc": 12,
+                "guardian": 14
+              },
+              "2": {
+                "aljazeera": 14,
+                "bbc": 14,
+                "guardian": 9
+              }
+            },
+            "cutoffs_words_inclusive": [
+              673,
+              858
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              6,
+              11,
+              9
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 26,
+                "bbc": 12,
+                "guardian": 21
+              },
+              "1": {
+                "aljazeera": 22,
+                "bbc": 20,
+                "guardian": 14
+              }
+            },
+            "cutoffs_words_inclusive": [
+              748
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              12,
+              14
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 26,
+            "bbc": 12,
+            "guardian": 21
+          },
+          "1": {
+            "aljazeera": 22,
+            "bbc": 20,
+            "guardian": 14
+          }
+        },
+        "cutoffs_words_inclusive": [
+          748
+        ],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          12,
+          14
+        ],
+        "num_length_bins": 2
+      },
+      "2025-10": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 16,
+                "bbc": 17,
+                "guardian": 11
+              },
+              "1": {
+                "aljazeera": 15,
+                "bbc": 13,
+                "guardian": 17
+              },
+              "2": {
+                "aljazeera": 15,
+                "bbc": 8,
+                "guardian": 23
+              }
+            },
+            "cutoffs_words_inclusive": [
+              707,
+              993
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              11,
+              13,
+              8
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 16,
+            "bbc": 17,
+            "guardian": 11
+          },
+          "1": {
+            "aljazeera": 15,
+            "bbc": 13,
+            "guardian": 17
+          },
+          "2": {
+            "aljazeera": 15,
+            "bbc": 8,
+            "guardian": 23
+          }
+        },
+        "cutoffs_words_inclusive": [
+          707,
+          993
+        ],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          11,
+          13,
+          8
+        ],
+        "num_length_bins": 3
+      },
+      "2025-11": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 12,
+                "bbc": 5,
+                "guardian": 5
+              },
+              "1": {
+                "aljazeera": 11,
+                "bbc": 6,
+                "guardian": 4
+              },
+              "2": {
+                "aljazeera": 7,
+                "bbc": 3,
+                "guardian": 10
+              }
+            },
+            "cutoffs_words_inclusive": [
+              565,
+              788
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              5,
+              4,
+              3
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 19,
+                "bbc": 7,
+                "guardian": 7
+              },
+              "1": {
+                "aljazeera": 11,
+                "bbc": 7,
+                "guardian": 12
+              }
+            },
+            "cutoffs_words_inclusive": [
+              708
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              7,
+              7
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 19,
+            "bbc": 7,
+            "guardian": 7
+          },
+          "1": {
+            "aljazeera": 11,
+            "bbc": 7,
+            "guardian": 12
+          }
+        },
+        "cutoffs_words_inclusive": [
+          708
+        ],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          7,
+          7
+        ],
+        "num_length_bins": 2
+      },
+      "2025-12": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 17,
+                "bbc": 2,
+                "guardian": 3
+              },
+              "1": {
+                "aljazeera": 7,
+                "bbc": 4,
+                "guardian": 3
+              },
+              "2": {
+                "aljazeera": 12,
+                "bbc": 3,
+                "guardian": 3
+              }
+            },
+            "cutoffs_words_inclusive": [
+              590,
+              723
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              2,
+              3,
+              3
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 21,
+                "bbc": 4,
+                "guardian": 5
+              },
+              "1": {
+                "aljazeera": 15,
+                "bbc": 5,
+                "guardian": 4
+              }
+            },
+            "cutoffs_words_inclusive": [
+              658
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              4,
+              4
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 36,
+                "bbc": 9,
+                "guardian": 9
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              9
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 36,
+            "bbc": 9,
+            "guardian": 9
+          }
+        },
+        "cutoffs_words_inclusive": [],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          9
+        ],
+        "num_length_bins": 1
+      },
+      "2026-01": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 10,
+                "bbc": 0,
+                "guardian": 4
+              },
+              "1": {
+                "aljazeera": 13,
+                "bbc": 2,
+                "guardian": 1
+              },
+              "2": {
+                "aljazeera": 8,
+                "bbc": 2,
+                "guardian": 0
+              }
+            },
+            "cutoffs_words_inclusive": [
+              526,
+              770
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              0,
+              1,
+              0
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 15,
+                "bbc": 1,
+                "guardian": 5
+              },
+              "1": {
+                "aljazeera": 16,
+                "bbc": 3,
+                "guardian": 0
+              }
+            },
+            "cutoffs_words_inclusive": [
+              644
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              1,
+              0
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 31,
+                "bbc": 4,
+                "guardian": 5
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              4
+            ],
+            "passed": false
+          }
+        ],
+        "counts_by_bin_portal": {},
+        "cutoffs_words_inclusive": [],
+        "eligible": false,
+        "exclusion_reason": "month cannot satisfy minimum balanced support T=7; aljazeera=31, bbc=4, guardian=5",
+        "minimum_portal_count_by_bin": [],
+        "num_length_bins": 0
+      }
+    },
+    "topicB": {
+      "2024-07": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {},
+            "cutoffs_words_inclusive": [],
+            "k": 3,
+            "minimum_portal_count_by_bin": [],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {},
+            "cutoffs_words_inclusive": [],
+            "k": 2,
+            "minimum_portal_count_by_bin": [],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 0,
+                "bbc": 3,
+                "guardian": 5
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              0
+            ],
+            "passed": false
+          }
+        ],
+        "counts_by_bin_portal": {},
+        "cutoffs_words_inclusive": [],
+        "eligible": false,
+        "exclusion_reason": "month cannot satisfy minimum balanced support T=7; aljazeera=0, bbc=3, guardian=5",
+        "minimum_portal_count_by_bin": [],
+        "num_length_bins": 0
+      },
+      "2024-08": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 1,
+                "bbc": 3,
+                "guardian": 17
+              },
+              "1": {
+                "aljazeera": 1,
+                "bbc": 6,
+                "guardian": 10
+              },
+              "2": {
+                "aljazeera": 1,
+                "bbc": 2,
+                "guardian": 15
+              }
+            },
+            "cutoffs_words_inclusive": [
+              596,
+              709
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              1,
+              1,
+              1
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 1,
+                "bbc": 8,
+                "guardian": 21
+              },
+              "1": {
+                "aljazeera": 2,
+                "bbc": 3,
+                "guardian": 21
+              }
+            },
+            "cutoffs_words_inclusive": [
+              636
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              1,
+              2
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 3,
+                "bbc": 11,
+                "guardian": 42
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              3
+            ],
+            "passed": false
+          }
+        ],
+        "counts_by_bin_portal": {},
+        "cutoffs_words_inclusive": [],
+        "eligible": false,
+        "exclusion_reason": "month cannot satisfy minimum balanced support T=7; aljazeera=3, bbc=11, guardian=42",
+        "minimum_portal_count_by_bin": [],
+        "num_length_bins": 0
+      },
+      "2024-09": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 3,
+                "bbc": 9,
+                "guardian": 9
+              },
+              "1": {
+                "aljazeera": 3,
+                "bbc": 7,
+                "guardian": 11
+              },
+              "2": {
+                "aljazeera": 3,
+                "bbc": 8,
+                "guardian": 10
+              }
+            },
+            "cutoffs_words_inclusive": [
+              577,
+              727
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              3,
+              3,
+              3
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 6,
+                "bbc": 10,
+                "guardian": 14
+              },
+              "1": {
+                "aljazeera": 3,
+                "bbc": 14,
+                "guardian": 16
+              }
+            },
+            "cutoffs_words_inclusive": [
+              655
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              6,
+              3
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 9,
+                "bbc": 24,
+                "guardian": 30
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              9
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 9,
+            "bbc": 24,
+            "guardian": 30
+          }
+        },
+        "cutoffs_words_inclusive": [],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          9
+        ],
+        "num_length_bins": 1
+      },
+      "2024-10": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 1,
+                "bbc": 7,
+                "guardian": 13
+              },
+              "1": {
+                "aljazeera": 1,
+                "bbc": 6,
+                "guardian": 13
+              },
+              "2": {
+                "aljazeera": 2,
+                "bbc": 4,
+                "guardian": 7
+              }
+            },
+            "cutoffs_words_inclusive": [
+              614,
+              905
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              1,
+              1,
+              2
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 2,
+                "bbc": 8,
+                "guardian": 18
+              },
+              "1": {
+                "aljazeera": 2,
+                "bbc": 9,
+                "guardian": 15
+              }
+            },
+            "cutoffs_words_inclusive": [
+              684
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              2,
+              2
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 4,
+                "bbc": 17,
+                "guardian": 33
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              4
+            ],
+            "passed": false
+          }
+        ],
+        "counts_by_bin_portal": {},
+        "cutoffs_words_inclusive": [],
+        "eligible": false,
+        "exclusion_reason": "month cannot satisfy minimum balanced support T=7; aljazeera=4, bbc=17, guardian=33",
+        "minimum_portal_count_by_bin": [],
+        "num_length_bins": 0
+      },
+      "2024-11": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 4,
+                "bbc": 4,
+                "guardian": 17
+              },
+              "1": {
+                "aljazeera": 1,
+                "bbc": 7,
+                "guardian": 22
+              },
+              "2": {
+                "aljazeera": 5,
+                "bbc": 5,
+                "guardian": 8
+              }
+            },
+            "cutoffs_words_inclusive": [
+              652,
+              920
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              4,
+              1,
+              5
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 4,
+                "bbc": 8,
+                "guardian": 31
+              },
+              "1": {
+                "aljazeera": 6,
+                "bbc": 8,
+                "guardian": 16
+              }
+            },
+            "cutoffs_words_inclusive": [
+              773
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              4,
+              6
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 10,
+                "bbc": 16,
+                "guardian": 47
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              10
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 10,
+            "bbc": 16,
+            "guardian": 47
+          }
+        },
+        "cutoffs_words_inclusive": [],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          10
+        ],
+        "num_length_bins": 1
+      },
+      "2024-12": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 3,
+                "bbc": 4,
+                "guardian": 9
+              },
+              "1": {
+                "aljazeera": 2,
+                "bbc": 5,
+                "guardian": 9
+              },
+              "2": {
+                "aljazeera": 4,
+                "bbc": 3,
+                "guardian": 7
+              }
+            },
+            "cutoffs_words_inclusive": [
+              581,
+              723
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              3,
+              2,
+              3
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 4,
+                "bbc": 7,
+                "guardian": 13
+              },
+              "1": {
+                "aljazeera": 5,
+                "bbc": 5,
+                "guardian": 12
+              }
+            },
+            "cutoffs_words_inclusive": [
+              644
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              4,
+              5
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 9,
+                "bbc": 12,
+                "guardian": 25
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              9
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 9,
+            "bbc": 12,
+            "guardian": 25
+          }
+        },
+        "cutoffs_words_inclusive": [],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          9
+        ],
+        "num_length_bins": 1
+      },
+      "2025-01": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 3,
+                "bbc": 7,
+                "guardian": 15
+              },
+              "1": {
+                "aljazeera": 2,
+                "bbc": 5,
+                "guardian": 22
+              },
+              "2": {
+                "aljazeera": 3,
+                "bbc": 7,
+                "guardian": 12
+              }
+            },
+            "cutoffs_words_inclusive": [
+              612,
+              860
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              3,
+              2,
+              3
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 4,
+                "bbc": 9,
+                "guardian": 26
+              },
+              "1": {
+                "aljazeera": 4,
+                "bbc": 10,
+                "guardian": 23
+              }
+            },
+            "cutoffs_words_inclusive": [
+              751
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              4,
+              4
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 8,
+                "bbc": 19,
+                "guardian": 49
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              8
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 8,
+            "bbc": 19,
+            "guardian": 49
+          }
+        },
+        "cutoffs_words_inclusive": [],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          8
+        ],
+        "num_length_bins": 1
+      },
+      "2025-02": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 5,
+                "bbc": 5,
+                "guardian": 15
+              },
+              "1": {
+                "aljazeera": 0,
+                "bbc": 8,
+                "guardian": 19
+              },
+              "2": {
+                "aljazeera": 7,
+                "bbc": 5,
+                "guardian": 5
+              }
+            },
+            "cutoffs_words_inclusive": [
+              667,
+              923
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              5,
+              0,
+              5
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 5,
+                "bbc": 7,
+                "guardian": 28
+              },
+              "1": {
+                "aljazeera": 7,
+                "bbc": 11,
+                "guardian": 11
+              }
+            },
+            "cutoffs_words_inclusive": [
+              814
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              5,
+              7
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 12,
+                "bbc": 18,
+                "guardian": 39
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              12
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 12,
+            "bbc": 18,
+            "guardian": 39
+          }
+        },
+        "cutoffs_words_inclusive": [],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          12
+        ],
+        "num_length_bins": 1
+      },
+      "2025-03": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 5,
+                "bbc": 6,
+                "guardian": 19
+              },
+              "1": {
+                "aljazeera": 3,
+                "bbc": 7,
+                "guardian": 21
+              },
+              "2": {
+                "aljazeera": 4,
+                "bbc": 10,
+                "guardian": 12
+              }
+            },
+            "cutoffs_words_inclusive": [
+              548,
+              857
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              5,
+              3,
+              4
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 6,
+                "bbc": 9,
+                "guardian": 32
+              },
+              "1": {
+                "aljazeera": 6,
+                "bbc": 14,
+                "guardian": 20
+              }
+            },
+            "cutoffs_words_inclusive": [
+              701
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              6,
+              6
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 12,
+                "bbc": 23,
+                "guardian": 52
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              12
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 12,
+            "bbc": 23,
+            "guardian": 52
+          }
+        },
+        "cutoffs_words_inclusive": [],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          12
+        ],
+        "num_length_bins": 1
+      },
+      "2025-04": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 10,
+                "bbc": 17,
+                "guardian": 35
+              },
+              "1": {
+                "aljazeera": 7,
+                "bbc": 16,
+                "guardian": 51
+              },
+              "2": {
+                "aljazeera": 10,
+                "bbc": 19,
+                "guardian": 28
+              }
+            },
+            "cutoffs_words_inclusive": [
+              611,
+              873
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              10,
+              7,
+              10
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 10,
+            "bbc": 17,
+            "guardian": 35
+          },
+          "1": {
+            "aljazeera": 7,
+            "bbc": 16,
+            "guardian": 51
+          },
+          "2": {
+            "aljazeera": 10,
+            "bbc": 19,
+            "guardian": 28
+          }
+        },
+        "cutoffs_words_inclusive": [
+          611,
+          873
+        ],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          10,
+          7,
+          10
+        ],
+        "num_length_bins": 3
+      },
+      "2025-05": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 5,
+                "bbc": 11,
+                "guardian": 16
+              },
+              "1": {
+                "aljazeera": 4,
+                "bbc": 5,
+                "guardian": 31
+              },
+              "2": {
+                "aljazeera": 7,
+                "bbc": 10,
+                "guardian": 10
+              }
+            },
+            "cutoffs_words_inclusive": [
+              550,
+              831
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              5,
+              4,
+              7
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 8,
+                "bbc": 12,
+                "guardian": 31
+              },
+              "1": {
+                "aljazeera": 8,
+                "bbc": 14,
+                "guardian": 26
+              }
+            },
+            "cutoffs_words_inclusive": [
+              675
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              8,
+              8
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 8,
+            "bbc": 12,
+            "guardian": 31
+          },
+          "1": {
+            "aljazeera": 8,
+            "bbc": 14,
+            "guardian": 26
+          }
+        },
+        "cutoffs_words_inclusive": [
+          675
+        ],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          8,
+          8
+        ],
+        "num_length_bins": 2
+      },
+      "2025-06": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 1,
+                "bbc": 2,
+                "guardian": 3
+              },
+              "1": {
+                "aljazeera": 1,
+                "bbc": 0,
+                "guardian": 5
+              },
+              "2": {
+                "aljazeera": 0,
+                "bbc": 2,
+                "guardian": 7
+              }
+            },
+            "cutoffs_words_inclusive": [
+              494,
+              601
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              1,
+              0,
+              0
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 2,
+                "bbc": 2,
+                "guardian": 4
+              },
+              "1": {
+                "aljazeera": 0,
+                "bbc": 2,
+                "guardian": 11
+              }
+            },
+            "cutoffs_words_inclusive": [
+              522
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              2,
+              0
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 2,
+                "bbc": 4,
+                "guardian": 15
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              2
+            ],
+            "passed": false
+          }
+        ],
+        "counts_by_bin_portal": {},
+        "cutoffs_words_inclusive": [],
+        "eligible": false,
+        "exclusion_reason": "month cannot satisfy minimum balanced support T=7; aljazeera=2, bbc=4, guardian=15",
+        "minimum_portal_count_by_bin": [],
+        "num_length_bins": 0
+      },
+      "2025-07": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 5,
+                "bbc": 6,
+                "guardian": 18
+              },
+              "1": {
+                "aljazeera": 5,
+                "bbc": 9,
+                "guardian": 11
+              },
+              "2": {
+                "aljazeera": 10,
+                "bbc": 4,
+                "guardian": 11
+              }
+            },
+            "cutoffs_words_inclusive": [
+              633,
+              901
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              5,
+              5,
+              4
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 7,
+                "bbc": 11,
+                "guardian": 23
+              },
+              "1": {
+                "aljazeera": 13,
+                "bbc": 8,
+                "guardian": 17
+              }
+            },
+            "cutoffs_words_inclusive": [
+              741
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              7,
+              8
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 7,
+            "bbc": 11,
+            "guardian": 23
+          },
+          "1": {
+            "aljazeera": 13,
+            "bbc": 8,
+            "guardian": 17
+          }
+        },
+        "cutoffs_words_inclusive": [
+          741
+        ],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          7,
+          8
+        ],
+        "num_length_bins": 2
+      },
+      "2025-08": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 5,
+                "bbc": 3,
+                "guardian": 14
+              },
+              "1": {
+                "aljazeera": 2,
+                "bbc": 5,
+                "guardian": 23
+              },
+              "2": {
+                "aljazeera": 2,
+                "bbc": 10,
+                "guardian": 10
+              }
+            },
+            "cutoffs_words_inclusive": [
+              572,
+              826
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              3,
+              2,
+              2
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 5,
+                "bbc": 8,
+                "guardian": 24
+              },
+              "1": {
+                "aljazeera": 4,
+                "bbc": 10,
+                "guardian": 23
+              }
+            },
+            "cutoffs_words_inclusive": [
+              696
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              5,
+              4
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 9,
+                "bbc": 18,
+                "guardian": 47
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              9
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 9,
+            "bbc": 18,
+            "guardian": 47
+          }
+        },
+        "cutoffs_words_inclusive": [],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          9
+        ],
+        "num_length_bins": 1
+      },
+      "2025-09": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 8,
+                "bbc": 7,
+                "guardian": 9
+              },
+              "1": {
+                "aljazeera": 1,
+                "bbc": 12,
+                "guardian": 19
+              },
+              "2": {
+                "aljazeera": 6,
+                "bbc": 7,
+                "guardian": 12
+              }
+            },
+            "cutoffs_words_inclusive": [
+              534,
+              739
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              7,
+              1,
+              6
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 9,
+                "bbc": 13,
+                "guardian": 16
+              },
+              "1": {
+                "aljazeera": 6,
+                "bbc": 13,
+                "guardian": 24
+              }
+            },
+            "cutoffs_words_inclusive": [
+              612
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              9,
+              6
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 15,
+                "bbc": 26,
+                "guardian": 40
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              15
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 15,
+            "bbc": 26,
+            "guardian": 40
+          }
+        },
+        "cutoffs_words_inclusive": [],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          15
+        ],
+        "num_length_bins": 1
+      },
+      "2025-10": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 4,
+                "bbc": 6,
+                "guardian": 16
+              },
+              "1": {
+                "aljazeera": 4,
+                "bbc": 6,
+                "guardian": 17
+              },
+              "2": {
+                "aljazeera": 3,
+                "bbc": 8,
+                "guardian": 13
+              }
+            },
+            "cutoffs_words_inclusive": [
+              547,
+              781
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              4,
+              4,
+              3
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 6,
+                "bbc": 8,
+                "guardian": 26
+              },
+              "1": {
+                "aljazeera": 5,
+                "bbc": 12,
+                "guardian": 20
+              }
+            },
+            "cutoffs_words_inclusive": [
+              637
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              6,
+              5
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 11,
+                "bbc": 20,
+                "guardian": 46
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              11
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 11,
+            "bbc": 20,
+            "guardian": 46
+          }
+        },
+        "cutoffs_words_inclusive": [],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          11
+        ],
+        "num_length_bins": 1
+      },
+      "2025-11": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 6,
+                "bbc": 1,
+                "guardian": 14
+              },
+              "1": {
+                "aljazeera": 2,
+                "bbc": 10,
+                "guardian": 11
+              },
+              "2": {
+                "aljazeera": 1,
+                "bbc": 11,
+                "guardian": 12
+              }
+            },
+            "cutoffs_words_inclusive": [
+              583,
+              788
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              1,
+              2,
+              1
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 8,
+                "bbc": 3,
+                "guardian": 18
+              },
+              "1": {
+                "aljazeera": 1,
+                "bbc": 19,
+                "guardian": 19
+              }
+            },
+            "cutoffs_words_inclusive": [
+              674
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              3,
+              1
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 9,
+                "bbc": 22,
+                "guardian": 37
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              9
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 9,
+            "bbc": 22,
+            "guardian": 37
+          }
+        },
+        "cutoffs_words_inclusive": [],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          9
+        ],
+        "num_length_bins": 1
+      },
+      "2025-12": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 6,
+                "bbc": 7,
+                "guardian": 4
+              },
+              "1": {
+                "aljazeera": 1,
+                "bbc": 5,
+                "guardian": 21
+              },
+              "2": {
+                "aljazeera": 3,
+                "bbc": 7,
+                "guardian": 10
+              }
+            },
+            "cutoffs_words_inclusive": [
+              535,
+              757
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              4,
+              1,
+              3
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 7,
+                "bbc": 9,
+                "guardian": 12
+              },
+              "1": {
+                "aljazeera": 3,
+                "bbc": 10,
+                "guardian": 23
+              }
+            },
+            "cutoffs_words_inclusive": [
+              623
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              7,
+              3
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 10,
+                "bbc": 19,
+                "guardian": 35
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              10
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 10,
+            "bbc": 19,
+            "guardian": 35
+          }
+        },
+        "cutoffs_words_inclusive": [],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          10
+        ],
+        "num_length_bins": 1
+      },
+      "2026-01": {
+        "attempts": [
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 6,
+                "bbc": 1,
+                "guardian": 12
+              },
+              "1": {
+                "aljazeera": 1,
+                "bbc": 5,
+                "guardian": 15
+              },
+              "2": {
+                "aljazeera": 4,
+                "bbc": 5,
+                "guardian": 5
+              }
+            },
+            "cutoffs_words_inclusive": [
+              551,
+              736
+            ],
+            "k": 3,
+            "minimum_portal_count_by_bin": [
+              1,
+              1,
+              4
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 7,
+                "bbc": 4,
+                "guardian": 18
+              },
+              "1": {
+                "aljazeera": 4,
+                "bbc": 7,
+                "guardian": 14
+              }
+            },
+            "cutoffs_words_inclusive": [
+              645
+            ],
+            "k": 2,
+            "minimum_portal_count_by_bin": [
+              4,
+              4
+            ],
+            "passed": false
+          },
+          {
+            "counts_by_bin_portal": {
+              "0": {
+                "aljazeera": 11,
+                "bbc": 11,
+                "guardian": 32
+              }
+            },
+            "cutoffs_words_inclusive": [],
+            "k": 1,
+            "minimum_portal_count_by_bin": [
+              11
+            ],
+            "passed": true
+          }
+        ],
+        "counts_by_bin_portal": {
+          "0": {
+            "aljazeera": 11,
+            "bbc": 11,
+            "guardian": 32
+          }
+        },
+        "cutoffs_words_inclusive": [],
+        "eligible": true,
+        "minimum_portal_count_by_bin": [
+          11
+        ],
+        "num_length_bins": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "actual_corpus_sha256": "c07d1fcc31fb3fe5e92a308f95e2ea6578c391b6cb6a3d38216573c0e1c6e12e",
+  "actual_manifest_sha256": "282e1544747c4fe06898a7250043c6d813a8d890b9c88bd40e47bc5f7046ba9f",
+  "cublas_workspace_config": ":4096:8",
+  "cuda_available": true,
+  "cuda_device_name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "cuda_runtime": "11.8",
+  "deterministic_algorithms_enabled": true,
+  "deterministic_algorithms_warn_only": false,
+  "device": "cuda",
+  "ft_protocol_hash": "3f31db7ebf13f3e6857f609c56aae0cfcf02891b835e5c2dacfe15e18d25c8e3",
+  "ft_protocol_revision_file": "modeling_results/roberta_transformer_final/FT_PROTOCOL_REVISION.json",
+  "gpu_total_memory_bytes": 6441926656,
+  "numpy": "2.2.1",
+  "pandas": "2.3.3",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "protocol_hash": "5fa51702be769922b580121397830bc7c99f9a614e6aca58ff8f850629124ba1",
+  "python": "3.11.11 (main, Dec 11 2024, 16:28:39) [GCC 11.2.0]",
+  "sklearn": "1.6.1",
+  "torch": "2.5.1",
+  "transformers": "5.16.1"
+}

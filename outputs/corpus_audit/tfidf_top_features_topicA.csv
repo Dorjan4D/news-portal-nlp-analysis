@@ -1,0 +1,151 @@
+topic,portal,rank,feature,coefficient
+topicA,aljazeera,1,united,2.049227898143688
+topicA,aljazeera,2,captives,1.914985116396066
+topicA,aljazeera,3,enclave,1.5603873136724196
+topicA,aljazeera,4,united states,1.5086731374228148
+topicA,aljazeera,5,war on,1.466597103255078
+topicA,aljazeera,6,the united,1.3946254282132875
+topicA,aljazeera,7,on gaza,1.3712132909411547
+topicA,aljazeera,8,united nations,1.3174053380411443
+topicA,aljazeera,9,nations,1.156677572394301
+topicA,aljazeera,10,states,1.1440373607763028
+topicA,aljazeera,11,the enclave,1.133598003367113
+topicA,aljazeera,12,israeli captives,0.9821858509129952
+topicA,aljazeera,13,israel war,0.9603403067801223
+topicA,aljazeera,14,percent,0.9333116360848466
+topicA,aljazeera,15,ministry of,0.8926210293684076
+topicA,aljazeera,16,captive,0.8801167142133204
+topicA,aljazeera,17,the captives,0.8527368299537452
+topicA,aljazeera,18,percent of,0.7139016965714746
+topicA,aljazeera,19,israeli army,0.6791325597568575
+topicA,aljazeera,20,states president,0.6540681838994831
+topicA,aljazeera,21,assault,0.6218801834409361
+topicA,aljazeera,22,palestinian group,0.6101124876377135
+topicA,aljazeera,23,kingdom,0.5992332108566739
+topicA,aljazeera,24,united kingdom,0.5918126797103515
+topicA,aljazeera,25,el,0.5907512640207998
+topicA,aljazeera,26,attacks,0.5876560690358539
+topicA,aljazeera,27,the besieged,0.583510133968953
+topicA,aljazeera,28,palestinians,0.5809447438678446
+topicA,aljazeera,29,of foreign,0.5586239587455355
+topicA,aljazeera,30,besieged,0.5530196187633722
+topicA,aljazeera,31,news agency,0.5378051851877784
+topicA,aljazeera,32,israeli forces,0.5321921533160886
+topicA,aljazeera,33,captives in,0.5235980877783324
+topicA,aljazeera,34,army,0.5181841595109716
+topicA,aljazeera,35,president donald,0.5147062277028257
+topicA,aljazeera,36,139,0.5123076330509253
+topicA,aljazeera,37,the palestinian,0.5054398098924008
+topicA,aljazeera,38,raids,0.50527748050037
+topicA,aljazeera,39,139 people,0.5049335044486323
+topicA,aljazeera,40,syria,0.5047324559416491
+topicA,aljazeera,41,occupied west,0.49789544224191157
+topicA,aljazeera,42,despite,0.48991155267227854
+topicA,aljazeera,43,continued,0.4843423977301181
+topicA,aljazeera,44,assault on,0.48424797954331283
+topicA,aljazeera,45,news,0.470084763172773
+topicA,aljazeera,46,abu,0.46983596479972284
+topicA,aljazeera,47,occupied,0.4651358608914633
+topicA,aljazeera,48,israeli attacks,0.4650343638645732
+topicA,aljazeera,49,taken captive,0.46372386819636785
+topicA,aljazeera,50,the occupied,0.4593288523499656
+topicA,bbc,1,hamas run,1.7192677035690975
+topicA,bbc,2,mr,1.6277460707607239
+topicA,bbc,3,run health,1.5316058188974415
+topicA,bbc,4,run,1.4886502168231317
+topicA,bbc,5,says,1.4117360153864804
+topicA,bbc,6,251,1.1515784445960948
+topicA,bbc,7,sir,0.9979840189513808
+topicA,bbc,8,and 251,0.9826321184355504
+topicA,bbc,9,251 others,0.9597945291130845
+topicA,bbc,10,the hamas,0.9579301481169601
+topicA,bbc,11,health ministry,0.9465805432254969
+topicA,bbc,12,sir keir,0.9362544240778371
+topicA,bbc,13,200 people,0.9150215521260067
+topicA,bbc,14,since then,0.9115744244964391
+topicA,bbc,15,ms,0.9109289069563501
+topicA,bbc,16,idf,0.9016370283757167
+topicA,bbc,17,about 200,0.8553449549537608
+topicA,bbc,18,idf said,0.8394368367414126
+topicA,bbc,19,spokesman,0.8106237057134595
+topicA,bbc,20,territory hamas,0.8010904314124117
+topicA,bbc,21,people were,0.7980356504725298
+topicA,bbc,22,response,0.7626338763453624
+topicA,bbc,23,which about,0.7546624485164909
+topicA,bbc,24,in response,0.7503547572514793
+topicA,bbc,25,200,0.7503509415505671
+topicA,bbc,26,hostages,0.7309285162076925
+topicA,bbc,27,air strike,0.7226580714579539
+topicA,bbc,28,taken hostage,0.698889062270829
+topicA,bbc,29,uk,0.6930867853458915
+topicA,bbc,30,air strikes,0.6903981706533681
+topicA,bbc,31,hostage,0.6839156989789278
+topicA,bbc,32,response to,0.6822531606742467
+topicA,bbc,33,gazans,0.6726973844248412
+topicA,bbc,34,others,0.6538186083247095
+topicA,bbc,35,air,0.6430083439797717
+topicA,bbc,36,forces idf,0.6374783991398961
+topicA,bbc,37,the idf,0.6136631127556527
+topicA,bbc,38,campaign in,0.6110259164078383
+topicA,bbc,39,then according,0.6090949822672028
+topicA,bbc,40,were killed,0.6079303147599914
+topicA,bbc,41,hamas,0.6057388539674444
+topicA,bbc,42,people have,0.5763517261992249
+topicA,bbc,43,co,0.5752692212153198
+topicA,bbc,44,others were,0.5717886999176015
+topicA,bbc,45,launched campaign,0.5682956521707306
+topicA,bbc,46,peace plan,0.5662693171146385
+topicA,bbc,47,said it,0.5643629808051907
+topicA,bbc,48,it says,0.5591902149525279
+topicA,bbc,49,mr netanyahu,0.5405806994981014
+topicA,bbc,50,it had,0.5317562999738977
+topicA,guardian,1,militants,1.589696066339974
+topicA,guardian,2,airstrikes,1.4829295682232793
+topicA,guardian,3,airstrike,1.168552826857315
+topicA,guardian,4,militant,1.1634119218667862
+topicA,guardian,5,spokesperson,0.9299981283627029
+topicA,guardian,6,militant group,0.8216319793027456
+topicA,guardian,7,mostly,0.7786289637889738
+topicA,guardian,8,mostly civilians,0.7294576394999074
+topicA,guardian,9,officials,0.7193988799481608
+topicA,guardian,10,hostages,0.6229994147363018
+topicA,guardian,11,israeli airstrike,0.6165072038237812
+topicA,guardian,12,rightwing,0.5783152035020198
+topicA,guardian,13,last week,0.5713963085023197
+topicA,guardian,14,did not,0.56699976879733
+topicA,guardian,15,israeli airstrikes,0.5647158979952658
+topicA,guardian,16,such,0.5332062682070348
+topicA,guardian,17,deaths,0.5302426881677151
+topicA,guardian,18,week,0.5282554844937697
+topicA,guardian,19,the french,0.5234934270530448
+topicA,guardian,20,led militants,0.5179939568081253
+topicA,guardian,21,australian,0.5125016522577809
+topicA,guardian,22,the militant,0.509846856708072
+topicA,guardian,23,press,0.5070620763195521
+topicA,guardian,24,the us,0.4957979013349811
+topicA,guardian,25,the prime,0.4930571198091437
+topicA,guardian,26,palestinian militant,0.4910404703734524
+topicA,guardian,27,bombing,0.4909829933082442
+topicA,guardian,28,had,0.4799195562335362
+topicA,guardian,29,israeli troops,0.474188213827767
+topicA,guardian,30,it was,0.4691569557089577
+topicA,guardian,31,jabaliya,0.4686005004937247
+topicA,guardian,32,hamas militants,0.4650316927734684
+topicA,guardian,33,in effect,0.4624490198623325
+topicA,guardian,34,officials said,0.45180509563982596
+topicA,guardian,35,said on,0.451581607001814
+topicA,guardian,36,only,0.44741321033406023
+topicA,guardian,37,such as,0.4441742785645691
+topicA,guardian,38,13,0.4427802511624813
+topicA,guardian,39,force,0.442465341084506
+topicA,guardian,40,and the,0.4398659916961579
+topicA,guardian,41,them civilians,0.43882671919472765
+topicA,guardian,42,much of,0.4386644133972034
+topicA,guardian,43,increase,0.43401469308718044
+topicA,guardian,44,in south,0.4322644764698662
+topicA,guardian,45,deaths of,0.43043193321168355
+topicA,guardian,46,militants killed,0.425522385229388
+topicA,guardian,47,meet,0.4233763829200918
+topicA,guardian,48,an airstrike,0.42337452278331156
+topicA,guardian,49,civilian,0.42289188156664553
+topicA,guardian,50,around the,0.42285174897050787

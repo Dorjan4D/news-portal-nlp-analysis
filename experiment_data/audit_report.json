@@ -1,0 +1,772 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "all_accepted_pre_split_cells_meet_threshold": true,
+    "all_balance_weights_positive_and_at_most_one": true,
+    "all_eligible_assigned_exactly_one_split": true,
+    "all_excluded_have_excluded_split": true,
+    "all_split_strata_contain_all_portals": true,
+    "balance_weights_equalize_portal_mass_within_each_split_stratum": true,
+    "eligible_plus_excluded_equals_frozen": true,
+    "input_sha256_matches": true,
+    "manifest_has_every_frozen_article_once": true,
+    "no_non_singleton_duplicate_groups": true,
+    "split_preserves_all_pre_split_balanced_capacity": true
+  },
+  "input_corpus_sha256": "c07d1fcc31fb3fe5e92a308f95e2ea6578c391b6cb6a3d38216573c0e1c6e12e",
+  "n_eligible": 2567,
+  "n_excluded": 197,
+  "n_frozen": 2764,
+  "weight_mass_by_split_stratum": {
+    "test|topicA|2024-08|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicA|2024-08|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicA|2024-09|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicA|2024-09|1": {
+      "aljazeera": 1.0,
+      "bbc": 1.0,
+      "guardian": 1.0
+    },
+    "test|topicA|2024-10|0": {
+      "aljazeera": 3.0,
+      "bbc": 3.0,
+      "guardian": 3.0
+    },
+    "test|topicA|2024-10|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicA|2024-11|0": {
+      "aljazeera": 1.0,
+      "bbc": 1.0,
+      "guardian": 1.0
+    },
+    "test|topicA|2024-11|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicA|2024-12|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicA|2025-01|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicA|2025-01|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 1.9999999999999998
+    },
+    "test|topicA|2025-02|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicA|2025-02|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicA|2025-03|0": {
+      "aljazeera": 1.0,
+      "bbc": 1.0,
+      "guardian": 1.0
+    },
+    "test|topicA|2025-03|1": {
+      "aljazeera": 1.0,
+      "bbc": 1.0,
+      "guardian": 1.0
+    },
+    "test|topicA|2025-04|0": {
+      "aljazeera": 3.0,
+      "bbc": 3.0,
+      "guardian": 3.0
+    },
+    "test|topicA|2025-05|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicA|2025-05|1": {
+      "aljazeera": 3.0,
+      "bbc": 3.0,
+      "guardian": 3.0
+    },
+    "test|topicA|2025-06|0": {
+      "aljazeera": 1.9999999999999998,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicA|2025-07|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicA|2025-07|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicA|2025-08|0": {
+      "aljazeera": 1.9999999999999998,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicA|2025-08|1": {
+      "aljazeera": 3.0,
+      "bbc": 3.0,
+      "guardian": 3.0
+    },
+    "test|topicA|2025-09|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicA|2025-09|1": {
+      "aljazeera": 3.0,
+      "bbc": 3.0,
+      "guardian": 3.0
+    },
+    "test|topicA|2025-10|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicA|2025-10|1": {
+      "aljazeera": 3.0,
+      "bbc": 3.0,
+      "guardian": 3.0
+    },
+    "test|topicA|2025-10|2": {
+      "aljazeera": 1.0,
+      "bbc": 1.0,
+      "guardian": 1.0
+    },
+    "test|topicA|2025-11|0": {
+      "aljazeera": 1.0,
+      "bbc": 1.0,
+      "guardian": 1.0
+    },
+    "test|topicA|2025-11|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicA|2025-12|0": {
+      "aljazeera": 1.9999999999999996,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicB|2024-09|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 1.9999999999999998
+    },
+    "test|topicB|2024-11|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0000000000000004
+    },
+    "test|topicB|2024-12|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicB|2025-01|0": {
+      "aljazeera": 1.0,
+      "bbc": 1.0,
+      "guardian": 1.0000000000000002
+    },
+    "test|topicB|2025-02|0": {
+      "aljazeera": 3.0,
+      "bbc": 3.0,
+      "guardian": 3.0
+    },
+    "test|topicB|2025-03|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 1.9999999999999998
+    },
+    "test|topicB|2025-04|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 1.9999999999999996
+    },
+    "test|topicB|2025-04|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0000000000000004
+    },
+    "test|topicB|2025-04|2": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicB|2025-05|0": {
+      "aljazeera": 1.0,
+      "bbc": 1.0,
+      "guardian": 1.0
+    },
+    "test|topicB|2025-05|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicB|2025-07|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "test|topicB|2025-07|1": {
+      "aljazeera": 1.0,
+      "bbc": 1.0,
+      "guardian": 1.0
+    },
+    "test|topicB|2025-08|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0000000000000004
+    },
+    "test|topicB|2025-09|0": {
+      "aljazeera": 3.0,
+      "bbc": 3.0,
+      "guardian": 3.0
+    },
+    "test|topicB|2025-10|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0000000000000004
+    },
+    "test|topicB|2025-11|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 1.9999999999999996
+    },
+    "test|topicB|2025-12|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 1.9999999999999996
+    },
+    "test|topicB|2026-01|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 1.9999999999999998
+    },
+    "train|topicA|2024-08|0": {
+      "aljazeera": 4.999999999999999,
+      "bbc": 5.0,
+      "guardian": 5.0
+    },
+    "train|topicA|2024-08|1": {
+      "aljazeera": 5.0,
+      "bbc": 5.0,
+      "guardian": 5.0
+    },
+    "train|topicA|2024-09|0": {
+      "aljazeera": 4.999999999999999,
+      "bbc": 5.0,
+      "guardian": 5.0
+    },
+    "train|topicA|2024-09|1": {
+      "aljazeera": 4.0,
+      "bbc": 3.9999999999999996,
+      "guardian": 4.000000000000001
+    },
+    "train|topicA|2024-10|0": {
+      "aljazeera": 6.999999999999999,
+      "bbc": 7.0,
+      "guardian": 7.0
+    },
+    "train|topicA|2024-10|1": {
+      "aljazeera": 6.0,
+      "bbc": 6.0,
+      "guardian": 5.999999999999998
+    },
+    "train|topicA|2024-11|0": {
+      "aljazeera": 3.9999999999999996,
+      "bbc": 4.0,
+      "guardian": 3.9999999999999996
+    },
+    "train|topicA|2024-11|1": {
+      "aljazeera": 7.0,
+      "bbc": 7.0,
+      "guardian": 7.0
+    },
+    "train|topicA|2024-12|0": {
+      "aljazeera": 6.0,
+      "bbc": 6.0,
+      "guardian": 5.999999999999999
+    },
+    "train|topicA|2025-01|0": {
+      "aljazeera": 7.000000000000001,
+      "bbc": 7.0,
+      "guardian": 7.0
+    },
+    "train|topicA|2025-01|1": {
+      "aljazeera": 3.9999999999999996,
+      "bbc": 4.0,
+      "guardian": 3.9999999999999987
+    },
+    "train|topicA|2025-02|0": {
+      "aljazeera": 4.000000000000001,
+      "bbc": 3.9999999999999996,
+      "guardian": 4.0
+    },
+    "train|topicA|2025-02|1": {
+      "aljazeera": 5.0,
+      "bbc": 5.0,
+      "guardian": 5.0
+    },
+    "train|topicA|2025-03|0": {
+      "aljazeera": 4.0,
+      "bbc": 3.9999999999999996,
+      "guardian": 4.0
+    },
+    "train|topicA|2025-03|1": {
+      "aljazeera": 4.0,
+      "bbc": 4.0,
+      "guardian": 4.000000000000001
+    },
+    "train|topicA|2025-04|0": {
+      "aljazeera": 8.999999999999998,
+      "bbc": 9.0,
+      "guardian": 9.0
+    },
+    "train|topicA|2025-05|0": {
+      "aljazeera": 5.999999999999998,
+      "bbc": 6.0,
+      "guardian": 6.0
+    },
+    "train|topicA|2025-05|1": {
+      "aljazeera": 8.0,
+      "bbc": 8.000000000000002,
+      "guardian": 8.000000000000002
+    },
+    "train|topicA|2025-06|0": {
+      "aljazeera": 4.999999999999999,
+      "bbc": 5.0,
+      "guardian": 5.0
+    },
+    "train|topicA|2025-07|0": {
+      "aljazeera": 6.0,
+      "bbc": 6.0,
+      "guardian": 6.0
+    },
+    "train|topicA|2025-07|1": {
+      "aljazeera": 7.0,
+      "bbc": 7.000000000000001,
+      "guardian": 7.0
+    },
+    "train|topicA|2025-08|0": {
+      "aljazeera": 7.000000000000003,
+      "bbc": 7.0,
+      "guardian": 7.0
+    },
+    "train|topicA|2025-08|1": {
+      "aljazeera": 8.000000000000002,
+      "bbc": 8.0,
+      "guardian": 7.999999999999997
+    },
+    "train|topicA|2025-09|0": {
+      "aljazeera": 7.000000000000001,
+      "bbc": 7.0,
+      "guardian": 6.999999999999999
+    },
+    "train|topicA|2025-09|1": {
+      "aljazeera": 7.999999999999998,
+      "bbc": 8.0,
+      "guardian": 8.0
+    },
+    "train|topicA|2025-10|0": {
+      "aljazeera": 7.000000000000001,
+      "bbc": 7.000000000000001,
+      "guardian": 7.0
+    },
+    "train|topicA|2025-10|1": {
+      "aljazeera": 8.000000000000002,
+      "bbc": 8.0,
+      "guardian": 7.999999999999999
+    },
+    "train|topicA|2025-10|2": {
+      "aljazeera": 4.999999999999999,
+      "bbc": 5.0,
+      "guardian": 4.999999999999999
+    },
+    "train|topicA|2025-11|0": {
+      "aljazeera": 4.000000000000001,
+      "bbc": 4.0,
+      "guardian": 4.0
+    },
+    "train|topicA|2025-11|1": {
+      "aljazeera": 3.9999999999999996,
+      "bbc": 4.0,
+      "guardian": 3.999999999999999
+    },
+    "train|topicA|2025-12|0": {
+      "aljazeera": 5.0,
+      "bbc": 5.0,
+      "guardian": 5.0
+    },
+    "train|topicB|2024-09|0": {
+      "aljazeera": 5.0,
+      "bbc": 4.999999999999999,
+      "guardian": 4.999999999999999
+    },
+    "train|topicB|2024-11|0": {
+      "aljazeera": 6.0,
+      "bbc": 5.999999999999999,
+      "guardian": 6.000000000000002
+    },
+    "train|topicB|2024-12|0": {
+      "aljazeera": 5.0,
+      "bbc": 5.0,
+      "guardian": 4.999999999999999
+    },
+    "train|topicB|2025-01|0": {
+      "aljazeera": 5.0,
+      "bbc": 5.0,
+      "guardian": 5.0
+    },
+    "train|topicB|2025-02|0": {
+      "aljazeera": 7.0,
+      "bbc": 7.000000000000001,
+      "guardian": 7.0000000000000036
+    },
+    "train|topicB|2025-03|0": {
+      "aljazeera": 7.0,
+      "bbc": 7.0,
+      "guardian": 6.999999999999996
+    },
+    "train|topicB|2025-04|0": {
+      "aljazeera": 6.0,
+      "bbc": 5.999999999999999,
+      "guardian": 5.999999999999998
+    },
+    "train|topicB|2025-04|1": {
+      "aljazeera": 4.0,
+      "bbc": 4.000000000000001,
+      "guardian": 3.9999999999999996
+    },
+    "train|topicB|2025-04|2": {
+      "aljazeera": 6.0,
+      "bbc": 5.999999999999998,
+      "guardian": 5.999999999999998
+    },
+    "train|topicB|2025-05|0": {
+      "aljazeera": 5.0,
+      "bbc": 5.0,
+      "guardian": 5.000000000000001
+    },
+    "train|topicB|2025-05|1": {
+      "aljazeera": 5.0,
+      "bbc": 4.999999999999999,
+      "guardian": 5.0
+    },
+    "train|topicB|2025-07|0": {
+      "aljazeera": 4.0,
+      "bbc": 3.9999999999999996,
+      "guardian": 3.9999999999999987
+    },
+    "train|topicB|2025-07|1": {
+      "aljazeera": 5.0,
+      "bbc": 5.0,
+      "guardian": 5.0
+    },
+    "train|topicB|2025-08|0": {
+      "aljazeera": 5.0,
+      "bbc": 5.0,
+      "guardian": 4.999999999999999
+    },
+    "train|topicB|2025-09|0": {
+      "aljazeera": 9.0,
+      "bbc": 9.0,
+      "guardian": 9.0
+    },
+    "train|topicB|2025-10|0": {
+      "aljazeera": 7.0,
+      "bbc": 6.999999999999999,
+      "guardian": 7.0
+    },
+    "train|topicB|2025-11|0": {
+      "aljazeera": 5.0,
+      "bbc": 5.000000000000001,
+      "guardian": 4.999999999999999
+    },
+    "train|topicB|2025-12|0": {
+      "aljazeera": 6.0,
+      "bbc": 5.999999999999998,
+      "guardian": 5.999999999999998
+    },
+    "train|topicB|2026-01|0": {
+      "aljazeera": 7.0,
+      "bbc": 7.0,
+      "guardian": 6.999999999999997
+    },
+    "validation|topicA|2024-08|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2024-08|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2024-09|0": {
+      "aljazeera": 1.0,
+      "bbc": 1.0,
+      "guardian": 1.0
+    },
+    "validation|topicA|2024-09|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2024-10|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2024-10|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2024-11|0": {
+      "aljazeera": 1.9999999999999998,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2024-11|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2024-12|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2025-01|0": {
+      "aljazeera": 3.0,
+      "bbc": 3.0,
+      "guardian": 3.0
+    },
+    "validation|topicA|2025-01|1": {
+      "aljazeera": 1.0,
+      "bbc": 1.0,
+      "guardian": 1.0
+    },
+    "validation|topicA|2025-02|0": {
+      "aljazeera": 1.0,
+      "bbc": 1.0,
+      "guardian": 1.0
+    },
+    "validation|topicA|2025-02|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2025-03|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2025-03|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2025-04|0": {
+      "aljazeera": 3.0,
+      "bbc": 3.0,
+      "guardian": 3.0
+    },
+    "validation|topicA|2025-05|0": {
+      "aljazeera": 1.9999999999999998,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2025-05|1": {
+      "aljazeera": 3.0,
+      "bbc": 3.0,
+      "guardian": 3.0
+    },
+    "validation|topicA|2025-06|0": {
+      "aljazeera": 1.0,
+      "bbc": 1.0,
+      "guardian": 1.0
+    },
+    "validation|topicA|2025-07|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2025-07|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2025-08|0": {
+      "aljazeera": 1.9999999999999998,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2025-08|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2025-09|0": {
+      "aljazeera": 3.0,
+      "bbc": 3.0,
+      "guardian": 3.0
+    },
+    "validation|topicA|2025-09|1": {
+      "aljazeera": 3.0,
+      "bbc": 3.0,
+      "guardian": 3.0
+    },
+    "validation|topicA|2025-10|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2025-10|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2025-10|2": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2025-11|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicA|2025-11|1": {
+      "aljazeera": 1.0,
+      "bbc": 1.0,
+      "guardian": 1.0
+    },
+    "validation|topicA|2025-12|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicB|2024-09|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 1.9999999999999998
+    },
+    "validation|topicB|2024-11|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 1.9999999999999998
+    },
+    "validation|topicB|2024-12|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicB|2025-01|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 1.9999999999999998
+    },
+    "validation|topicB|2025-02|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicB|2025-03|0": {
+      "aljazeera": 3.0,
+      "bbc": 3.0,
+      "guardian": 2.999999999999999
+    },
+    "validation|topicB|2025-04|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 1.9999999999999996
+    },
+    "validation|topicB|2025-04|1": {
+      "aljazeera": 1.0,
+      "bbc": 1.0,
+      "guardian": 0.9999999999999999
+    },
+    "validation|topicB|2025-04|2": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 1.9999999999999998
+    },
+    "validation|topicB|2025-05|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 1.9999999999999996
+    },
+    "validation|topicB|2025-05|1": {
+      "aljazeera": 1.0,
+      "bbc": 1.0,
+      "guardian": 1.0
+    },
+    "validation|topicB|2025-07|0": {
+      "aljazeera": 1.0,
+      "bbc": 1.0,
+      "guardian": 1.0
+    },
+    "validation|topicB|2025-07|1": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicB|2025-08|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 1.9999999999999998
+    },
+    "validation|topicB|2025-09|0": {
+      "aljazeera": 3.0,
+      "bbc": 3.0,
+      "guardian": 3.0
+    },
+    "validation|topicB|2025-10|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0000000000000004
+    },
+    "validation|topicB|2025-11|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 2.0
+    },
+    "validation|topicB|2025-12|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 1.9999999999999996
+    },
+    "validation|topicB|2026-01|0": {
+      "aljazeera": 2.0,
+      "bbc": 2.0,
+      "guardian": 1.9999999999999998
+    }
+  }
+}

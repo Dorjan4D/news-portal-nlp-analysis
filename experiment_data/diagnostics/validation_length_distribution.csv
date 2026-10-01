@@ -1,0 +1,13 @@
+topic,weighting,portal,n_articles,effective_weight,weighted_mean_body_words,weighted_q25_body_words,weighted_median_body_words,weighted_q75_body_words
+topicA,month_only,aljazeera,111,66.00000000000009,737.6279220779221,510.0,672.0,941.0
+topicA,month_only,bbc,68,66.0,797.7303030303029,627.0,760.0,994.0
+topicA,month_only,guardian,93,66.00000000000003,831.1936688311688,645.0,818.0,985.0
+topicA,month_plus_length,aljazeera,111,62.000000000000014,790.7330645161289,534.0,757.0,998.0
+topicA,month_plus_length,bbc,68,61.999999999999986,793.1639784946236,627.0,745.0,994.0
+topicA,month_plus_length,guardian,93,61.99999999999999,804.8922043010754,632.0,792.0,973.0
+topicB,month_only,aljazeera,38,38.0,797.9736842105264,486.0,674.0,1116.0
+topicB,month_only,bbc,66,38.0,751.205980861244,569.0,709.0,908.0
+topicB,month_only,guardian,141,37.99999999999999,711.0497952721066,538.0,679.0,810.0
+topicB,month_plus_length,aljazeera,38,37.0,787.1801801801801,486.0,674.0,1116.0
+topicB,month_plus_length,bbc,66,37.0,753.4207207207207,569.0,710.0,908.0
+topicB,month_plus_length,guardian,141,36.99999999999999,719.2535080535083,534.0,674.0,841.0

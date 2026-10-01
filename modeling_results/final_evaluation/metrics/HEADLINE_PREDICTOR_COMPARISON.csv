@@ -1,0 +1,53 @@
+display_model,model_key,family,source_topic,target_topic,direction,weighted_macro_f1,weighted_accuracy,raw_macro_f1,raw_accuracy,detail,result_kind
+Direct TF-IDF classical,direct_classical__linear_svc,direct_classical,topicA,topicA,topicA_to_topicA,0.8740762872437449,0.8727598566308244,0.88333455567779,0.8861209964412812,linear_svc,single selected model
+Weighted-SVD classical,svd_classical__linear_svc,svd_classical,topicA,topicA,topicA_to_topicA,0.8496529758555628,0.8473118279569892,0.868823724477711,0.8718861209964412,linear_svc,single selected model
+Direct TF-IDF MLP,direct_mlp,direct_mlp,topicA,topicA,topicA_to_topicA,0.900711455205752,0.899372759856631,0.9050917348073152,0.9074733096085409,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+Weighted-SVD MLP,svd_mlp,svd_mlp,topicA,topicA,topicA_to_topicA,0.8755277334572007,0.8746415770609319,0.8940758413909028,0.900355871886121,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+FE-512,FE-512,FE,topicA,topicA,topicA_to_topicA,0.6552945598807746,0.654621095750128,0.6595295073203301,0.6690391459074733,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+FE-MEAN,FE-MEAN,FE,topicA,topicA,topicA_to_topicA,0.7504700356294519,0.7471966205837174,0.7543826568842943,0.7544483985765125,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+FE-ATTN,FE-ATTN,FE,topicA,topicA,topicA_to_topicA,0.6328559226519569,0.6320532514080901,0.6498543603056501,0.6583629893238434,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+FT-512,FT-512,FT,topicA,topicA,topicA_to_topicA,0.9349108630453395,0.9346646185355862,0.9320809961411465,0.9359430604982206,equal-weight soft ensemble of 3 predefined seeds,soft probability ensemble
+FT-MEAN,FT-MEAN,FT,topicA,topicA,topicA_to_topicA,0.925833495305011,0.9258064516129033,0.9322582227602522,0.9359430604982206,equal-weight soft ensemble of 3 predefined seeds,soft probability ensemble
+FT-ATTN,FT-ATTN,FT,topicA,topicA,topicA_to_topicA,0.9293389984134715,0.9291986687147977,0.9321780612541715,0.9359430604982206,equal-weight soft ensemble of 3 predefined seeds,soft probability ensemble
+RANDOM-512,RANDOM-512,RANDOM,topicA,topicA,topicA_to_topicA,0.36585487911565256,0.4622759856630824,0.34721641649249474,0.42704626334519574,single predefined random-init control,single control
+RANDOM-MEAN,RANDOM-MEAN,RANDOM,topicA,topicA,topicA_to_topicA,0.691877253385111,0.6840501792114695,0.6863314906525627,0.6868327402135231,single predefined random-init control,single control
+RANDOM-ATTN,RANDOM-ATTN,RANDOM,topicA,topicA,topicA_to_topicA,0.1742081015465199,0.3369175627240143,0.20103727144866387,0.4128113879003559,single predefined random-init control,single control
+Direct TF-IDF classical,direct_classical__linear_svc,direct_classical,topicA,topicB,topicA_to_topicB,0.5738020258125281,0.6317674817674819,0.5995542267214811,0.7046413502109705,linear_svc,single selected model
+Weighted-SVD classical,svd_classical__linear_svc,svd_classical,topicA,topicB,topicA_to_topicB,0.5555658333939265,0.6045532545532544,0.5426537386443047,0.6329113924050633,linear_svc,single selected model
+Direct TF-IDF MLP,direct_mlp,direct_mlp,topicA,topicB,topicA_to_topicB,0.507038906392154,0.5719004719004719,0.5497018757888323,0.679324894514768,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+Weighted-SVD MLP,svd_mlp,svd_mlp,topicA,topicB,topicA_to_topicB,0.5230697094722948,0.5681389181389181,0.5635993896093117,0.6751054852320675,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+FE-512,FE-512,FE,topicA,topicB,topicA_to_topicB,0.2209901176491594,0.35530888030888025,0.29266649120866406,0.5738396624472574,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+FE-MEAN,FE-MEAN,FE,topicA,topicB,topicA_to_topicB,0.259158550847906,0.3763299013299013,0.33127470154777966,0.5864978902953587,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+FE-ATTN,FE-ATTN,FE,topicA,topicB,topicA_to_topicB,0.2918109627986256,0.39434791934791935,0.36503963287442637,0.5991561181434599,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+FT-512,FT-512,FT,topicA,topicB,topicA_to_topicB,0.8691428169407439,0.8714422214422214,0.8642653642653643,0.8776371308016878,equal-weight soft ensemble of 3 predefined seeds,soft probability ensemble
+FT-MEAN,FT-MEAN,FT,topicA,topicB,topicA_to_topicB,0.8861807246728571,0.8891677391677392,0.8853697932011185,0.9029535864978903,equal-weight soft ensemble of 3 predefined seeds,soft probability ensemble
+FT-ATTN,FT-ATTN,FT,topicA,topicB,topicA_to_topicB,0.9022113692593429,0.9044830544830544,0.9043792563458247,0.919831223628692,equal-weight soft ensemble of 3 predefined seeds,soft probability ensemble
+RANDOM-512,RANDOM-512,RANDOM,topicA,topicB,topicA_to_topicB,0.3732872098446962,0.4677177177177177,0.2762090230444661,0.29957805907172996,single predefined random-init control,single control
+RANDOM-MEAN,RANDOM-MEAN,RANDOM,topicA,topicB,topicA_to_topicB,0.6498210480247096,0.6941399191399192,0.6524331184459972,0.7257383966244726,single predefined random-init control,single control
+RANDOM-ATTN,RANDOM-ATTN,RANDOM,topicA,topicB,topicA_to_topicB,0.1666666666666664,0.3333333333333333,0.09212121212121212,0.16033755274261605,single predefined random-init control,single control
+Direct TF-IDF classical,direct_classical__linear_svc,direct_classical,topicB,topicA,topicB_to_topicA,0.45991127566871565,0.5017537122375832,0.455412746927297,0.505338078291815,linear_svc,single selected model
+Weighted-SVD classical,svd_classical__svc_sigmoid,svd_classical,topicB,topicA,topicB_to_topicA,0.5093522644070625,0.5375064004096263,0.5077400001128815,0.5516014234875445,svc_sigmoid,single selected model
+Direct TF-IDF MLP,direct_mlp,direct_mlp,topicB,topicA,topicB_to_topicA,0.3541920533007065,0.4330133128520225,0.3697725338103887,0.46619217081850534,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+Weighted-SVD MLP,svd_mlp,svd_mlp,topicB,topicA,topicB_to_topicA,0.4229614598439991,0.47387352790578596,0.4128314510336983,0.4697508896797153,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+FE-512,FE-512,FE,topicB,topicA,topicB_to_topicA,0.383890742008671,0.4643113159242191,0.41108298171589314,0.5302491103202847,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+FE-MEAN,FE-MEAN,FE,topicB,topicA,topicB_to_topicA,0.37387756852736187,0.45160010240655407,0.4029356968672459,0.5195729537366548,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+FE-ATTN,FE-ATTN,FE,topicB,topicA,topicB_to_topicA,0.34583802553567106,0.4274961597542242,0.37759018759018764,0.498220640569395,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+FT-512,FT-512,FT,topicB,topicA,topicB_to_topicA,0.7434508540412673,0.7441500256016386,0.7517041090629801,0.7544483985765125,equal-weight soft ensemble of 3 predefined seeds,soft probability ensemble
+FT-MEAN,FT-MEAN,FT,topicB,topicA,topicB_to_topicA,0.7459658373947137,0.7496159754224271,0.754052622758505,0.7651245551601423,equal-weight soft ensemble of 3 predefined seeds,soft probability ensemble
+FT-ATTN,FT-ATTN,FT,topicB,topicA,topicB_to_topicA,0.7982542264991754,0.8008832565284179,0.8165811125673511,0.8256227758007118,equal-weight soft ensemble of 3 predefined seeds,soft probability ensemble
+RANDOM-512,RANDOM-512,RANDOM,topicB,topicA,topicB_to_topicA,0.2504770199836308,0.37756016385048646,0.252361673414305,0.3914590747330961,single predefined random-init control,single control
+RANDOM-MEAN,RANDOM-MEAN,RANDOM,topicB,topicA,topicB_to_topicA,0.2767744605821399,0.39368919610855097,0.24133571322326342,0.3238434163701068,single predefined random-init control,single control
+RANDOM-ATTN,RANDOM-ATTN,RANDOM,topicB,topicA,topicB_to_topicA,0.2767744605821399,0.39368919610855097,0.24133571322326342,0.3238434163701068,single predefined random-init control,single control
+Direct TF-IDF classical,direct_classical__linear_svc,direct_classical,topicB,topicB,topicB_to_topicB,0.8824398254710303,0.8813258063258064,0.883052283052283,0.890295358649789,linear_svc,single selected model
+Weighted-SVD classical,svd_classical__svc_sigmoid,svd_classical,topicB,topicB,topicB_to_topicB,0.8913011677400619,0.8902304902304902,0.8785381759829788,0.8776371308016878,svc_sigmoid,single selected model
+Direct TF-IDF MLP,direct_mlp,direct_mlp,topicB,topicB,topicB_to_topicB,0.7966381215648779,0.7946920946920947,0.7920360031901561,0.8059071729957806,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+Weighted-SVD MLP,svd_mlp,svd_mlp,topicB,topicB,topicB_to_topicB,0.8790651971475173,0.8776858026858028,0.8780541109469646,0.8818565400843882,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+FE-512,FE-512,FE,topicB,topicB,topicB_to_topicB,0.7677085354369103,0.7676972426972427,0.7375774150797518,0.7552742616033755,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+FE-MEAN,FE-MEAN,FE,topicB,topicB,topicB_to_topicB,0.8117768462457723,0.8121381121381122,0.7802175556248384,0.7932489451476793,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+FE-ATTN,FE-ATTN,FE,topicB,topicB,topicB_to_topicB,0.7683154060679759,0.7702920452920454,0.7296839930095644,0.7383966244725738,equal-weight soft ensemble of 5 predefined seeds,soft probability ensemble
+FT-512,FT-512,FT,topicB,topicB,topicB_to_topicB,0.9437627997679647,0.9436358436358436,0.9364655451611973,0.9367088607594937,equal-weight soft ensemble of 3 predefined seeds,soft probability ensemble
+FT-MEAN,FT-MEAN,FT,topicB,topicB,topicB_to_topicB,0.9571766364233391,0.9571243321243321,0.9507305210159759,0.9535864978902954,equal-weight soft ensemble of 3 predefined seeds,soft probability ensemble
+FT-ATTN,FT-ATTN,FT,topicB,topicB,topicB_to_topicB,0.9588437051937625,0.9587896337896338,0.9543555859345333,0.9578059071729957,equal-weight soft ensemble of 3 predefined seeds,soft probability ensemble
+RANDOM-512,RANDOM-512,RANDOM,topicB,topicB,topicB_to_topicB,0.48079998182037825,0.5740025740025739,0.5345293542636996,0.679324894514768,single predefined random-init control,single control
+RANDOM-MEAN,RANDOM-MEAN,RANDOM,topicB,topicB,topicB_to_topicB,0.5005790306746006,0.5968468468468469,0.449691955948828,0.4008438818565401,single predefined random-init control,single control
+RANDOM-ATTN,RANDOM-ATTN,RANDOM,topicB,topicB,topicB_to_topicB,0.5005790306746006,0.5968468468468469,0.449691955948828,0.4008438818565401,single predefined random-init control,single control

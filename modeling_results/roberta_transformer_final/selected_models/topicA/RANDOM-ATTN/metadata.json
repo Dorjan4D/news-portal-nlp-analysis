@@ -1,0 +1,14 @@
+{
+  "arch": "ATTN",
+  "base_protocol_hash": "5fa51702be769922b580121397830bc7c99f9a614e6aca58ff8f850629124ba1",
+  "best_epoch": 7,
+  "checkpoint_path": "modeling_results/roberta_transformer_final/selected_models/topicA/RANDOM-ATTN/model_seed_20260904.pt",
+  "encoder_init_seed": 2882082750,
+  "family": "RANDOM_INIT",
+  "ft_protocol_hash_reference": "3f31db7ebf13f3e6857f609c56aae0cfcf02891b835e5c2dacfe15e18d25c8e3",
+  "master_seed": 20260904,
+  "protocol_hash": "9efe780c0f50e591a04e6c9e4212fd5e3b8f1cc52a456fd9d1def93127f966d1",
+  "run_record_path": "modeling_results/roberta_transformer_final/random_init_control/run_records/ri_topicA_ATTN_seed20260904.json",
+  "single_predefined_hyperparameter_setting": true,
+  "topic": "topicA"
+}

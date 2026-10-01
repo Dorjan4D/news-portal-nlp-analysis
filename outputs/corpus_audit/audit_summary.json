@@ -1,0 +1,103 @@
+{
+  "n_articles": 2764,
+  "counts_by_portal_topic": {
+    "aljazeera/topicA": 599,
+    "aljazeera/topicB": 197,
+    "bbc/topicA": 353,
+    "bbc/topicB": 360,
+    "guardian/topicA": 470,
+    "guardian/topicB": 785
+  },
+  "hard_residual_leakage_hits": 0,
+  "model_text_body_only_policy_violations": 0,
+  "bbc_com_heading_policy_violations": 0,
+  "aljazeera_leading_heading_policy_violations": 0,
+  "body_start_integrity_violations": 0,
+  "review_flag_rows": 16,
+  "review_flag_articles": 16,
+  "residual_author_hits": 0,
+  "month_balanced_projection_before_split": {
+    "topicA": 1026,
+    "topicB": 588
+  },
+  "body_length_only_month_balanced_5fold_diagnostic": {
+    "topicA": {
+      "accuracy_mean": 0.4502675822874734,
+      "accuracy_std": 0.03571670531535346,
+      "macro_f1_mean": 0.4436133316826063,
+      "macro_f1_std": 0.035173438152618836,
+      "n_balanced": 1026
+    },
+    "topicB": {
+      "accuracy_mean": 0.4132695929306099,
+      "accuracy_std": 0.04174408735847272,
+      "macro_f1_mean": 0.39441688987405127,
+      "macro_f1_std": 0.02567754736721469,
+      "n_balanced": 588
+    }
+  },
+  "headline_length_only_month_balanced_5fold_diagnostic": {
+    "topicA": {
+      "accuracy_mean": 0.5428699976320152,
+      "accuracy_std": 0.030183251470418688,
+      "macro_f1_mean": 0.5356241555312862,
+      "macro_f1_std": 0.029037158558507824,
+      "n_balanced": 1026
+    },
+    "topicB": {
+      "accuracy_mean": 0.5748515138345647,
+      "accuracy_std": 0.03853717287334971,
+      "macro_f1_mean": 0.565178585554997,
+      "macro_f1_std": 0.040591251398401085,
+      "n_balanced": 588
+    }
+  },
+  "body_plus_headline_length_month_balanced_5fold_diagnostic": {
+    "topicA": {
+      "accuracy_mean": 0.5886573525929435,
+      "accuracy_std": 0.042684672402374925,
+      "macro_f1_mean": 0.587661080053158,
+      "macro_f1_std": 0.04316182948685277,
+      "n_balanced": 1026
+    },
+    "topicB": {
+      "accuracy_mean": 0.585006518904824,
+      "accuracy_std": 0.05534333254705998,
+      "macro_f1_mean": 0.5792505849205367,
+      "macro_f1_std": 0.0579685397970248,
+      "n_balanced": 588
+    }
+  },
+  "structure_only_month_balanced_5fold_diagnostic": {
+    "topicA": {
+      "accuracy_mean": 0.562367984844897,
+      "accuracy_std": 0.028316546145981225,
+      "macro_f1_mean": 0.5600101216356623,
+      "macro_f1_std": 0.027988960084518077,
+      "n_balanced": 1026
+    },
+    "topicB": {
+      "accuracy_mean": 0.600376647834275,
+      "accuracy_std": 0.018591117607318353,
+      "macro_f1_mean": 0.5784924183926167,
+      "macro_f1_std": 0.01907754892893347,
+      "n_balanced": 588
+    }
+  },
+  "tfidf_diagnostic": {
+    "topicA": {
+      "balanced_n": 1026,
+      "vocab_size": 37204
+    },
+    "topicB": {
+      "balanced_n": 588,
+      "vocab_size": 22363
+    }
+  },
+  "tfidf_suspicious_top_feature_rows": 0,
+  "model_sha256": "c07d1fcc31fb3fe5e92a308f95e2ea6578c391b6cb6a3d38216573c0e1c6e12e",
+  "audit_sha256": "fd4b994c6b6355be79f31a055f1cf403569cbc89ed18888c94dd89baf01ddb39",
+  "manual_quality_primary_n": 300,
+  "manual_quality_secondary_n": 120,
+  "note": "Chance accuracy for 3 balanced portal classes is 0.333. Numeric diagnostics, the body-only structural diagnostic, and body-only TF-IDF are month-balanced PRE-SPLIT leakage checks, not final reported model results."
+}

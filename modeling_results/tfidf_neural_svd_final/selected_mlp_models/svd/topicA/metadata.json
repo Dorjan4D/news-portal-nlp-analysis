@@ -1,0 +1,92 @@
+{
+  "confirmation_master_seeds": [
+    20260911,
+    20260917,
+    20260923,
+    20260929,
+    20261005
+  ],
+  "family": "svd",
+  "protocol_hash": "936e424d488c95ab4c3b8df23af51aea4759ceb3e380139958cf1876d70057c9",
+  "representation_metadata": {
+    "build_seconds": 2.5082879066467285,
+    "explained_variance_ratio_sum": 0.579281239839469,
+    "n_tfidf_features": 11599,
+    "protocol_hash": "936e424d488c95ab4c3b8df23af51aea4759ceb3e380139958cf1876d70057c9",
+    "rep_id": "svd__ng12_df10_sub1__k0256",
+    "svd_components": 256,
+    "svd_n_iter": 7,
+    "svd_seed": 20260902,
+    "tfidf_config": {
+      "min_df": 10,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true
+    },
+    "tfidf_config_id": "ng12_df10_sub1",
+    "tfidf_idf_sha256": "659da7d70674a0b04181f7ed4ddfd357b3a6762918ec3036e524d04e1a1b3148",
+    "tfidf_vocabulary_sha256": "b2c02983d8576376ad6e53fce448c11dca53a445af0b482904d6f33044113a92",
+    "top_singular_values": [
+      8.00628636577722,
+      2.5653670392408476,
+      2.4046220214066087,
+      2.2583126926080905,
+      2.1827828442798065,
+      1.9580704913958733,
+      1.8108987173136077,
+      1.769527360185322,
+      1.6473730409020368,
+      1.614530803923362,
+      1.5737443250433636,
+      1.5398727988151815,
+      1.4517213778950642,
+      1.4213439598792137,
+      1.3995556242797897,
+      1.385275956004967,
+      1.367901405913345,
+      1.3478225907959893,
+      1.3311709910970566,
+      1.3137301776312815
+    ],
+    "topic": "topicA",
+    "train_shape": [
+      811,
+      256
+    ],
+    "validation_shape": [
+      272,
+      256
+    ],
+    "weighted_svd": true
+  },
+  "selected_checkpoints": [
+    "selected_mlp_models/svd/topicA/mlp_seed_20260911.pt",
+    "selected_mlp_models/svd/topicA/mlp_seed_20260917.pt",
+    "selected_mlp_models/svd/topicA/mlp_seed_20260923.pt",
+    "selected_mlp_models/svd/topicA/mlp_seed_20260929.pt",
+    "selected_mlp_models/svd/topicA/mlp_seed_20261005.pt"
+  ],
+  "selected_config": {
+    "config_id": "cfg02__svd__ng12_df10_sub1__k0256__h128x64_d0p0_lr1em03_wd0e00",
+    "config_index": 1,
+    "dropout": 0.0,
+    "hidden_layers": [
+      128,
+      64
+    ],
+    "learning_rate": 0.001,
+    "mean_best_epoch": 21.2,
+    "mean_val_weighted_accuracy": 0.918010752688172,
+    "mean_val_weighted_cross_entropy": 0.26697498329863484,
+    "mean_val_weighted_macro_f1": 0.9186151309162813,
+    "n_parameters": 41347,
+    "rep_id": "svd__ng12_df10_sub1__k0256",
+    "std_val_weighted_macro_f1": 0.0023810181969440088,
+    "topic": "topicA",
+    "weight_decay": 0.0
+  },
+  "test_evaluated": false,
+  "topic": "topicA"
+}

@@ -1,0 +1,26 @@
+{
+  "arch": "ATTN",
+  "base_protocol_hash": "5fa51702be769922b580121397830bc7c99f9a614e6aca58ff8f850629124ba1",
+  "confirmation_seeds": [
+    20260912,
+    20260918,
+    20260924
+  ],
+  "family": "FT",
+  "ft_protocol_hash": "3f31db7ebf13f3e6857f609c56aae0cfcf02891b835e5c2dacfe15e18d25c8e3",
+  "selected_config": {
+    "arch": "ATTN",
+    "config_id": "ATTN_lr1e-05_wd1e-02",
+    "config_order": 13,
+    "learning_rate": 1e-05,
+    "mean_best_epoch": 17.0,
+    "mean_best_val_weighted_accuracy": 0.9539426523297491,
+    "mean_best_val_weighted_cross_entropy": 0.19604025240196835,
+    "mean_best_val_weighted_macro_f1": 0.9539123190623409,
+    "mean_skipped_amp_optimizer_steps": 3.6666666666666665,
+    "std_best_val_weighted_macro_f1": 0.004379707030777867,
+    "topic": "topicA",
+    "weight_decay": 0.01
+  },
+  "topic": "topicA"
+}

@@ -1,0 +1,16 @@
+{
+  "cublas_workspace_config": ":4096:8",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "cuda_runtime": "11.8",
+  "deterministic_algorithms_enabled": false,
+  "joblib": "1.4.2",
+  "numpy": "2.2.1",
+  "pandas": "2.3.3",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "protocol_hash": "936e424d488c95ab4c3b8df23af51aea4759ceb3e380139958cf1876d70057c9",
+  "python": "3.11.11 (main, Dec 11 2024, 16:28:39) [GCC 11.2.0]",
+  "scipy": "1.15.2",
+  "sklearn": "1.6.1",
+  "torch": "2.5.1"
+}

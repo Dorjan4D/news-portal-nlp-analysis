@@ -1,0 +1,2492 @@
+{
+  "base_seed": 20260901,
+  "buckets": [
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "03f650d131881c00",
+          "1e6f4bc099609958",
+          "2d4c3969a4d927fc",
+          "8439742329cd850c",
+          "8a502f01eafff93f",
+          "8f5cc3408f233fd1",
+          "93f9f0835b748176",
+          "96f01ebc56251411",
+          "eed5ae1711f8f416"
+        ],
+        "bbc": [
+          "18ed955d3d20bbc2",
+          "4e540085b3a44992",
+          "ba8fa0ce0ce6d08c",
+          "d3be67586dc40021",
+          "f3107e3933e00d7c"
+        ],
+        "guardian": [
+          "03d3d47e93bf3463",
+          "2e1a39faa2458777",
+          "5102d9d2df031edd",
+          "bc94dbdaf1160b71",
+          "c5fdb8d1393c2a82",
+          "d36df9d56454727d",
+          "e133754df682a3cb"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 9,
+        "bbc": 5,
+        "guardian": 7
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 5,
+      "topic": "topicA",
+      "year_month": "2024-08"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "0dd417fb148ec66d",
+          "1434af433eb6527f",
+          "1fc8e8e761b5a3b2",
+          "6ec011be978b5711",
+          "91e96363e1eed347",
+          "a3fde790b630d279",
+          "da95f329722d13d3"
+        ],
+        "bbc": [
+          "7a6f0e4911efc94f",
+          "8da070c1b05f9e5b",
+          "9f2a6ac017ec05a8",
+          "ee53bb18fb2004bd",
+          "ff3e8f6ef8ba981d"
+        ],
+        "guardian": [
+          "0ecdf858bac69064",
+          "2464d25694f83238",
+          "501c70624b6026ad",
+          "8c0202c4def92f59",
+          "aab9eff1712a07d3",
+          "bbe97da7499204c7",
+          "dcef95e2f2e5b92d"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 7,
+        "bbc": 5,
+        "guardian": 7
+      },
+      "length_bin": 1,
+      "per_epoch_per_portal": 5,
+      "topic": "topicA",
+      "year_month": "2024-08"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "13bd0e14ef7432dc",
+          "1d342e2c57ca4e49",
+          "49fdf452461bf76f",
+          "6bc00ab74f9b1f1e",
+          "7c938514c8821443",
+          "7d01461501133b52",
+          "95d0383b039985dd",
+          "9d01e687f669248e",
+          "ad49c70b8ab79780",
+          "d083ac6ca49b1360",
+          "e0e4dfe09f34fe92"
+        ],
+        "bbc": [
+          "23e2b9cf7c7d6f8e",
+          "3558940012dbef17",
+          "7535dd06f96609bd",
+          "90033c842d9111db",
+          "d935e55f6ba05284"
+        ],
+        "guardian": [
+          "0df813ae50e0558d",
+          "1be1efa06a32ec9c",
+          "3437da974d5a9ee0",
+          "9399019b586c8cce",
+          "9d4a97bd68d73985",
+          "a431ec592f533f8a",
+          "c541dd9fa090093b"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 11,
+        "bbc": 5,
+        "guardian": 7
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 5,
+      "topic": "topicA",
+      "year_month": "2024-09"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "069bdb97f9e891e7",
+          "400bad3f979bac5c",
+          "4b4e7dfd98464097",
+          "88625f1f66bc407b"
+        ],
+        "bbc": [
+          "0f6aa63fcde2cfc2",
+          "11be4fa8c5587102",
+          "77a8703bf0d57d6a",
+          "859e52242cacaeb5",
+          "b81ecd56dc818f38",
+          "e08cdf1af0b17c20"
+        ],
+        "guardian": [
+          "1034b285772800bd",
+          "22ff2d4e153868ac",
+          "56357ded5c9e40ae",
+          "58a815c1d5cc1d6a",
+          "8027c7cefbca6598",
+          "a33b1d1b35515f27",
+          "a5c5e1f740dab8d1",
+          "a5e7eb94342adddf",
+          "c2b44f80c9542d58",
+          "dc88f47b97d61ab4",
+          "fd181dc46518298a"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 4,
+        "bbc": 6,
+        "guardian": 11
+      },
+      "length_bin": 1,
+      "per_epoch_per_portal": 4,
+      "topic": "topicA",
+      "year_month": "2024-09"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "0088b7c4d4539918",
+          "0b095c63d9d46589",
+          "2682d7da7face89d",
+          "46a4ed4e7cdfd558",
+          "4d1c96995a7745bd",
+          "785e62cdb40d382d",
+          "b5daa24c4a4c3dd4",
+          "b8fd5734b8654d27",
+          "b91e0c1a9f13a9f1",
+          "c8ec5f31c0261cfb",
+          "d13ed1070249d1d1",
+          "f1c5c4daa1b7d0e1"
+        ],
+        "bbc": [
+          "047b5f486b1e2dfe",
+          "06aecf18c39ad4c1",
+          "6f1f1c45c5752955",
+          "751ab87be6e518bc",
+          "934df22a9c351f94",
+          "b3200606deae18ea",
+          "ccb69c6d0dd98f57",
+          "fa51d0ee32be4c50"
+        ],
+        "guardian": [
+          "2562212f9817d3ef",
+          "588a5e25bfa56915",
+          "6a85f007e3e6f1aa",
+          "6bd2ef3a8a3810c4",
+          "c97f6d65d8b6caea",
+          "e093d618f2767454",
+          "ec349f8f2045f80e"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 12,
+        "bbc": 8,
+        "guardian": 7
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 7,
+      "topic": "topicA",
+      "year_month": "2024-10"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "00bd8d2595611711",
+          "08f770573efb45ac",
+          "1d2c1fe303d72ed4",
+          "2972b7eb9354863a",
+          "44cf7138c1136add",
+          "4536c09494b4452f",
+          "47d321569fdf636d",
+          "b013243796690dee"
+        ],
+        "bbc": [
+          "08fcb2d33b7d2b6e",
+          "4e479e880b20382c",
+          "864de4036921fcf7",
+          "89e75421143b45cb",
+          "9d8d0ac47e14e327",
+          "c675ed0a5d3df613"
+        ],
+        "guardian": [
+          "092dbbb172159fab",
+          "10a1e748b9886ddc",
+          "58104284fc6257a1",
+          "7ea97222207584fc",
+          "8669757e0ea02f23",
+          "8d8e857c63199a24",
+          "c5d9c20ceea6ebce",
+          "cda7aa55d77e360c",
+          "d30ac9e2a17c8364",
+          "dcaf02c230752623",
+          "dd8e5eb7d7e02557"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 8,
+        "bbc": 6,
+        "guardian": 11
+      },
+      "length_bin": 1,
+      "per_epoch_per_portal": 6,
+      "topic": "topicA",
+      "year_month": "2024-10"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "1bacc2e92544f7b2",
+          "280780142995261f",
+          "288cffcff87ab1f7",
+          "3022bc850924e079",
+          "498bdb59e6d47741",
+          "4e39f40c1136547c",
+          "8bddf40554e274e1",
+          "98f07a6915b8c8a6",
+          "9f035ad4ead7c092",
+          "b695ea6a07e99d00",
+          "c794cee8caff7c6a",
+          "c85daf2f8275bb27",
+          "cfccbf93626c0477",
+          "dceb533f385f5a15",
+          "fe6747db1d5a7e86"
+        ],
+        "bbc": [
+          "64045d68e741ee54",
+          "6fa2425ecb6a5740",
+          "cb852d2f8b01faae",
+          "dac66ec5f19ca8ee"
+        ],
+        "guardian": [
+          "0789295df160b844",
+          "2f4e8f4211215e23",
+          "cb2f38daafd6d0c6",
+          "cd6b06213a373e10",
+          "ed339a074db87b0f",
+          "f1e248540d472ece"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 15,
+        "bbc": 4,
+        "guardian": 6
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 4,
+      "topic": "topicA",
+      "year_month": "2024-11"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "1d2889bd116d314c",
+          "2179c94d8245a943",
+          "30874bfb2108eae7",
+          "3598ea0ee354e06a",
+          "412645fa8db883e0",
+          "4d3bc9c377c3798b",
+          "5e2a620ce0bb85b1"
+        ],
+        "bbc": [
+          "30e5c39322f92a1b",
+          "5993660dad7ca3f5",
+          "6c377f7abb2d0c53",
+          "96fa84d5899f906b",
+          "a06adb57cae73e16",
+          "bef0506cc52b84f8",
+          "e680ad9382ebae3c",
+          "ed1a72c0a74aa5e7"
+        ],
+        "guardian": [
+          "036f28a07933247b",
+          "3ff1382478a6e88e",
+          "447cfaeb35ee8b0e",
+          "52f93838006bc1ad",
+          "730045d2fa4d2121",
+          "82d5253ab04e7dba",
+          "bd7706883f002bb3",
+          "ceefadc3ac2962bf",
+          "d74952ddf840e5c8"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 7,
+        "bbc": 8,
+        "guardian": 9
+      },
+      "length_bin": 1,
+      "per_epoch_per_portal": 7,
+      "topic": "topicA",
+      "year_month": "2024-11"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "0685929c2b2dd46d",
+          "2c21079f0123f344",
+          "5bdc10f472eb417e",
+          "5c5a5ff3d5db5351",
+          "6f1b6d46642188e1",
+          "9f8328332415b379",
+          "a1820a2060e5d85a",
+          "a62a66a642680407",
+          "ab5794f5fce228ba",
+          "d4a4df7bfcb2f745",
+          "e2de0bbbbad10c46",
+          "ffb65742c2cd211d"
+        ],
+        "bbc": [
+          "012323a5423ba42d",
+          "3541d178d1ec6f3a",
+          "70d1bbed05624f2d",
+          "c8aecda8d890bb59",
+          "cfabd13ad1273dab",
+          "eb4557bf83c8307a"
+        ],
+        "guardian": [
+          "149269e0d23fc11c",
+          "3ed24c228816716c",
+          "4dbe33afe5ef84c8",
+          "5cbd007fd76dff67",
+          "75f6ffcd0e458272",
+          "802b1afbdcb58ece",
+          "a302d28bcd5deba2",
+          "bf599801bbb8f495",
+          "d4eecf420377b9eb",
+          "f6b3dc7816ade587"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 12,
+        "bbc": 6,
+        "guardian": 10
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 6,
+      "topic": "topicA",
+      "year_month": "2024-12"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "105a4be44dfe99d2",
+          "1e87eb5a794a6168",
+          "2b3a7b3970d597e3",
+          "2bc5dee04106b26c",
+          "49fdbfc1403d9adc",
+          "4eebf72f6dcf5a72",
+          "729619d4d3963714",
+          "7cf4bdaebc6b093f",
+          "bb6ac927bf609c99",
+          "bdf17febabd054a9",
+          "d9541386a920f541"
+        ],
+        "bbc": [
+          "02c5b300f1306910",
+          "04489c7366d79bc0",
+          "1a40de02b5b94422",
+          "375e97fb9396c31f",
+          "7e495d9a7da19f5f",
+          "c5ce5df48e3e6f20",
+          "c87e70ee1fea92dd",
+          "daa8fdb6ceee39e0"
+        ],
+        "guardian": [
+          "00e3de9c285fbba3",
+          "5b001fad1f9c7453",
+          "6eab053b2df6f16e",
+          "74293b8df01a3b33",
+          "7b596bc0cb4fb40b",
+          "9477ec5ea215453e",
+          "b9d60ddb6fdf0bf4"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 11,
+        "bbc": 8,
+        "guardian": 7
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 7,
+      "topic": "topicA",
+      "year_month": "2025-01"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "1219f3750c183bb6",
+          "1ee754169109defa",
+          "36661f664dd0a06d",
+          "3e0b8684372a9378",
+          "573555a5a9a982fd",
+          "8730426b2366e018",
+          "954df7dbda2c9476",
+          "e2147bf53340025b",
+          "e51ef870dbf30aa8",
+          "f7233394222f10ad"
+        ],
+        "bbc": [
+          "3e6188e1409d9c21",
+          "3f9f4817afa47c3c",
+          "4ee33e21ca6d8a0d",
+          "93727187d546ee25"
+        ],
+        "guardian": [
+          "191da45bc1c62df8",
+          "25ca2b229640fcca",
+          "42232d9d7f6bfaaa",
+          "5fb9a6d1e3a4692c",
+          "726c09763270424c",
+          "9173fe5caba2ebfc",
+          "9c77069c50bfdd21",
+          "a286c43dd4fa2df1",
+          "a82a69ff07f77fdf",
+          "afa24c03fb3bc921",
+          "c460b04875d32dc0",
+          "e1ff4f9d8c0340f8",
+          "f35f22614b0f0711",
+          "f8d40729ca1e8727"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 10,
+        "bbc": 4,
+        "guardian": 14
+      },
+      "length_bin": 1,
+      "per_epoch_per_portal": 4,
+      "topic": "topicA",
+      "year_month": "2025-01"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "222f783b176fc07d",
+          "3c30b3542d2a7224",
+          "6dfd5cfa7844b88e",
+          "d876f38d75505231",
+          "e51bcc3a9b1ca1e9",
+          "e7aa1bf7c1d8c0a2",
+          "e9020e8f45b65a01",
+          "ed953e31e95fff6f",
+          "fd0600cbb5eb9cd2"
+        ],
+        "bbc": [
+          "0994a3b374b122e6",
+          "108f2f8aadb2d5fa",
+          "3e624ed9a046b540",
+          "45084ceb789a9bdd",
+          "95e3da1030f0892f",
+          "e91d50c74501e8a9"
+        ],
+        "guardian": [
+          "298dcdd1a6e43784",
+          "47bd0d72be40ba5d",
+          "a2439a46ef32f3aa",
+          "f960ffef5467e3e6"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 9,
+        "bbc": 6,
+        "guardian": 4
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 4,
+      "topic": "topicA",
+      "year_month": "2025-02"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "1b787901ed8b6ebc",
+          "211724e4575a730f",
+          "50c8dafdda5a9514",
+          "52c622015e81118b",
+          "fd33f86b6dc9f413"
+        ],
+        "bbc": [
+          "36d4ab25e85d26df",
+          "6641524429547f4d",
+          "888835546ffebd93",
+          "8f8427eab5ba20a1",
+          "93ff7c53d5bb4272",
+          "a9be1fbdc909ea85",
+          "e91b77becbe83f88"
+        ],
+        "guardian": [
+          "17035fdbb6a53665",
+          "19006414136a8e62",
+          "bb43d0d2190fbc03",
+          "c9f5ded66a7305d6",
+          "c9fef3e229730f9c"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 5,
+        "bbc": 7,
+        "guardian": 5
+      },
+      "length_bin": 1,
+      "per_epoch_per_portal": 5,
+      "topic": "topicA",
+      "year_month": "2025-02"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "02678187db74a1c1",
+          "4577128459879b33",
+          "830ea8e16db4bba0",
+          "972b75cd420471b4",
+          "c25c3aeda2c5431e",
+          "c5313daf2cf58cfa",
+          "cc9f70656759b819",
+          "d1b8f4aff7307226"
+        ],
+        "bbc": [
+          "6ae9f4b0518e251e",
+          "6f5f61d41a68a7a7",
+          "73c4ae76497f2d5d",
+          "8890bf0e537cc823",
+          "abf997b27e08eb82",
+          "b1633223eb74e894"
+        ],
+        "guardian": [
+          "54e68a1d426a8192",
+          "6ffca7224ede7d8f",
+          "990d97686f73a6c9",
+          "fc536b13fb305c13"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 8,
+        "bbc": 6,
+        "guardian": 4
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 4,
+      "topic": "topicA",
+      "year_month": "2025-03"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "041c518d2ad11513",
+          "3bd1bf6620a4d49a",
+          "65db7321f7efd4c3",
+          "a55f113eb6eb26aa",
+          "ba8e9b92a7220ade"
+        ],
+        "bbc": [
+          "624ef427b6a7a1eb",
+          "6ad5f6cac2ff6dee",
+          "72a4eab5cda43b73",
+          "96ec7b55c6ee6ecd"
+        ],
+        "guardian": [
+          "20d27858347c09e1",
+          "37a547c0d1faf916",
+          "54378fba9a6243a5",
+          "895d88906dfb16db",
+          "9fc5ee19c84156cc",
+          "ac57e136e4860579",
+          "be4aecf044dc16c4",
+          "d3253d49a92da7e6",
+          "e22ba93a3a7c4e66",
+          "fbe4578ba5d2d616",
+          "ff7c134830a53957"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 5,
+        "bbc": 4,
+        "guardian": 11
+      },
+      "length_bin": 1,
+      "per_epoch_per_portal": 4,
+      "topic": "topicA",
+      "year_month": "2025-03"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "1561e9e0abdc4326",
+          "24df7d17884455a8",
+          "35a5f99b206afb9b",
+          "4a63c56b30f366ad",
+          "4d22e624ab8fffed",
+          "5784d70597bea002",
+          "5f8dafe6dd263123",
+          "6b42b673a17cef4f",
+          "798304b32454ddf0",
+          "9666a95bef6af6e7",
+          "9eb8711ac86aa65d",
+          "b1e22037020adaf7",
+          "d597ebf6bb7786e6",
+          "d96e754ed1277c99",
+          "dab2099351e6cb98"
+        ],
+        "bbc": [
+          "1eb9a6a90db41457",
+          "1fde8db4b2d138e3",
+          "5d3abf523af51251",
+          "7221ec24740c2814",
+          "737b59a2ead7435a",
+          "8726533c7b1db6be",
+          "93d34f6db847adad",
+          "c5dd9e5094f0737b",
+          "e2c3444955eb813d"
+        ],
+        "guardian": [
+          "53eb154023d3f629",
+          "73259f2d585cd9d9",
+          "766737f6ca26c591",
+          "816f3d6c9534f37a",
+          "8656f7da8d4b86db",
+          "96f0c22b8c6359ee",
+          "cfff3b7aa0e1672a",
+          "d4b516d9dc6db1c3",
+          "f0ccd26bb2957341"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 15,
+        "bbc": 9,
+        "guardian": 9
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 9,
+      "topic": "topicA",
+      "year_month": "2025-04"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "25b59ca83d701eec",
+          "32f354d2d950d97e",
+          "36a48ff238c4648b",
+          "39a999b59a7445d9",
+          "3d5476629ba62e4f",
+          "5666f54333b16dfa",
+          "6cb21c3ae598a488",
+          "71b242de251c0987",
+          "89c22133f907f880",
+          "a93c119d1972512d",
+          "b50f5d2bf5d93ef2",
+          "baae3e329addda2a",
+          "c3c61044fec6aa10",
+          "cc2f368b2c3b80d1",
+          "cd6cf79235848f40",
+          "cf9b0700ea064ecc",
+          "fe552950c5b52f98"
+        ],
+        "bbc": [
+          "0e7bcfd74059fdd9",
+          "0ecb03207d856cb1",
+          "378075c7720f7a03",
+          "4cf1516008369907",
+          "8e0d34c681828a10",
+          "a379afbc7daaab81",
+          "d59a068c57f93196",
+          "de24648af4e3d87f"
+        ],
+        "guardian": [
+          "23f2104457c82678",
+          "53dd6e6751716501",
+          "6931e0de9223e796",
+          "78c472dd52aa9129",
+          "85a7f482434b0ec8",
+          "a505ca881fc5ca77"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 17,
+        "bbc": 8,
+        "guardian": 6
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 6,
+      "topic": "topicA",
+      "year_month": "2025-05"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "2b7b3ec094bf6149",
+          "4308935193bee394",
+          "5de51c0cf85d3531",
+          "8720e636403fee6a",
+          "8db2ee24b0e77b42",
+          "a447169435ee012c",
+          "f7020f71fd5918b9",
+          "ff006bfbb6324cbd"
+        ],
+        "bbc": [
+          "1e23f8efaab221f1",
+          "3a45d74fec1a3b6b",
+          "64eef1395c349209",
+          "6f89ac3a3739c9f2",
+          "a90ff3a675138415",
+          "c0eb843768af8978",
+          "d2a464c30f702927",
+          "e7f13c3056cc8ef0",
+          "f37463c0f30e09e7"
+        ],
+        "guardian": [
+          "09655e2c47c0a154",
+          "1572aff5033d1c42",
+          "193aa8a0442856a6",
+          "406db9de40b1bc86",
+          "496ff422b591bfe0",
+          "67e9cfeef48c31e8",
+          "ca768b39beabe2ba",
+          "cede890dacee2386",
+          "fdf4273dbd3d9023"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 8,
+        "bbc": 9,
+        "guardian": 9
+      },
+      "length_bin": 1,
+      "per_epoch_per_portal": 8,
+      "topic": "topicA",
+      "year_month": "2025-05"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "148aa6df9aa46cba",
+          "33ed3e52852bacf8",
+          "442f9136c8251aad",
+          "444e6ae8b255c053",
+          "457191d302ed83aa",
+          "4e24e471d150579c",
+          "56dc4612fe00f489",
+          "6aed077bcf4e4c96",
+          "6bda9a72cbaa683d",
+          "764883f28b5262e4",
+          "8fe456a13085aabb",
+          "a7999b7bc202e15d",
+          "c3ab226a9f885ec1",
+          "c7d6eb21775bb849",
+          "e273357cf95aca58"
+        ],
+        "bbc": [
+          "1335a7101e0d85dc",
+          "207b29845035f8e7",
+          "5f13e0dd327df2cf",
+          "d7dc52ab3489926f",
+          "fa4f5afba90d0ef1"
+        ],
+        "guardian": [
+          "40961b27dd4bb200",
+          "69a7f82da161f6e1",
+          "7ec646fc7884dd19",
+          "813a28400d4d1dd6",
+          "81e09566370676ee",
+          "8e29eba1a24b0bcb",
+          "932696cec087d784",
+          "ac9a06e42884bcad",
+          "bd26e3a215fdd102",
+          "ce8c5444a779647c",
+          "e1c1d05d0df03ed8",
+          "eac812f1633d3d89"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 15,
+        "bbc": 5,
+        "guardian": 12
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 5,
+      "topic": "topicA",
+      "year_month": "2025-06"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "04aaa8dbb663654a",
+          "1d992cb3a7c3234c",
+          "568970a411166b08",
+          "6fd557dde037cb3f",
+          "766f7b1270051ab4",
+          "98667694956aead3",
+          "99bbcda98bfb07d5",
+          "9ad8eeaa2583a82f",
+          "9b2e864d39acb698",
+          "9d5618613799d303",
+          "a1bbee6a1c214d6d",
+          "a25972ca6bb17a6d",
+          "b977c070462a1048",
+          "bbd419aa5be4d53a",
+          "cd075a624fd4c999",
+          "d996326d177d1c09"
+        ],
+        "bbc": [
+          "0048bc68c4854a5e",
+          "1858d22fef7016d6",
+          "3edc2609abdc862d",
+          "3f675be185021c63",
+          "43c47ba394f832cc",
+          "4c1a2d149f2ccc9c"
+        ],
+        "guardian": [
+          "0fad557f6021a529",
+          "2021e4df1ab60c76",
+          "45937735767a3781",
+          "4e0d56a39d9773bf",
+          "6a236323e3898984",
+          "715aa4b581dc9c2e",
+          "a479cf7c345c0bb1",
+          "b5b0ce5057932426",
+          "b7ac3c1074a67fe1",
+          "b81f7d208e147789",
+          "c4aeed3e0dc7b626",
+          "de3ef51a82c5d1d3"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 16,
+        "bbc": 6,
+        "guardian": 12
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 6,
+      "topic": "topicA",
+      "year_month": "2025-07"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "162029353b507785",
+          "36a3454bf4e95643",
+          "4dc6cb5b0ecc10f9",
+          "912c1db9fdc2d882",
+          "95e2e7700f8513b4",
+          "e571e71da98e0b00",
+          "ecca5f78592c9207"
+        ],
+        "bbc": [
+          "2f23736af7409bc6",
+          "34135759ac3f3bd7",
+          "4c0ac486cc881c6d",
+          "642e52da098b1f6d",
+          "708ad6528b597221",
+          "78fa39ce597542b1",
+          "9d16492582aaef60",
+          "ba6dfdecfe54b44e",
+          "bd703c24ede6cfba",
+          "c7daa9c98eb35206",
+          "fad26ccb8118bf82"
+        ],
+        "guardian": [
+          "083cf8314e569749",
+          "11f9ed5417099634",
+          "4c77daffc90756e0",
+          "61d0477bd73b9974",
+          "88fa09bf0f38d2f7",
+          "96ce7b9a51b8fb57",
+          "96f916ec43e72c71",
+          "ad9e38c5b429d594",
+          "ae1465568fe8e015",
+          "b16339e20bff131b",
+          "cdedad7cb5e7c770",
+          "d380306989d3e120",
+          "ec9333efc19d6814",
+          "fe5293fa4eff106f"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 7,
+        "bbc": 11,
+        "guardian": 14
+      },
+      "length_bin": 1,
+      "per_epoch_per_portal": 7,
+      "topic": "topicA",
+      "year_month": "2025-07"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "02c7bd8798db8e51",
+          "18840bc269aba294",
+          "3d5e5655c2637aef",
+          "538e3c0ed15e6897",
+          "5cf9ecf53848f7af",
+          "65553282d742fc1a",
+          "67c553d16e88144e",
+          "8a3b7e1c55956d2d",
+          "91b1132826c571be",
+          "93ffc36d5cb92705",
+          "a1eed29493fce123",
+          "a2cf365a120dabda",
+          "aa2a25d29c6e131d",
+          "b7705f7dd97f3f4a",
+          "ba7020cd61dfcd9b",
+          "bfdc578e9dcc2b91",
+          "da084495924b12a0",
+          "fd2cb3ac78311c91"
+        ],
+        "bbc": [
+          "01d75c25be477608",
+          "314d177987925bd1",
+          "3840a112765de0b5",
+          "9a7726b5d2ef801c",
+          "a5d37c7f056c7b21",
+          "b0addb75845360e8",
+          "d0952b6fa4fafb33"
+        ],
+        "guardian": [
+          "32a28b6c88480c3c",
+          "38b66aba76f8b361",
+          "73334e5d7d873b2a",
+          "8cea4c52f42d460a",
+          "ab7a8932ca48f86e",
+          "b74ea3298131221a",
+          "cf7741c5a6cb12c4",
+          "d35ed84202d1f4cf",
+          "ea3b188d5c4cd4f4"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 18,
+        "bbc": 7,
+        "guardian": 9
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 7,
+      "topic": "topicA",
+      "year_month": "2025-08"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "028a24e183f6b2af",
+          "1786411eeef3804c",
+          "3228655e72369833",
+          "41ed15efb2e61252",
+          "7bfe983ad06ef9b9",
+          "981dbd4b94e7698e",
+          "b292ad035bbaff18",
+          "f75139ce1b5bb672",
+          "f9711fce68e7f007"
+        ],
+        "bbc": [
+          "2bde3835fc6d35ef",
+          "534f9e052957a7cc",
+          "7aad98bc8e526b3e",
+          "8005dadfd3a6219c",
+          "aa68eaab2902f834",
+          "cc92049a12660459",
+          "d61872371a3980ee",
+          "dbb942d1729f5cb4"
+        ],
+        "guardian": [
+          "2ccb7525fa36ce6e",
+          "369fcc9d8e07a4bb",
+          "485fe0041f0b8a90",
+          "486cec6b0f9b6413",
+          "5486887882919dba",
+          "72085a02f812d942",
+          "8f6762de774f74e2",
+          "a43d3245a58c4a9f",
+          "baa80ee24efc3c1d",
+          "bad794f88dc56543",
+          "c3398bb706209bff",
+          "dbefff4eacca213f",
+          "f01fcaa8c475afcd",
+          "f84a133199bb202a"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 9,
+        "bbc": 8,
+        "guardian": 14
+      },
+      "length_bin": 1,
+      "per_epoch_per_portal": 8,
+      "topic": "topicA",
+      "year_month": "2025-08"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "00b855e19de88627",
+          "057fc29f55c19a07",
+          "15d93d324a4b4458",
+          "367cc673831245d7",
+          "3e5b9dc5a941dacf",
+          "4e92c5b41fbce794",
+          "672982133b9d9be7",
+          "6ba4d54cb245beb4",
+          "7151d1ab2fe8f01c",
+          "86fd37456d76f411",
+          "8786242f340c035a",
+          "bb8cfc4e06efebe1",
+          "c7e166a12c01a8f8",
+          "cdd58c072ca980d5",
+          "f2349504d2324fc1"
+        ],
+        "bbc": [
+          "0917884efd21b15f",
+          "2dea500faa3fc0f3",
+          "3d31dc01c6a6826d",
+          "41e40b5aaef102ca",
+          "956b4be38cef077b",
+          "cf397d852ee763bf",
+          "cff7b5f74c6a58fe"
+        ],
+        "guardian": [
+          "287c411f5c9d2dff",
+          "3ce7469d02a8eb2e",
+          "61029694d6d164b5",
+          "7f70d289afb8e130",
+          "8c0dfbe47f0debb3",
+          "a4d525bc5ce9cffa",
+          "c2c1a851eaf481c2",
+          "cfdc2ebe92c1a2e6",
+          "d938e47a9699ca4d",
+          "e616a5107504da29",
+          "eaf3fd95a9f5e91d",
+          "eba5a15e919696ce"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 15,
+        "bbc": 7,
+        "guardian": 12
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 7,
+      "topic": "topicA",
+      "year_month": "2025-09"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "1239544ff34c1349",
+          "2db1dd317e420c2d",
+          "306cdaf33e08b4f8",
+          "39ec34a013b0fa13",
+          "3a9dbfefdd17a944",
+          "3d475343ac4aa0da",
+          "46b060f80d1ea4d7",
+          "7ad93bdbe8e9921d",
+          "ad279413d9d7e28d",
+          "b957559782135f99",
+          "bcbe59ff6e527ac5",
+          "d219f3b36256ea8d",
+          "f8f15eb4c67c1568"
+        ],
+        "bbc": [
+          "024b9a166ce31210",
+          "2acf22dd8dedc51d",
+          "2be53b704220d487",
+          "555b755a88bf8d19",
+          "5ef9b437e4f5ccf1",
+          "8914d35b59a74e51",
+          "99c8c6beb1042e78",
+          "9fe368b143933f47",
+          "b8b0a46b33e67783",
+          "bca639455e13027a",
+          "dab61543b5ad72f5",
+          "eebe76d24edd2e5d"
+        ],
+        "guardian": [
+          "0284d934a6c9adf2",
+          "31a83d680f342e5e",
+          "55fb827159c62e63",
+          "63da027c86ffa11c",
+          "678296a62c74dc10",
+          "81e039de091419cb",
+          "c3a38529f8ffb404",
+          "f1921642acbb59d7"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 13,
+        "bbc": 12,
+        "guardian": 8
+      },
+      "length_bin": 1,
+      "per_epoch_per_portal": 8,
+      "topic": "topicA",
+      "year_month": "2025-09"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "09813c460ef2d744",
+          "291a559454cee76c",
+          "405eb26009c0426a",
+          "46a68ec5eda32806",
+          "4db71e8ce6008c63",
+          "66ecc0fb1a91046c",
+          "77ac7d6515a1844f",
+          "c68542a03cc54975",
+          "cec86ae4fed6650a",
+          "f8d9be1a5f7d1b4b"
+        ],
+        "bbc": [
+          "0a95fca4fcf69da0",
+          "3ffe6bdde27d133b",
+          "4fb228a5c5a0c8f1",
+          "5e98dc00b265e003",
+          "600e3efb2fceb60d",
+          "9a30c59b19d2eee0",
+          "a5614925c4ee01f6",
+          "b7b395563cefddac",
+          "c1778ffce16118ec",
+          "c95ed4d154577e6c",
+          "da9ec0799388db00"
+        ],
+        "guardian": [
+          "005a6260d8bc759d",
+          "54ea06d7b2457f58",
+          "9f728b4445993fe2",
+          "b45769b9296142a0",
+          "c104580669bd3717",
+          "e7e2ba26d4afca66",
+          "f5766670fb7bbba9"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 10,
+        "bbc": 11,
+        "guardian": 7
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 7,
+      "topic": "topicA",
+      "year_month": "2025-10"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "162d6054138f7242",
+          "206a6ec66c63d3fc",
+          "290e850c31c4938d",
+          "3fbd5e448b335182",
+          "4a4ac650fd03c026",
+          "5174107a77090911",
+          "86c137bdb07a930d",
+          "be4d4fa0e5baae91",
+          "d29cdd73eedf1084"
+        ],
+        "bbc": [
+          "06e772787e9822b0",
+          "0e6908fea0b3f2ed",
+          "16b32a344f7eb5bd",
+          "7c39f20b1bef537e",
+          "bffdc37ec4486db2",
+          "c080962d4bfb5937",
+          "c97084cd442191bc",
+          "ee36a47fab900212"
+        ],
+        "guardian": [
+          "2d2103585f36aa00",
+          "3cbef9b37ae741ae",
+          "53ff5e097b758f87",
+          "5cdbda88a8509c7d",
+          "68dad79695e0bfc2",
+          "842f0d31c8a6436a",
+          "8d214d06758b4131",
+          "8e3b4e3e2d35e96e",
+          "9491ffd94f156ab1",
+          "b515249fc4ce677a"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 9,
+        "bbc": 8,
+        "guardian": 10
+      },
+      "length_bin": 1,
+      "per_epoch_per_portal": 8,
+      "topic": "topicA",
+      "year_month": "2025-10"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "03c1d682233a6ef8",
+          "08914169552f837a",
+          "23c103fa6d923efb",
+          "2f0fc5d1bc850822",
+          "4d253474e2e01ceb",
+          "6bc5b95d19211e4f",
+          "8de3f3df3a9de4a0",
+          "8f3fd1819dd7d950",
+          "df0b051c55bc0fc5"
+        ],
+        "bbc": [
+          "058ae80255f5f97b",
+          "424676ec6687debf",
+          "425fd604f70a8c12",
+          "b072999f4995a800",
+          "eefd586992eb8d2d"
+        ],
+        "guardian": [
+          "08b0af2bfca96d18",
+          "18071ff9ae78a17a",
+          "73366c305c08d558",
+          "78eeb8854ab7816a",
+          "8a474c9a62049b53",
+          "8af3248ee194429f",
+          "8c0ac54792bd4eff",
+          "99a5a799b1eb7cf8",
+          "9d9513c93ff3ae36",
+          "af08136c4b1ca8f1",
+          "af32f038c80eeee9",
+          "cef5c7ed7fce665d",
+          "e768b06b4cddaa4b",
+          "fe4c6d7943425e49"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 9,
+        "bbc": 5,
+        "guardian": 14
+      },
+      "length_bin": 2,
+      "per_epoch_per_portal": 5,
+      "topic": "topicA",
+      "year_month": "2025-10"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "120f276a5d5c78d2",
+          "13e8f32e20f61f3c",
+          "15229947337c710b",
+          "23469970be9850a6",
+          "319aaf5af285ef36",
+          "4f6b9f327de0a5d5",
+          "8617d8174bce2735",
+          "d60bd68cc990b3f2",
+          "ea5676acb313ea8a",
+          "ecfbce7c9343f2ff",
+          "ee5ecae7606178b5"
+        ],
+        "bbc": [
+          "194317643144ab17",
+          "3ebed18094149f6d",
+          "a9d6a1a052fd42f5",
+          "bd0d07bc5816ca92"
+        ],
+        "guardian": [
+          "59e2b6196adc0347",
+          "746c6be8aaeb4f52",
+          "f262b94641410710",
+          "fa4ec6c5a15c9916"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 11,
+        "bbc": 4,
+        "guardian": 4
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 4,
+      "topic": "topicA",
+      "year_month": "2025-11"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "27a0f37bb6aef2c1",
+          "46e0b04327a210a8",
+          "5ee16dde6da98daa",
+          "5fe3e5dd08812159",
+          "682c612dba5af56d",
+          "bce5fdded91a7109"
+        ],
+        "bbc": [
+          "093833239840581c",
+          "8adaa133e7099e1a",
+          "a164234dfe82459f",
+          "e3e2724793f74709"
+        ],
+        "guardian": [
+          "15c27b8528d57378",
+          "1f53ddd7ff24a481",
+          "3438cc6c78b0555c",
+          "5f8b5fbbb00fc9d6",
+          "6cc2f7fe0fa8a2bd",
+          "811a3cebbd03387a",
+          "fcdec7da8b2e8592"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 6,
+        "bbc": 4,
+        "guardian": 7
+      },
+      "length_bin": 1,
+      "per_epoch_per_portal": 4,
+      "topic": "topicA",
+      "year_month": "2025-11"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "11551e9882a014cd",
+          "1fc2cbb083b8be12",
+          "23fc6c474707eebd",
+          "27958e97f268714c",
+          "2bff1769c60c4f03",
+          "3dd7070b076eac30",
+          "3f0eae0e39f42a02",
+          "4599142982439c4f",
+          "493d935f1483c10b",
+          "7fee9b8b6ac462d6",
+          "82db49d4f8d53957",
+          "862b9605922b3427",
+          "8b486d32b9585c88",
+          "a97d6035b681beb1",
+          "b1087a29f71b1e49",
+          "b42b1d5e867a00c7",
+          "bb1688a1e3b6a660",
+          "bed3ad6c3039cc4f",
+          "cfad3c6f15f3bb89",
+          "dbe20b166f5d7aad",
+          "f467f8e5c5e2be33"
+        ],
+        "bbc": [
+          "4a379cc8f0291ee2",
+          "77f56ff941442447",
+          "8426a14e00f141d4",
+          "8d844e22181cfc9a",
+          "a5954cac02c09db1"
+        ],
+        "guardian": [
+          "33947be09a22b544",
+          "73dbc8230353273f",
+          "a8687045fc2c4fb5",
+          "a9a03ddbbcfd7d0e",
+          "fb8603418e48f496"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 21,
+        "bbc": 5,
+        "guardian": 5
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 5,
+      "topic": "topicA",
+      "year_month": "2025-12"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "02c887f5364b4e58",
+          "60428dc4a83ebf56",
+          "982b7e2d699b22ef",
+          "9c3f64fa28afd65d",
+          "ebd298433ca1bc27"
+        ],
+        "bbc": [
+          "1325d300cc4503bf",
+          "2a90996db4acc58b",
+          "2c246afa03705865",
+          "3b167dac1f851733",
+          "52440defa581d5c1",
+          "62d9964b2597d752",
+          "6ffe9f9dcca6a146",
+          "732568fae6d8ef17",
+          "bbf25b5800182bd1",
+          "c006481dfafc6fad",
+          "dd18b68c7c213c05",
+          "e189945225b85795",
+          "f787e7b812c0aff4",
+          "fd6bd530bbd35aaa"
+        ],
+        "guardian": [
+          "050972acbe0a78bd",
+          "063fae66b943e181",
+          "07fcc492ce875c2e",
+          "24618a9a25b7e117",
+          "32373c82a202297c",
+          "3717575f22024324",
+          "4d6b145b946adba0",
+          "5946defbb9b3a68e",
+          "a7c082f06563c530",
+          "b060f5eca3a3e7ec",
+          "b4267b9bb3bba754",
+          "bf3e89526a05a2c6",
+          "ccd0c4147cd59c3d",
+          "de566998821b6e98",
+          "e0417bccc8add9df",
+          "e2359caea5933b2d",
+          "e7c0a446c2f2fe0f",
+          "eeb585167b575922"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 5,
+        "bbc": 14,
+        "guardian": 18
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 5,
+      "topic": "topicB",
+      "year_month": "2024-09"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "35e2d94d941405f3",
+          "abb40c54a2059eab",
+          "b07d4d19869c0ced",
+          "b30f0bc4e0cf4748",
+          "e42f4632ea021e32",
+          "f7840a2987acfe2f"
+        ],
+        "bbc": [
+          "13a5c6e2bd90c5f8",
+          "3308308a2c2fce7b",
+          "37cc81608bf9ed2e",
+          "4f580f8edfcd3341",
+          "5ad7f74e1a0c0d48",
+          "5fe5f7b2dfaefbd1",
+          "85e78e60cade36fb",
+          "b81870ba3b17e790",
+          "d2930b81b1a9e2c9",
+          "f67fe4b372eeb6eb"
+        ],
+        "guardian": [
+          "08c066214f1e464d",
+          "0c4cf637cf24c876",
+          "11584b2b339b3a64",
+          "3eb043cef22283be",
+          "3f4b840f422d7b5f",
+          "41be43315336beb3",
+          "4e2488ed88a8d56b",
+          "4fa151a1aa7a34ad",
+          "63b89031d0edae49",
+          "6974c4d153f4c7be",
+          "7558651116cba83e",
+          "7e175c859e7c3b11",
+          "8b4ed1c09df9de85",
+          "8eddaf7b994e3745",
+          "959181682914914e",
+          "9bd349b13eafa585",
+          "aa2aff2b23cd741b",
+          "aac53c266bc0a138",
+          "ab3ce935b97811e4",
+          "b79f9584211eab73",
+          "ba737751da3518cb",
+          "bf4a5734e5cee52f",
+          "d4b5cf6118285ec7",
+          "d8ca52484e55e87b",
+          "da1bd3ada8acf932",
+          "e635c0774d478f83",
+          "eaf93593b07cb20a",
+          "ef8e9b552a1c8e9d"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 6,
+        "bbc": 10,
+        "guardian": 28
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 6,
+      "topic": "topicB",
+      "year_month": "2024-11"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "6e74807ec03dfb9e",
+          "70b03e95ec9dc5b6",
+          "a85ff01dd9b89a56",
+          "beb2a70c34acd2a0",
+          "f288733e2067ffbf"
+        ],
+        "bbc": [
+          "01a3db8762827b14",
+          "186758fbcced19da",
+          "2d5ebb7f5fa725f3",
+          "3a9023d8205eeeb1",
+          "3c177df44bad2fa2",
+          "b060fe8867192c4c",
+          "f2dba73a3c487906"
+        ],
+        "guardian": [
+          "06b89da00fb67c81",
+          "0bfda48b32f93429",
+          "23b8e294a1a58e5b",
+          "2df1274675f61c80",
+          "2eeb7784892ae67a",
+          "2ef3ccaedbe8dff3",
+          "679c9bcf03a13d9c",
+          "6ca27a01f736b81b",
+          "8a38b6468da01583",
+          "8b7fbd2ba58a02f9",
+          "b5e471b38de72514",
+          "bec88472dda49d86",
+          "c07155e7ccf13590",
+          "c44331cfcda8f1a6",
+          "e3a65c727c4390f8"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 5,
+        "bbc": 7,
+        "guardian": 15
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 5,
+      "topic": "topicB",
+      "year_month": "2024-12"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "41845c3736e51cf8",
+          "5fa979b50397a011",
+          "a9828e15d7027b0b",
+          "bfeb7db08acbe810",
+          "cb535c1f48e7ae6f"
+        ],
+        "bbc": [
+          "0506aa3a61da2262",
+          "0eac294eb36c2e12",
+          "21efaf073d86513f",
+          "37c93a87101d76cb",
+          "39d396708369d2b2",
+          "7a267d87bc582f00",
+          "804b7867f0a149c7",
+          "9817ec7e64253888",
+          "c42082e77c78879b",
+          "d006be199a3a7c3f",
+          "d9942bfe0b0a917d",
+          "ee0dcc065f6c3cf4"
+        ],
+        "guardian": [
+          "02348bbce57c3d6e",
+          "0d34a8678a2cd74a",
+          "156079dc3d637f15",
+          "24f260826f31548f",
+          "261c66a59d35a945",
+          "265df318d1f0d75b",
+          "26a830aa864d9a92",
+          "271a20653973ad53",
+          "2b0e2ba86b364cb3",
+          "42b8cfcd9e0ead56",
+          "49da361d97017825",
+          "52964d88553dc725",
+          "62ca99658c5f28a8",
+          "6a4485f204c01366",
+          "75678eba5336dd64",
+          "7eaf0907a4bf0661",
+          "8061f979c6574cf4",
+          "821c405b68867135",
+          "82648814d77484b3",
+          "9409cc80b5062431",
+          "a0a632ea9579ebf4",
+          "ad57c7083bac2137",
+          "ae4cfc3045a8d2c9",
+          "b2e095bf961da867",
+          "bea0cd36e5f77b92",
+          "c6ab58d710d191fa",
+          "d1596a736e153319",
+          "e5c2364df6b0d520",
+          "e9058754b9d5fcc4",
+          "f1a96096a69b6c04"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 5,
+        "bbc": 12,
+        "guardian": 30
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 5,
+      "topic": "topicB",
+      "year_month": "2025-01"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "28a61b35fbd778a6",
+          "6704f1b4d350ee18",
+          "9cd79f0abe311489",
+          "be3ff8ffaa1b4913",
+          "d8eebc1f23801daf",
+          "e6789a779b4bca9d",
+          "ea74014a053c29ec"
+        ],
+        "bbc": [
+          "1b8e6f4795a87147",
+          "22d567c02daa6b34",
+          "45e27cc0518ae73e",
+          "4edfc4a3eaa3c19e",
+          "8c08aff933a70651",
+          "a4f6ad0acfd00d8c",
+          "ab9a1d4f37fd4a09",
+          "e5d486c02a32487b",
+          "ea505a210f6b0375",
+          "f5491dcfacf7d15a",
+          "ff11f3cbddee164b"
+        ],
+        "guardian": [
+          "0108ff2bde280290",
+          "013bddbdea9747ac",
+          "2c79e4f11627a087",
+          "31cec82f70c23401",
+          "430cf94815763e8d",
+          "46c5c3aa3f89d490",
+          "4a586e3d11f69d4c",
+          "4ffc6a182aa3a94e",
+          "545ce1b43b44c352",
+          "60f36550287b3875",
+          "68edc707a1c18002",
+          "700abbdc63cb7158",
+          "78839eb4fc96234d",
+          "7c4616ff73213f2d",
+          "81c20874eed0e195",
+          "93532d4540e000c3",
+          "9361b58d24bbc3ef",
+          "9e63fd1f82f2b880",
+          "a650070412168041",
+          "af9fa514de8cd044",
+          "b6eabb3ac6e11715",
+          "ba60e38c2522510c",
+          "c1d0dfd6498e93e9"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 7,
+        "bbc": 11,
+        "guardian": 23
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 7,
+      "topic": "topicB",
+      "year_month": "2025-02"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "03451a5c307af76f",
+          "0f1382fc41641fcb",
+          "1135ccf226d0a35d",
+          "22bb97a5acefde02",
+          "4ffb2afe6ec7f1b2",
+          "84ecdc5245c5e66e",
+          "b04aeddec5228468"
+        ],
+        "bbc": [
+          "1b7676dde9e018c9",
+          "1c1fffaea9325459",
+          "25113b11e11b4b24",
+          "2f7d0f5236bd261d",
+          "4e6d9879980b91df",
+          "5f187261d1107ee1",
+          "6ad294937921c204",
+          "6bdd0d9c896d9c34",
+          "7b3b4324ff7e0f70",
+          "8e24f6d6dff0e58f",
+          "9d6483957c9f80e0",
+          "d82ab08f14dcf938",
+          "d9965018fe298db2",
+          "f2b3c00978a7bbad"
+        ],
+        "guardian": [
+          "157cb6a72752d74e",
+          "2b12996670c3b162",
+          "3589b710bdcbbc1a",
+          "36c6314594754cf4",
+          "374c6d4d18a865dc",
+          "3be36bbbefc11a5b",
+          "48a7e2a23cab6445",
+          "5b530d64648ba427",
+          "5fe8373d39329d47",
+          "6b7a36a2b8022f0f",
+          "72286f023d5787de",
+          "7c1f9ce1ec2f51b4",
+          "8dab7adcbda863c7",
+          "8f65a4903b78d3a7",
+          "98aa735a8bed0b70",
+          "a8242162c0956d24",
+          "a9a2015e65fbde6c",
+          "b9f4c6dfb5efc746",
+          "c237fb80f6a4a5d9",
+          "c675cb1d2a5c3904",
+          "c94797a8585f2a94",
+          "c956abe2fcfbb6e3",
+          "cdfb63408dd7cd4f",
+          "d25e7cdec5f24e09",
+          "d261c93df6d9a99a",
+          "d3624e6583f7515e",
+          "da598f73b30d20ab",
+          "e89ecc7bb6223c3d",
+          "eab358398e7ced1b",
+          "ee5afe992ee45dd6",
+          "f51ae7879f945c92"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 7,
+        "bbc": 14,
+        "guardian": 31
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 7,
+      "topic": "topicB",
+      "year_month": "2025-03"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "17fc1609e687e6f2",
+          "521bbc20a5caa911",
+          "a50f5ec13db51d51",
+          "bbaac6ccbb132d9c",
+          "e8efc0d839aafdbe",
+          "fe6c1158a79086a9"
+        ],
+        "bbc": [
+          "3277cd87ee57682f",
+          "414ae956c1b36331",
+          "4a9a12a1951b6edf",
+          "66e728db2064fd79",
+          "9812f017bb5a7b77",
+          "d56330636ca6f45a",
+          "dcffca67e90c5345",
+          "dec6d983664fc5ec",
+          "e2885e65d58b3747",
+          "fad9ebc574191c3b"
+        ],
+        "guardian": [
+          "01c20c1b4f48a881",
+          "09df2b463d3965b3",
+          "15a874567dacaa36",
+          "5a86db05fd22f724",
+          "7055126d5d1d7582",
+          "70de1d1a7944ad4a",
+          "7393b172f8f8a5fa",
+          "997186e1d698f277",
+          "9c08b163c54ee916",
+          "9f10aafc785026b9",
+          "a48c7f98184288b6",
+          "ac5b583b6093812c",
+          "b51e65e1d772294d",
+          "c9c567362fe8499e",
+          "caa281bd617236c1",
+          "d8c7669ce96ccb27",
+          "e1af9edeec1c3d03",
+          "e6e47b415ea4a7e2",
+          "efe6e452cfa8fafc",
+          "f0d13abc5f1a6e16",
+          "f1dcd2127701e123"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 6,
+        "bbc": 10,
+        "guardian": 21
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 6,
+      "topic": "topicB",
+      "year_month": "2025-04"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "2d64b1c862022d7b",
+          "3781e88d23c94dfb",
+          "6d63c4d6af980025",
+          "d003d26b213583e1"
+        ],
+        "bbc": [
+          "016bea6202a4962c",
+          "5582d64f4aef1505",
+          "8da97c0e33d7ba18",
+          "9caab900d51b7ae9",
+          "a7b9882eaebd75a5",
+          "c53c7ae7ef0573b8",
+          "c8a24d6fb8e77c20",
+          "cc6ee35d288b9d51",
+          "dcaba9bb73fa12cc"
+        ],
+        "guardian": [
+          "00d7bb36703a2a43",
+          "02fc1115dd788e3d",
+          "057d89afc07cb0d3",
+          "09e9e62b81489def",
+          "11332894adca67fa",
+          "1ed7f7aae52a9333",
+          "242d3ff219c7d0ba",
+          "2f2c8e8ddbc9cd23",
+          "31fcd46cf773f984",
+          "40c39988781c91d2",
+          "44c79eed42bda5f8",
+          "4d01ace8b9103489",
+          "5113c175dcf309f3",
+          "5d1c49e1a92db04b",
+          "66961786d9dd7d01",
+          "7097e3bff432a978",
+          "715acb33d2d38fd5",
+          "740fa858169cb92b",
+          "85bfee05b05e04cb",
+          "886f2440fc8e958b",
+          "9ae31288ff92d879",
+          "afa3396671ce1fa9",
+          "b07fd998c329152c",
+          "b745b40303d73bca",
+          "b9d7217a103d341c",
+          "bfef58452b779067",
+          "c2f53955993279af",
+          "d449640d209a4a79",
+          "ea3bf4aa15a47eb2",
+          "ec18a0ef15ef8931"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 4,
+        "bbc": 9,
+        "guardian": 30
+      },
+      "length_bin": 1,
+      "per_epoch_per_portal": 4,
+      "topic": "topicB",
+      "year_month": "2025-04"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "0579be7461be8438",
+          "19e3b5e9f21fc3c4",
+          "3ca66fe3391aad52",
+          "4874e93fb1d6cc64",
+          "ac8738593bea31cd",
+          "fd5dc90dfbeccc2d"
+        ],
+        "bbc": [
+          "1684137ee0acbc32",
+          "28984aee6a6c0c82",
+          "31166285ffbdc4d7",
+          "35499fe50f7c80a6",
+          "42bf23c236423629",
+          "4455fca96781d46f",
+          "4cddd2c8c4ea37b7",
+          "545d1c18cb635167",
+          "6b121ad5040a21ad",
+          "873e705045164c77",
+          "cb6be80f31819cc1"
+        ],
+        "guardian": [
+          "088dd53cad989b7e",
+          "1c4fdd13c1704081",
+          "201dc0e76daab8e4",
+          "33071aa19645d921",
+          "43172e4d95cdcf4c",
+          "5ee79ceef7e21a21",
+          "6dae04a261f0b8ce",
+          "8aea70ee3a113c7c",
+          "9204d91eb09073a7",
+          "998c111eb30cdf88",
+          "9c6baa7944c66ead",
+          "9e8e66c7913e9bc5",
+          "a8419a5560e441e7",
+          "b04fe6d45cdc9c66",
+          "b2dde3e03599d1d5",
+          "c87afee9aed4772e",
+          "e085887969c24f96"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 6,
+        "bbc": 11,
+        "guardian": 17
+      },
+      "length_bin": 2,
+      "per_epoch_per_portal": 6,
+      "topic": "topicB",
+      "year_month": "2025-04"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "097143f3568f23de",
+          "2217584d456a930c",
+          "548ac22d8f579f80",
+          "88ef64534a63f7e5",
+          "f7f4b67d42398cf0"
+        ],
+        "bbc": [
+          "618dc4de3627f723",
+          "69e5ea3566f43518",
+          "82fd051f819a9a4e",
+          "a7d2d4e15fc9ab52",
+          "be78df5c4a1b1cf6",
+          "e5b282a030561354",
+          "ecb0617d12dee671"
+        ],
+        "guardian": [
+          "0cc5074b7bce807f",
+          "18cfa4d75312d21f",
+          "2d3ca1922387197f",
+          "2e79701260b7ac08",
+          "31917fb40e9a845d",
+          "3cea272e0804caac",
+          "4e51b144c3727e5c",
+          "5eca221689ba90ce",
+          "76af00d7e35a45de",
+          "77eba08dc8d73b1e",
+          "86066c91d2328f85",
+          "957ef4c53f972c7f",
+          "966bc976307423fb",
+          "ae68476edef3d1b0",
+          "c15f0403a8be96f2",
+          "d872368d79734b73",
+          "db3da73451c98ce5",
+          "e0752b8b0253502f",
+          "e22e671c3a36d837"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 5,
+        "bbc": 7,
+        "guardian": 19
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 5,
+      "topic": "topicB",
+      "year_month": "2025-05"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "07759a1c59d9f324",
+          "09cf1bb0e48d1707",
+          "1e459831ad39cdbe",
+          "befc19883f61dc33",
+          "c66a195798ba094d"
+        ],
+        "bbc": [
+          "15c3b190a533ad3f",
+          "2b9bd36394ff35d7",
+          "2ee1764759d98cde",
+          "41317017c4fde38b",
+          "4eb0d78ecd9ae3f3",
+          "5327925c5c466d22",
+          "8c48086eedaa51bb",
+          "df6a6ae866d0f8b5",
+          "eae78e0746a1f64f"
+        ],
+        "guardian": [
+          "1c6ed65334151293",
+          "252b765a8476850e",
+          "339a2079c2bd120c",
+          "6a8abce47f733351",
+          "72269b7f189c6638",
+          "8f9b7c4deaa0254a",
+          "a2c6c35a1c180312",
+          "ad352a1f2a795d91",
+          "ae86b33cd735f690",
+          "b35b81d2ea63174f",
+          "bbf929a842ac95cb",
+          "bd3a1b5dabbeda0e",
+          "c0b1e27d99fa3d2b",
+          "c657e1e5dab742dc",
+          "d086132f250a915e",
+          "e6a71a8e7c45ee41"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 5,
+        "bbc": 9,
+        "guardian": 16
+      },
+      "length_bin": 1,
+      "per_epoch_per_portal": 5,
+      "topic": "topicB",
+      "year_month": "2025-05"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "399bc51cccda22f7",
+          "5399dfaa57d315e8",
+          "de36e1da5eddba7b",
+          "ec07a4d44e330649"
+        ],
+        "bbc": [
+          "089d24d00f966c13",
+          "0d310630a4cf232f",
+          "3c2462c29297997e",
+          "4316496ba742af02",
+          "6dc549ed20186a70",
+          "7a16497d4fe37346"
+        ],
+        "guardian": [
+          "177606857f3b5601",
+          "1f88847351380ffb",
+          "3316a26ded15c7ac",
+          "3ce8d00287b8c7e6",
+          "3dadfbbb7a5257ef",
+          "468a21b6d50d99ee",
+          "6247ae48d6ea7714",
+          "6dd82749de03f978",
+          "6f9650f671583187",
+          "91d715cec2ce15c8",
+          "a2630c19d827650f",
+          "aedf09fd6ffc6d29",
+          "c7e6d683ee2bfe04",
+          "ee0b396b4f130965"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 4,
+        "bbc": 6,
+        "guardian": 14
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 4,
+      "topic": "topicB",
+      "year_month": "2025-07"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "046302f5da73883a",
+          "113222dcab89b0e4",
+          "2657ffab08105f20",
+          "473e53e04a572536",
+          "5d17917df145aec8",
+          "92a7726dd247ba6b",
+          "9dd8313e76f9219b",
+          "f1140b7dbb35a938"
+        ],
+        "bbc": [
+          "60e131c7d9c7b0fe",
+          "78038340b9a4cf3a",
+          "b6413f6c4a1a747f",
+          "e7664b7fb8906746",
+          "ea9ee4ea387233f4"
+        ],
+        "guardian": [
+          "18fdae0bc37f883e",
+          "27df386793dca994",
+          "42931d9ef8c3eb1f",
+          "5e0be7679a8721ab",
+          "6fdba6077d464f25",
+          "76eaa7a30b85d9b4",
+          "be610b38ccbde999",
+          "c14673ba56b29b5f",
+          "dc001f1d810799df",
+          "ffd10ab156bf799a"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 8,
+        "bbc": 5,
+        "guardian": 10
+      },
+      "length_bin": 1,
+      "per_epoch_per_portal": 5,
+      "topic": "topicB",
+      "year_month": "2025-07"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "3c4161c06b5e2009",
+          "5eb361dc9997bbd8",
+          "5f57f76925bb5a33",
+          "9bbdeda7dc9fa38d",
+          "e31423c9834d7526"
+        ],
+        "bbc": [
+          "06e18af7969b2567",
+          "142043b82f1a53e4",
+          "34f4db89effd71fb",
+          "4754a2f2eef8e6ef",
+          "646a0c5d16caac0c",
+          "72065f02b08012a9",
+          "9c0ff217d217b3d1",
+          "cb1638bc26c2e308",
+          "cdf792efbe6b781d",
+          "fc9e35f6ba19847d"
+        ],
+        "guardian": [
+          "0076dbaccf4825f8",
+          "277b8e811a9040bf",
+          "2ae9c7101bc58d3c",
+          "34542945ffe396c6",
+          "350b011407019841",
+          "4c7dbb70798930dc",
+          "4e926734f5bae1c4",
+          "536f0ca135ae0831",
+          "598c38b6bba4f0ae",
+          "5d6251dc719a9f26",
+          "5fbf42895781b0ef",
+          "6166b2a9ba1fb8e2",
+          "711eac3a2c257ebd",
+          "756a9d4979bc1da4",
+          "86810c4363291f28",
+          "a341c402c0f62bbe",
+          "b21a7dbd99825255",
+          "bc16ba0a19bd0bf2",
+          "bc4af750a2284671",
+          "c0fe9617a4005876",
+          "c2b95cfa35c85a31",
+          "d1ff342be7adae55",
+          "ddcad1e21b41d712",
+          "deeeb2b73244c891",
+          "e9b8e1af441a644a",
+          "f13d8e05a4aa9e53",
+          "f5965b7a3da74d61",
+          "f6e15c8578d548a7"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 5,
+        "bbc": 10,
+        "guardian": 28
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 5,
+      "topic": "topicB",
+      "year_month": "2025-08"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "02e1d0f2c78cb7d4",
+          "1099d32e02977104",
+          "4ade3a405e76956b",
+          "5893f54ea9b077fc",
+          "7f24ef887427e7a6",
+          "8dd9cbc5ef164c84",
+          "f112594b66878534",
+          "f6201c64c252ccc8",
+          "f7621c40874ec911"
+        ],
+        "bbc": [
+          "1a06bf31d572929f",
+          "336e21659fa428ac",
+          "4acada3098747c2a",
+          "62130e7eb0908e88",
+          "63cfe224f006f594",
+          "781ba254b31d3f84",
+          "82870fd40d26191f",
+          "8a10b0eb394cacaf",
+          "8e891ad911569aed",
+          "934a2d1f5a6e1542",
+          "a28d20b98f2595a2",
+          "a69da3130e3e717e",
+          "c1d77c807cc8a617",
+          "d94c50075c738f24",
+          "e8b0b5567188fbf8",
+          "f66efb9f7996a968"
+        ],
+        "guardian": [
+          "03e253d6759c54c1",
+          "15f6f02c10facd0c",
+          "23e35f7db1c28381",
+          "3e58cef2398e51d1",
+          "454e8691795e3756",
+          "489a85a9587c0769",
+          "5fbfdab1fa383ef8",
+          "7f5f21faed8312ae",
+          "82d287c7a61e9303",
+          "9946f2e4684ca67b",
+          "9c1dcaa86a7d35d2",
+          "9fdcf43bd41e1462",
+          "a66493c9fd149b2d",
+          "b69956a4c7f9a73c",
+          "c1a9b731640ec219",
+          "dddfc3bdecd24838",
+          "e1040af43133a75e",
+          "e3d135d50eb437e2",
+          "e4855c05af815e1a",
+          "efb67d00b1fa409b",
+          "f0e5fc3f75bc5a81",
+          "f9069e0ee0beb1bf",
+          "fa5441d76c3c627c",
+          "fedf3107ea2c55c4"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 9,
+        "bbc": 16,
+        "guardian": 24
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 9,
+      "topic": "topicB",
+      "year_month": "2025-09"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "21a7dee247153492",
+          "3dad869d93714281",
+          "5a104c05a9a07bcc",
+          "718a6b40da1c16be",
+          "9545f91ee1612f3a",
+          "b17c3d8a99c294ca",
+          "b2529294bfd38206"
+        ],
+        "bbc": [
+          "0187b80b804d0c2e",
+          "19b55f02e58b56a0",
+          "22fe81aca6a0f540",
+          "68df158bb60cfe25",
+          "710eacae517c12b6",
+          "890ffcc2788edce4",
+          "a041940f220edf8c",
+          "bdda764831c0b765",
+          "c2b59073c70191c0",
+          "dc6a7b8b4cf69554",
+          "e36b4173b65c8075",
+          "e6a8f3c523de00fa"
+        ],
+        "guardian": [
+          "003729caa289ee8e",
+          "036c84ef645d2535",
+          "094616a7bf97892b",
+          "0e43d341248096e9",
+          "15156b38eb529de0",
+          "27b18b731a70e9a2",
+          "2939858530580e5b",
+          "2cd1ae113177c822",
+          "311cbf763112908e",
+          "402a4d125a829396",
+          "49408ffacb1ef0f6",
+          "4fd9c6a0f2064309",
+          "5145fd5d50c007ab",
+          "567bc3d643e17902",
+          "6b39c3306888c2b6",
+          "6d125ac4c9b65d9e",
+          "837be1347b3fcee5",
+          "9f9b8815db89d048",
+          "c130ddb26452b11d",
+          "c567d81f028eddb5",
+          "c658a471281a33ee",
+          "cad636ed3fe50c06",
+          "caf9ba6cf7ee88a5",
+          "e0c0de205799cf3c",
+          "ea1424237670ee8a",
+          "eb6666c6d0a4f248",
+          "f23423f21e053b63",
+          "f3f78314cac8ba73"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 7,
+        "bbc": 12,
+        "guardian": 28
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 7,
+      "topic": "topicB",
+      "year_month": "2025-10"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "25c9e3a62faa9240",
+          "4607a43643531cf1",
+          "6084f3086a937c26",
+          "c129cff54f53e6d3",
+          "e10a10a065afb8ec"
+        ],
+        "bbc": [
+          "0fc271d1b18e76cf",
+          "27c085886eb095ac",
+          "27d6b437d35c0d65",
+          "2ca69827723d189a",
+          "40eb9546c79cb211",
+          "4bcafb82e1a48fc5",
+          "732897c8e9a95def",
+          "7bead76ffebe44b3",
+          "90d559ee3ed3d6a7",
+          "b45d3cac1ed60aa8",
+          "c5bf42ca77b65850",
+          "cf7691cf3fdd18a3",
+          "d164db535ab9fd27"
+        ],
+        "guardian": [
+          "0c7dc8ab34bb18cd",
+          "1bd4087bfde2fe2b",
+          "209b84fa0cfd47b7",
+          "22380d267abb4a6f",
+          "419f9f484d1f1d45",
+          "576026c945da143b",
+          "5ef4161437d45943",
+          "7a7f60aa8ec2f8df",
+          "83fb24c0fa41b51e",
+          "8a64a59c32491202",
+          "8b9829b0eaa36fc8",
+          "955556feddf07ba4",
+          "a70bfde084d77d2a",
+          "ae72f03d43bcc639",
+          "bdac0eb8f04d36ec",
+          "c8004c169fade231",
+          "cc5cd4d14910af41",
+          "ce51be9629a7ebd1",
+          "d677f72cc8d65f60",
+          "e7c1745e2f539034",
+          "efc222629bc098df",
+          "f74d74d3a99c8e49"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 5,
+        "bbc": 13,
+        "guardian": 22
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 5,
+      "topic": "topicB",
+      "year_month": "2025-11"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "20a5a5df704a6090",
+          "38741a520a6293b7",
+          "7788d71daf3d6b03",
+          "9d88514692776f89",
+          "9fcc2e6b3f515726",
+          "b4dc30fd9634397e"
+        ],
+        "bbc": [
+          "13bd8e99f7177b89",
+          "22c077e59fd3391c",
+          "22c58b9140706972",
+          "2cab36b3b289c615",
+          "3881d4655dc5e139",
+          "6323acbd9bc26598",
+          "92e8f0a490789c09",
+          "af04db266cb465ef",
+          "b5c3c008d490fc4f",
+          "d74009ce442189e9",
+          "e5b640c4fd7c2410"
+        ],
+        "guardian": [
+          "509d08a08fb3586d",
+          "53cdf16971d26694",
+          "5fd24fa3d6ba11e4",
+          "70edb68755832177",
+          "818f4cf35a368c8c",
+          "89ed31a247008f94",
+          "93315541f694184d",
+          "99f780dd54c35306",
+          "ac233d7c801ba83b",
+          "b3968c63084ab035",
+          "b64067c0f7eb7def",
+          "c49879d77fb0b7f0",
+          "c5999b3550ee88fa",
+          "c64d48684d9d06e0",
+          "c8105f4b673036b3",
+          "d2470da7db3a3f5d",
+          "e5f8712bf6f3b718",
+          "e656ef82836cab3d",
+          "ec18f21d22eb2eb6",
+          "fcb2887f53ec4261",
+          "fdf01ba04281854e"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 6,
+        "bbc": 11,
+        "guardian": 21
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 6,
+      "topic": "topicB",
+      "year_month": "2025-12"
+    },
+    {
+      "article_ids_by_portal": {
+        "aljazeera": [
+          "21536b50a9d06e1d",
+          "292ad8c3d0b843e4",
+          "2d8a344c19f06666",
+          "972548761ee8a22b",
+          "c1acc59211c9c63f",
+          "cd5e4990fde638ad",
+          "fb8317735d21df18"
+        ],
+        "bbc": [
+          "338de28dfd6253b3",
+          "5ecbc74bdc495456",
+          "691368e341df8b81",
+          "708eea11a1b57852",
+          "a14bc7f2eb273ee7",
+          "c4fe7a5a6281f48f",
+          "e32cade860a651e9"
+        ],
+        "guardian": [
+          "02b7f1e2113ade3d",
+          "0ddeca78af826056",
+          "192191fef79c936f",
+          "28734593234cc09b",
+          "4cff3c2510b61ac3",
+          "6275905a75a5115a",
+          "6282dce220ec5506",
+          "78971bb48a80c6be",
+          "872778ade76154de",
+          "9085ed8531e3cd77",
+          "927e5c834b99eb3d",
+          "ae6e602432d3ec1f",
+          "b8ca680884e8e32a",
+          "bd8842d29668f92d",
+          "c59e13607fda8c0a",
+          "c8bcc303c55297a2",
+          "d2276a41f8d83a9d",
+          "de73e30fe1318224",
+          "e756eb719855d70f",
+          "ee1ec51b9276d9b1"
+        ]
+      },
+      "counts_by_portal": {
+        "aljazeera": 7,
+        "bbc": 7,
+        "guardian": 20
+      },
+      "length_bin": 0,
+      "per_epoch_per_portal": 7,
+      "topic": "topicB",
+      "year_month": "2026-01"
+    }
+  ],
+  "portals": [
+    "aljazeera",
+    "bbc",
+    "guardian"
+  ]
+}

@@ -1,0 +1,3 @@
+target_topic,n_articles,raw_multi_chunk_n,raw_multi_chunk_fraction,weighted_total_mass,weighted_multi_chunk_mass,weighted_multi_chunk_fraction,max_chunks
+topicA,281,263,0.9359430604982206,186.0,175.64761904761903,0.944342037890425,4
+topicB,237,217,0.9156118143459916,111.0,99.47857142857143,0.8962033462033462,5

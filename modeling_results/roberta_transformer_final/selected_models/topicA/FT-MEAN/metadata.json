@@ -1,0 +1,26 @@
+{
+  "arch": "MEAN",
+  "base_protocol_hash": "5fa51702be769922b580121397830bc7c99f9a614e6aca58ff8f850629124ba1",
+  "confirmation_seeds": [
+    20260912,
+    20260918,
+    20260924
+  ],
+  "family": "FT",
+  "ft_protocol_hash": "3f31db7ebf13f3e6857f609c56aae0cfcf02891b835e5c2dacfe15e18d25c8e3",
+  "selected_config": {
+    "arch": "MEAN",
+    "config_id": "MEAN_lr1e-05_wd0e+00",
+    "config_order": 6,
+    "learning_rate": 1e-05,
+    "mean_best_epoch": 12.0,
+    "mean_best_val_weighted_accuracy": 0.9473416965352449,
+    "mean_best_val_weighted_cross_entropy": 0.17052002346414966,
+    "mean_best_val_weighted_macro_f1": 0.947256395394572,
+    "mean_skipped_amp_optimizer_steps": 3.6666666666666665,
+    "std_best_val_weighted_macro_f1": 0.01963436401181017,
+    "topic": "topicA",
+    "weight_decay": 0.0
+  },
+  "topic": "topicA"
+}

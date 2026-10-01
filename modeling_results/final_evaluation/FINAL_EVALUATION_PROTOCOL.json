@@ -1,0 +1,768 @@
+{
+  "attention_analysis": {
+    "architecture_interpretation": "the article-level ATTN module is a small order-agnostic content scorer (768->128->1 plus token-count prior), with no chunk-position embeddings and no Transformer-style inter-chunk self-attention. Position profiles describe content occurring at positions, not learned ordinal-position awareness, and attention is not treated as a causal explanation",
+    "baseline": "for article i, p_ij = content_tokens_ij / sum_j(content_tokens_ij), exactly matching the fixed token-count-weighted MEAN pooling prior",
+    "excluded_primary_diagnostics": [
+      "attention entropy",
+      "first-chunk-only metrics",
+      "top-chunk metrics",
+      "attention-center metrics",
+      "equal-position collapsed scalar"
+    ],
+    "models": [
+      "FE-ATTN",
+      "FT-ATTN",
+      "RANDOM-ATTN"
+    ],
+    "multi_seed_attention": "arithmetic mean of the same article/chunk attention weight across the full predefined seed set before diagnostics; RANDOM has one seed",
+    "overall_reallocation": "for each article TV_i = 0.5 * sum_j |a_ij-p_ij|; aggregate across the complete target test set with frozen balance_weight. One-chunk articles therefore contribute TV=0. Report raw and balance-weighted multi-chunk coverage as interpretation context, not as an additional performance metric",
+    "population": "target-topic test articles only, for both within-topic and exact cross-topic directions",
+    "position_profile": "for each absolute chunk position j, among articles where j exists, compute the frozen-balance-weighted mean log2(a_ij/p_ij), its equivalent geometric-mean multiplier 2^L_j, raw support count, and weighted support mass. Do not collapse positions into another scalar",
+    "primary_diagnostics": [
+      "weighted mean article-level TV distance from token-count prior",
+      "balance-weighted absolute-position log2 attention/prior profile"
+    ]
+  },
+  "bootstrap": {
+    "comparisons": [
+      "FT-ATTN ensemble - headline direct classical",
+      "FT-ATTN ensemble - FT-MEAN ensemble",
+      "FT-ATTN ensemble - FE-ATTN ensemble"
+    ],
+    "interval": "2.5/97.5 percentile; descriptive, not an exhaustive significance-testing program",
+    "repetitions": 2000,
+    "resampling": "paired within target-test (portal, year_month, length_bin) strata; original frozen balance weights travel with sampled rows",
+    "seed": 20260908
+  },
+  "corpus_sha256": "c07d1fcc31fb3fe5e92a308f95e2ea6578c391b6cb6a3d38216573c0e1c6e12e",
+  "evaluation_directions": [
+    "topicA->topicA",
+    "topicA->topicB",
+    "topicB->topicB",
+    "topicB->topicA"
+  ],
+  "headline_validation_selected_classical": {
+    "topicA": {
+      "direct_classical_family": "linear_svc",
+      "svd_classical_family": "linear_svc"
+    },
+    "topicB": {
+      "direct_classical_family": "linear_svc",
+      "svd_classical_family": "svc_sigmoid"
+    }
+  },
+  "manifest_sha256": "282e1544747c4fe06898a7250043c6d813a8d890b9c88bd40e47bc5f7046ba9f",
+  "metrics": {
+    "primary": "weighted macro-F1",
+    "probability_models": [
+      "weighted/raw cross-entropy",
+      "maximum softmax probability",
+      "normalized predictive entropy"
+    ],
+    "secondary": [
+      "weighted accuracy",
+      "raw macro-F1",
+      "raw accuracy",
+      "weighted/raw per-class precision/recall/F1",
+      "weighted/raw confusion matrices"
+    ]
+  },
+  "model_scope": {
+    "FE": "512/MEAN/ATTN, all five confirmation seeds",
+    "FT": "512/MEAN/ATTN, all three confirmation seeds",
+    "RANDOM": "512/MEAN/ATTN, one predefined control checkpoint each",
+    "direct_classical": "all six validation-selected family winners; headline = validation-best family winner",
+    "direct_mlp": "selected confirmed config, all five confirmation seeds",
+    "stage1_neural_instances": "excluded",
+    "svd_classical": "all six validation-selected family winners; headline = validation-best family winner",
+    "svd_mlp": "selected confirmed config, all five confirmation seeds"
+  },
+  "multi_seed_reporting": {
+    "best_test_seed_selection": false,
+    "cross_architecture_ensembling": false,
+    "primary_configuration_summary": "mean and sample SD of independent seed test metrics; this is the primary architecture/configuration comparison",
+    "secondary_predictor": "equal-weight arithmetic mean of per-seed softmax probability vectors; reported separately as the predefined ensemble predictor"
+  },
+  "parent_protocol_hashes": {
+    "direct_classical": "e17602edbdfe5e440fcac47c3e1b490e2071a37cd88fb4e057422ca85552e8b1",
+    "tfidf_svd_mlp": "936e424d488c95ab4c3b8df23af51aea4759ceb3e380139958cf1876d70057c9",
+    "transformer_base_fe": "5fa51702be769922b580121397830bc7c99f9a614e6aca58ff8f850629124ba1",
+    "transformer_ft": "3f31db7ebf13f3e6857f609c56aae0cfcf02891b835e5c2dacfe15e18d25c8e3",
+    "transformer_random_init": "9efe780c0f50e591a04e6c9e4212fd5e3b8f1cc52a456fd9d1def93127f966d1"
+  },
+  "qualitative_errors": {
+    "categories": [
+      "FT correct / classical wrong",
+      "classical correct / FT wrong",
+      "both wrong",
+      "highest-confidence FT errors",
+      "cross-topic degradation vs target-trained FT-ATTN"
+    ],
+    "examples_per_category": 5,
+    "primary_pair": "headline direct classical vs FT-ATTN soft ensemble",
+    "tie_break": "article_id",
+    "titles_and_body_excerpts": "qualitative metadata only; never classifier input"
+  },
+  "representation_analysis": {
+    "all_split_specs": [
+      [
+        "FE",
+        "512",
+        20260912
+      ],
+      [
+        "FE",
+        "MEAN",
+        20260912
+      ],
+      [
+        "FE",
+        "ATTN",
+        20260912
+      ],
+      [
+        "FT",
+        "512",
+        20260912
+      ],
+      [
+        "FT",
+        "MEAN",
+        20260912
+      ],
+      [
+        "FT",
+        "ATTN",
+        20260912
+      ],
+      [
+        "RANDOM",
+        "MEAN",
+        20260904
+      ]
+    ],
+    "joint_topic_global_weighted_pca": "fit train+validation+test representations from both topics; use frozen balance weights then normalize each topic to equal total mass; no split-mass normalization",
+    "representative_seed_policy": "first predefined confirmation seed, never validation/test-best seed",
+    "source_weighted_pca": "fit source-topic train only with frozen balance weights; project both test topics",
+    "vector": "768-D article representation immediately before dropout/final classifier",
+    "visual_method": "weighted PCA only; no visual hyperparameter search",
+    "within_topic_global_weighted_pca": "for each topic separately, fit train+validation+test frozen representations with that topic's frozen balance weights"
+  },
+  "selected_artifact_hashes": {
+    "classical::selected_models/topicA/linear_svc/metadata.json": {
+      "expected_sha256": "696cb38aab01d715f76ce65f9bb1509793a747b91b6624dd7d24dd4e51a866dc",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicA/linear_svc/metadata.json"
+    },
+    "classical::selected_models/topicA/linear_svc/model_bundle.joblib": {
+      "expected_sha256": "b46d2c47d23237eaa17a60ae05e013ebd1950ba3d868ecf3fd86589ee2bf23df",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicA/linear_svc/model_bundle.joblib"
+    },
+    "classical::selected_models/topicA/logistic_regression/metadata.json": {
+      "expected_sha256": "6ae8e0aba532eca86ccc9cdc18463cbb7b960d34b79d0ef1e7f94112ccad7af3",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicA/logistic_regression/metadata.json"
+    },
+    "classical::selected_models/topicA/logistic_regression/model_bundle.joblib": {
+      "expected_sha256": "ee3831f014af957922debb9e928d38fb5496488b1cc1b72d4811953366fd71a8",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicA/logistic_regression/model_bundle.joblib"
+    },
+    "classical::selected_models/topicA/svc_linear/metadata.json": {
+      "expected_sha256": "86b4d9d45b531f9ddb069b36150f7fc4a94a5669467b670fdbf9e875697dd9d7",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicA/svc_linear/metadata.json"
+    },
+    "classical::selected_models/topicA/svc_linear/model_bundle.joblib": {
+      "expected_sha256": "c53bf13af0f48f8b556bda03c67d08cf41236750fef9229f015cd63d521c6e4c",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicA/svc_linear/model_bundle.joblib"
+    },
+    "classical::selected_models/topicA/svc_poly/metadata.json": {
+      "expected_sha256": "f942dd0164cb9cf22c1dcf6195ae25468616c0f195fc6bca7701882fef3a7c4f",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicA/svc_poly/metadata.json"
+    },
+    "classical::selected_models/topicA/svc_poly/model_bundle.joblib": {
+      "expected_sha256": "e41542adb27122258432d33410691c9b79a35247dc51ecc33aacf0855615755b",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicA/svc_poly/model_bundle.joblib"
+    },
+    "classical::selected_models/topicA/svc_rbf/metadata.json": {
+      "expected_sha256": "7d520545a4f8bb54734f367a561be64e6039acf5928c395edd85f1a9be655d6a",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicA/svc_rbf/metadata.json"
+    },
+    "classical::selected_models/topicA/svc_rbf/model_bundle.joblib": {
+      "expected_sha256": "ea791282d93d47ee16daaad141dcdbc0fb26821a9b6ebe3796709be39c73a16c",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicA/svc_rbf/model_bundle.joblib"
+    },
+    "classical::selected_models/topicA/svc_sigmoid/metadata.json": {
+      "expected_sha256": "d711f35105732cf55f96196f75317d0f83414e1f95d8e12f4e64dfc30d79b741",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicA/svc_sigmoid/metadata.json"
+    },
+    "classical::selected_models/topicA/svc_sigmoid/model_bundle.joblib": {
+      "expected_sha256": "100abaf7f316a036b8327c2f13cfb23752a8ff3d89c1cdd70eecbd6a483b70a7",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicA/svc_sigmoid/model_bundle.joblib"
+    },
+    "classical::selected_models/topicB/linear_svc/metadata.json": {
+      "expected_sha256": "d1f3fac975354307fe3d4018806a0dbeb4cdf7a87713afd8379f7da8213009e8",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicB/linear_svc/metadata.json"
+    },
+    "classical::selected_models/topicB/linear_svc/model_bundle.joblib": {
+      "expected_sha256": "6a2145b367d41548f13e809242e3f661589623cf40e3e94655933ee0e53e10eb",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicB/linear_svc/model_bundle.joblib"
+    },
+    "classical::selected_models/topicB/logistic_regression/metadata.json": {
+      "expected_sha256": "20e9cd6bfce97391d0953241b80251ceee6fcd98d7490b7a795654d27a9aabc8",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicB/logistic_regression/metadata.json"
+    },
+    "classical::selected_models/topicB/logistic_regression/model_bundle.joblib": {
+      "expected_sha256": "ac692b2501ec002e42d78b15e41ab153e88265e0030f47fad074b6b994fba9b6",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicB/logistic_regression/model_bundle.joblib"
+    },
+    "classical::selected_models/topicB/svc_linear/metadata.json": {
+      "expected_sha256": "6574ab444190c0ef48f340bbd397278b432420f12f783e5bcb5286759771ab0b",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicB/svc_linear/metadata.json"
+    },
+    "classical::selected_models/topicB/svc_linear/model_bundle.joblib": {
+      "expected_sha256": "4caa9edada6bf7baa0b3b3c6b9b8e68497681993c73c4c6905967b9b9ae1f8c9",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicB/svc_linear/model_bundle.joblib"
+    },
+    "classical::selected_models/topicB/svc_poly/metadata.json": {
+      "expected_sha256": "271a7fb59fc38f5e3913d9e17948a9e02dc0e6da11343fc5cfd6fe5cc67e679f",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicB/svc_poly/metadata.json"
+    },
+    "classical::selected_models/topicB/svc_poly/model_bundle.joblib": {
+      "expected_sha256": "d1d153c5e07f90a816aab096ccd8ba3a9c526f921858dfd73b5cf64949725b82",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicB/svc_poly/model_bundle.joblib"
+    },
+    "classical::selected_models/topicB/svc_rbf/metadata.json": {
+      "expected_sha256": "824e51f8b467d428ebdd59bf5b7b8c326bcaeb83fd25458236413741ec86c3aa",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicB/svc_rbf/metadata.json"
+    },
+    "classical::selected_models/topicB/svc_rbf/model_bundle.joblib": {
+      "expected_sha256": "58b4538dab11937eae41b90414947fe6ec5014d43aac441baabc08d664d42be4",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicB/svc_rbf/model_bundle.joblib"
+    },
+    "classical::selected_models/topicB/svc_sigmoid/metadata.json": {
+      "expected_sha256": "8c6ee073e287fb80e8692ae841e6fedb3bce4539be3ff366dc72810cd5b26786",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicB/svc_sigmoid/metadata.json"
+    },
+    "classical::selected_models/topicB/svc_sigmoid/model_bundle.joblib": {
+      "expected_sha256": "30b433e04102083e090242374e25e6c45549562b6e6828cd0c3a31f6ccce6db4",
+      "path": "modeling_results/classical_tfidf_final/selected_models/topicB/svc_sigmoid/model_bundle.joblib"
+    },
+    "mlp::selected_mlp_models/direct/topicA/metadata.json": {
+      "expected_sha256": "702256c2c9c18bfa5f005ebf04530c6cded56b543a2fdccd68e50128b1abb55e",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/direct/topicA/metadata.json"
+    },
+    "mlp::selected_mlp_models/direct/topicA/mlp_seed_20260911.pt": {
+      "expected_sha256": "2fb97bad01435b172df037bbbd55333248349ebdf4f3b4974c0ca9683b5794fc",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/direct/topicA/mlp_seed_20260911.pt"
+    },
+    "mlp::selected_mlp_models/direct/topicA/mlp_seed_20260917.pt": {
+      "expected_sha256": "75c05ddee11af9575e2714478ce1dd2c3f6ea3e6eb9130612c4b8e2206dc2978",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/direct/topicA/mlp_seed_20260917.pt"
+    },
+    "mlp::selected_mlp_models/direct/topicA/mlp_seed_20260923.pt": {
+      "expected_sha256": "f6db66042631fe26f39d01c6eacc62dab43193ee40008959737a03690f59e69c",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/direct/topicA/mlp_seed_20260923.pt"
+    },
+    "mlp::selected_mlp_models/direct/topicA/mlp_seed_20260929.pt": {
+      "expected_sha256": "645b4d7f8517bfeb29f5822f63719378abbf74c3325e88725ae12e21ac6436d7",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/direct/topicA/mlp_seed_20260929.pt"
+    },
+    "mlp::selected_mlp_models/direct/topicA/mlp_seed_20261005.pt": {
+      "expected_sha256": "b170223e6898ea0390321cad9139b491626de55c17bb88c88acc18ba18c74f6d",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/direct/topicA/mlp_seed_20261005.pt"
+    },
+    "mlp::selected_mlp_models/direct/topicA/representation_bundle.joblib": {
+      "expected_sha256": "8790b489a74d233e50b24c049c19cac62441ddb86123c1ba690473942bcafb59",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/direct/topicA/representation_bundle.joblib"
+    },
+    "mlp::selected_mlp_models/direct/topicB/metadata.json": {
+      "expected_sha256": "9a51f21011a2def4f9b2aac4038ec0453f336926b56cf39f6c9fbc475899570f",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/direct/topicB/metadata.json"
+    },
+    "mlp::selected_mlp_models/direct/topicB/mlp_seed_20260911.pt": {
+      "expected_sha256": "39a96848ac119c8e9eff6e93ba87c18276675260a9169560c867e66448d56748",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/direct/topicB/mlp_seed_20260911.pt"
+    },
+    "mlp::selected_mlp_models/direct/topicB/mlp_seed_20260917.pt": {
+      "expected_sha256": "0ef91dc96cf2a38164b24cce6c39a87d178ef8d5536e074aeeb15f54098fb27a",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/direct/topicB/mlp_seed_20260917.pt"
+    },
+    "mlp::selected_mlp_models/direct/topicB/mlp_seed_20260923.pt": {
+      "expected_sha256": "eb1e8411aff3663b083689909db6caf4af86c33ee052f28e8037e99880bbef84",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/direct/topicB/mlp_seed_20260923.pt"
+    },
+    "mlp::selected_mlp_models/direct/topicB/mlp_seed_20260929.pt": {
+      "expected_sha256": "b43ba1ca3cd38db22f3eecc5c1cf567fa2710029dc29ae668a1b06d0d88a6a57",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/direct/topicB/mlp_seed_20260929.pt"
+    },
+    "mlp::selected_mlp_models/direct/topicB/mlp_seed_20261005.pt": {
+      "expected_sha256": "899d7f3617834dcafafe0c9335a1c1c2280709887f314df3fbdde8fc95c2c273",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/direct/topicB/mlp_seed_20261005.pt"
+    },
+    "mlp::selected_mlp_models/direct/topicB/representation_bundle.joblib": {
+      "expected_sha256": "a252da185dfbb6b047c64a53f83f2a9c8dea76268007f57d19c8179f657a88bf",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/direct/topicB/representation_bundle.joblib"
+    },
+    "mlp::selected_mlp_models/svd/topicA/metadata.json": {
+      "expected_sha256": "25b1730f6358dd79744678484805d2b9e796ea416572ae7c61e57538e82225bc",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/svd/topicA/metadata.json"
+    },
+    "mlp::selected_mlp_models/svd/topicA/mlp_seed_20260911.pt": {
+      "expected_sha256": "052e28b4838e79eeb3b9b588939a3255a3b33d2374ce53bff4843b232eadd1bf",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/svd/topicA/mlp_seed_20260911.pt"
+    },
+    "mlp::selected_mlp_models/svd/topicA/mlp_seed_20260917.pt": {
+      "expected_sha256": "17aa5557de36f7c4ef2b09ddc63f4974f94d8474aa98d22bd22be62b4680ae46",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/svd/topicA/mlp_seed_20260917.pt"
+    },
+    "mlp::selected_mlp_models/svd/topicA/mlp_seed_20260923.pt": {
+      "expected_sha256": "168e94e353a8d1c4fa2e410b3d72fb241ceb22c1cc3e7f23af27db80bf8bfe46",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/svd/topicA/mlp_seed_20260923.pt"
+    },
+    "mlp::selected_mlp_models/svd/topicA/mlp_seed_20260929.pt": {
+      "expected_sha256": "b03d9b0d6c15116c93787adaaedd6c1c119b684a97345aad1051f2c112c06664",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/svd/topicA/mlp_seed_20260929.pt"
+    },
+    "mlp::selected_mlp_models/svd/topicA/mlp_seed_20261005.pt": {
+      "expected_sha256": "6457fe43017a133c3f0de019b4a0fc36413e0f0dbad3c3f3d77c90cde08e405a",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/svd/topicA/mlp_seed_20261005.pt"
+    },
+    "mlp::selected_mlp_models/svd/topicA/representation_bundle.joblib": {
+      "expected_sha256": "677656bac080c485a1349de9bdcb27581c25b330ec3747657d26aed2b8950108",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/svd/topicA/representation_bundle.joblib"
+    },
+    "mlp::selected_mlp_models/svd/topicB/metadata.json": {
+      "expected_sha256": "50feabca21b38b8aec06566e245770e59bd9d18984339f3d879fc21c4c13bd29",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/svd/topicB/metadata.json"
+    },
+    "mlp::selected_mlp_models/svd/topicB/mlp_seed_20260911.pt": {
+      "expected_sha256": "8ca172916157b801d0a12a6cceac61b4e57a94db8562a486d79461a7adfd70c1",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/svd/topicB/mlp_seed_20260911.pt"
+    },
+    "mlp::selected_mlp_models/svd/topicB/mlp_seed_20260917.pt": {
+      "expected_sha256": "b5b463775cb7398c3cf38250a54a9a261d9ad6cab60ab0410c72d6d8476a619d",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/svd/topicB/mlp_seed_20260917.pt"
+    },
+    "mlp::selected_mlp_models/svd/topicB/mlp_seed_20260923.pt": {
+      "expected_sha256": "f48a7bc4fdccbba746da2a2a3053b4f2e5f599f426b4451cbdd02af7b6db4abf",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/svd/topicB/mlp_seed_20260923.pt"
+    },
+    "mlp::selected_mlp_models/svd/topicB/mlp_seed_20260929.pt": {
+      "expected_sha256": "955f785cc698b2dc1193d406e1ee155c4904c6b8c978a30f7940b10a0d7f5cf8",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/svd/topicB/mlp_seed_20260929.pt"
+    },
+    "mlp::selected_mlp_models/svd/topicB/mlp_seed_20261005.pt": {
+      "expected_sha256": "a76bdebcfd7a3dcde49d0fd747c16e215e15114725b13bd0867dd853f1d925e3",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/svd/topicB/mlp_seed_20261005.pt"
+    },
+    "mlp::selected_mlp_models/svd/topicB/representation_bundle.joblib": {
+      "expected_sha256": "783542aad6cebd80401b788ad22bea33f89a3e253502b4df17c9ceff4cc686ff",
+      "path": "modeling_results/tfidf_neural_svd_final/selected_mlp_models/svd/topicB/representation_bundle.joblib"
+    },
+    "svdclass::svd_classical/selected_models/topicA/linear_svc/metadata.json": {
+      "expected_sha256": "099eb1fa09b238fd198e9b80e73e25e621cfa6b18e3a40423a7cc187a089273e",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicA/linear_svc/metadata.json"
+    },
+    "svdclass::svd_classical/selected_models/topicA/linear_svc/model_bundle.joblib": {
+      "expected_sha256": "92f30065126d00831524ac08874c4151e601e35cc021199b0f737776c3965d13",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicA/linear_svc/model_bundle.joblib"
+    },
+    "svdclass::svd_classical/selected_models/topicA/logistic_regression/metadata.json": {
+      "expected_sha256": "f22ac193823e82c7554fd0a8fcc701655ee340602a2560495c0c3b79210b7f22",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicA/logistic_regression/metadata.json"
+    },
+    "svdclass::svd_classical/selected_models/topicA/logistic_regression/model_bundle.joblib": {
+      "expected_sha256": "e40ce1f3f9ce07e5df8f9dc7d762817c3a13a22a50ef637c96f00d32247e46fc",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicA/logistic_regression/model_bundle.joblib"
+    },
+    "svdclass::svd_classical/selected_models/topicA/svc_linear/metadata.json": {
+      "expected_sha256": "ea29d31fbf14e91e70e96b22030f303ebf78a44677268fc44e4a2aee0a05a50e",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicA/svc_linear/metadata.json"
+    },
+    "svdclass::svd_classical/selected_models/topicA/svc_linear/model_bundle.joblib": {
+      "expected_sha256": "07018f13c770a2fab04d99182b23f05eef4645a8686026c6c11d32202fd97f7e",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicA/svc_linear/model_bundle.joblib"
+    },
+    "svdclass::svd_classical/selected_models/topicA/svc_poly/metadata.json": {
+      "expected_sha256": "9255848981cff8b1e96c1cb5a46c0e893d4e49f498eff608f2d8a6c854e0c632",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicA/svc_poly/metadata.json"
+    },
+    "svdclass::svd_classical/selected_models/topicA/svc_poly/model_bundle.joblib": {
+      "expected_sha256": "cb3d38c8bedaabeaf36700fcd74b0f75ed42f6c1008d20aff173e9e97cb6a6b6",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicA/svc_poly/model_bundle.joblib"
+    },
+    "svdclass::svd_classical/selected_models/topicA/svc_rbf/metadata.json": {
+      "expected_sha256": "30321ef2a9155dcac8bd509f9c1560c16dd7c97f74734704745c57f4889b060f",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicA/svc_rbf/metadata.json"
+    },
+    "svdclass::svd_classical/selected_models/topicA/svc_rbf/model_bundle.joblib": {
+      "expected_sha256": "b5cce58e059e9c003d6ee76a60e139ca88f5d20d4414627c0761c03caae113ab",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicA/svc_rbf/model_bundle.joblib"
+    },
+    "svdclass::svd_classical/selected_models/topicA/svc_sigmoid/metadata.json": {
+      "expected_sha256": "bc99fb30c61063f60ebd2cbfcff162af32514225ff0d9f9f65705292259cb716",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicA/svc_sigmoid/metadata.json"
+    },
+    "svdclass::svd_classical/selected_models/topicA/svc_sigmoid/model_bundle.joblib": {
+      "expected_sha256": "e1e055923e68929d37c82ab0fca61ea637f8648fdbe7ca93241cc27cfcb27f2d",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicA/svc_sigmoid/model_bundle.joblib"
+    },
+    "svdclass::svd_classical/selected_models/topicB/linear_svc/metadata.json": {
+      "expected_sha256": "3d48fa69191f4d94b35b1c6448235f950fab85faf102e8126c97a13858d24423",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicB/linear_svc/metadata.json"
+    },
+    "svdclass::svd_classical/selected_models/topicB/linear_svc/model_bundle.joblib": {
+      "expected_sha256": "c4ba186e86ffc0aa8b942580f6e89b260b1504079d072a1bf20c4a530947eee1",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicB/linear_svc/model_bundle.joblib"
+    },
+    "svdclass::svd_classical/selected_models/topicB/logistic_regression/metadata.json": {
+      "expected_sha256": "980baa3322bd4017d0f3e6c78cd91d04abdc6b673a7ee57593a094becacd59bc",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicB/logistic_regression/metadata.json"
+    },
+    "svdclass::svd_classical/selected_models/topicB/logistic_regression/model_bundle.joblib": {
+      "expected_sha256": "793d1f5dd2247bd1963cee3ba6c13aee149940f5cb2e26e0e4e9cfd7c0d841d9",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicB/logistic_regression/model_bundle.joblib"
+    },
+    "svdclass::svd_classical/selected_models/topicB/svc_linear/metadata.json": {
+      "expected_sha256": "b706173c70944219d57a676db9ee634514c5b28d784161e8661911f929cd9b71",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicB/svc_linear/metadata.json"
+    },
+    "svdclass::svd_classical/selected_models/topicB/svc_linear/model_bundle.joblib": {
+      "expected_sha256": "d6eb4e24a8b9fac219fd676032547055caa9399d14ce0a2c63415cb99c33075b",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicB/svc_linear/model_bundle.joblib"
+    },
+    "svdclass::svd_classical/selected_models/topicB/svc_poly/metadata.json": {
+      "expected_sha256": "5b0189dc2dbd832e4f5b551af4de46ddc90f03f4f32c41f7c97334f218af3154",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicB/svc_poly/metadata.json"
+    },
+    "svdclass::svd_classical/selected_models/topicB/svc_poly/model_bundle.joblib": {
+      "expected_sha256": "703a333e4bdb9cccfbf4a9d7a61bdaa926f4eaa15593e5be146b29040a16487e",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicB/svc_poly/model_bundle.joblib"
+    },
+    "svdclass::svd_classical/selected_models/topicB/svc_rbf/metadata.json": {
+      "expected_sha256": "463d448ae898f7a84d3bdd0ab59d7a706861d2bb473ef2ee79fa74f89b246d56",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicB/svc_rbf/metadata.json"
+    },
+    "svdclass::svd_classical/selected_models/topicB/svc_rbf/model_bundle.joblib": {
+      "expected_sha256": "3cb7ecb1e909925966f15b6ee8ecbdb16f61003b509e00cd9c042db0884bf896",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicB/svc_rbf/model_bundle.joblib"
+    },
+    "svdclass::svd_classical/selected_models/topicB/svc_sigmoid/metadata.json": {
+      "expected_sha256": "c9f1725862138c1045976d437c6d7a0696dd2d49dd245a6d6f8e22e0ffe3cdb6",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicB/svc_sigmoid/metadata.json"
+    },
+    "svdclass::svd_classical/selected_models/topicB/svc_sigmoid/model_bundle.joblib": {
+      "expected_sha256": "5d42fae93dc4c1e4204ab63d0101f787e2b3c57c8fea9d49913d40f7223d53b5",
+      "path": "modeling_results/tfidf_neural_svd_final/svd_classical/selected_models/topicB/svc_sigmoid/model_bundle.joblib"
+    },
+    "transformer::MODEL_SOURCE.json": {
+      "expected_sha256": "7caced595e2127c145079cb0d97ed85b4f55061531c574a67cff5e85a25866e1",
+      "path": "modeling_results/roberta_transformer_final/MODEL_SOURCE.json"
+    },
+    "transformer::base_model_assets/config.json": {
+      "expected_sha256": "3e9e5a280e2c9870fe335fd40148a3661faf675d5cb1e035265388df5dd3f88a",
+      "path": "modeling_results/roberta_transformer_final/base_model_assets/config.json"
+    },
+    "transformer::base_model_assets/model.safetensors": {
+      "expected_sha256": "d52c50e8529cb1d9b057e8deff1188e013035b11e45bdb1ee1124934b10f85c3",
+      "path": "modeling_results/roberta_transformer_final/base_model_assets/model.safetensors"
+    },
+    "transformer::base_model_assets/tokenizer.json": {
+      "expected_sha256": "2bb1a22cfbe25b8e5a232b7fc4d7fc5073923b45724a5f813b00811bb6620f66",
+      "path": "modeling_results/roberta_transformer_final/base_model_assets/tokenizer.json"
+    },
+    "transformer::base_model_assets/tokenizer_config.json": {
+      "expected_sha256": "aa6a8a3f069d2d98c09444ee3f9671d64c29ce647473dccd78169b10c490d359",
+      "path": "modeling_results/roberta_transformer_final/base_model_assets/tokenizer_config.json"
+    },
+    "transformer::selected_models/topicA/FE-512/head_seed_20260912.pt": {
+      "expected_sha256": "484f3529865c1f4022330a637c1e4a4822dc34dfb7c6906f19e6954d67692a5e",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-512/head_seed_20260912.pt"
+    },
+    "transformer::selected_models/topicA/FE-512/head_seed_20260918.pt": {
+      "expected_sha256": "a5fee140033163027fa95be36b543d46fc9850f42a1ff81b1180fa1e18daccfa",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-512/head_seed_20260918.pt"
+    },
+    "transformer::selected_models/topicA/FE-512/head_seed_20260924.pt": {
+      "expected_sha256": "f5276d97bc915f5bb6f2ab03b52ee792110efc77e5cac120d2f48bb118c0205a",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-512/head_seed_20260924.pt"
+    },
+    "transformer::selected_models/topicA/FE-512/head_seed_20260930.pt": {
+      "expected_sha256": "8460b717a55112dbd57378c82a0402fb311fd52995945f6726182ff4eb2d52e1",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-512/head_seed_20260930.pt"
+    },
+    "transformer::selected_models/topicA/FE-512/head_seed_20261006.pt": {
+      "expected_sha256": "2c7c03247aef21ec5bfe04f6bc5be2a96c3ea7013267f8839908079964bd2b5b",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-512/head_seed_20261006.pt"
+    },
+    "transformer::selected_models/topicA/FE-512/metadata.json": {
+      "expected_sha256": "4e3ec6438d41d41f5d3a9ddf41592af2bc094700d3dc097b7c41fe21ec4d7090",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-512/metadata.json"
+    },
+    "transformer::selected_models/topicA/FE-ATTN/head_seed_20260912.pt": {
+      "expected_sha256": "2dd5e6d7cc1a6246f05ee7c37cf6ac47dc44e4241a8f1f614a6e71dd217d3004",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-ATTN/head_seed_20260912.pt"
+    },
+    "transformer::selected_models/topicA/FE-ATTN/head_seed_20260918.pt": {
+      "expected_sha256": "b9534d45931a70ff0807b34541e674a522a3ca552fa5a34461c1df14d0e11a28",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-ATTN/head_seed_20260918.pt"
+    },
+    "transformer::selected_models/topicA/FE-ATTN/head_seed_20260924.pt": {
+      "expected_sha256": "bd2e2af0894811b178fe587baffa1db3cd6718d8da235a6f3554933a1eb66423",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-ATTN/head_seed_20260924.pt"
+    },
+    "transformer::selected_models/topicA/FE-ATTN/head_seed_20260930.pt": {
+      "expected_sha256": "3b3e56f0526480a7f8bfac2eef0864c8ca987d078e2c7ada2c5e932de7c9a0d4",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-ATTN/head_seed_20260930.pt"
+    },
+    "transformer::selected_models/topicA/FE-ATTN/head_seed_20261006.pt": {
+      "expected_sha256": "baf130fabab34e720e44119981201b582f99dca8dd38af4019fb604871380f2a",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-ATTN/head_seed_20261006.pt"
+    },
+    "transformer::selected_models/topicA/FE-ATTN/metadata.json": {
+      "expected_sha256": "72c62a6022bd25354cca06f3d253f316606da290fbf50c12b41e02e1895f71d9",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-ATTN/metadata.json"
+    },
+    "transformer::selected_models/topicA/FE-MEAN/head_seed_20260912.pt": {
+      "expected_sha256": "ed8e4b963badaf1a4ffba5f7fc5c6f88da54eda688de78353536edc3faf45c6c",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-MEAN/head_seed_20260912.pt"
+    },
+    "transformer::selected_models/topicA/FE-MEAN/head_seed_20260918.pt": {
+      "expected_sha256": "d738a68c99a64f059d12e977e56c305c34cbc6309ba4bfa5c05a2cb147efc1f6",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-MEAN/head_seed_20260918.pt"
+    },
+    "transformer::selected_models/topicA/FE-MEAN/head_seed_20260924.pt": {
+      "expected_sha256": "43b807527c71d5208f7ac8f04bf1790d291bcc0dd125d092a1733ab8116ee29e",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-MEAN/head_seed_20260924.pt"
+    },
+    "transformer::selected_models/topicA/FE-MEAN/head_seed_20260930.pt": {
+      "expected_sha256": "e3f9869a349fcc4845c4ee9b1cf40afe9b05028611e814f0c41cae403bac5004",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-MEAN/head_seed_20260930.pt"
+    },
+    "transformer::selected_models/topicA/FE-MEAN/head_seed_20261006.pt": {
+      "expected_sha256": "e790eaf6b4052e961721d750d048268b8bbbb8056ee47ba3b68c7ebdafc5a148",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-MEAN/head_seed_20261006.pt"
+    },
+    "transformer::selected_models/topicA/FE-MEAN/metadata.json": {
+      "expected_sha256": "d524507499bd3b0bd2266f39ad230280a43ecfc871179d55ade42a2946ff6dc9",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FE-MEAN/metadata.json"
+    },
+    "transformer::selected_models/topicA/FT-512/metadata.json": {
+      "expected_sha256": "ed5fc88b13c5ac7c5e96e798b57d20bd46741c493a54d40a52de7c8e5081866f",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FT-512/metadata.json"
+    },
+    "transformer::selected_models/topicA/FT-512/model_seed_20260912.pt": {
+      "expected_sha256": "540981a4aa10d37270b42d97de10f8f427a0e25d93ea68a35fe21659a65be820",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FT-512/model_seed_20260912.pt"
+    },
+    "transformer::selected_models/topicA/FT-512/model_seed_20260918.pt": {
+      "expected_sha256": "8c202fdbe10f49292bbc64b93e7a16d7fb915bc9b8ab1ea8861feb60efc8ed6c",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FT-512/model_seed_20260918.pt"
+    },
+    "transformer::selected_models/topicA/FT-512/model_seed_20260924.pt": {
+      "expected_sha256": "53b55dcbcd42dd201ab2d7a95831f66214013c5062d71d8f2435f0fe1756b6e4",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FT-512/model_seed_20260924.pt"
+    },
+    "transformer::selected_models/topicA/FT-ATTN/metadata.json": {
+      "expected_sha256": "036ee5f7bd7bc91931962f57533f4ad1bce625c0413f2ba349359d41ec8e5ffb",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FT-ATTN/metadata.json"
+    },
+    "transformer::selected_models/topicA/FT-ATTN/model_seed_20260912.pt": {
+      "expected_sha256": "0258caff383a3103192157163acb756aa2a14587bd9a3d4b42c85d725b245f2c",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FT-ATTN/model_seed_20260912.pt"
+    },
+    "transformer::selected_models/topicA/FT-ATTN/model_seed_20260918.pt": {
+      "expected_sha256": "7efb51f3d8a593bbbcf168fb1e23fc9a43595eefa948a277324accb2559b6e64",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FT-ATTN/model_seed_20260918.pt"
+    },
+    "transformer::selected_models/topicA/FT-ATTN/model_seed_20260924.pt": {
+      "expected_sha256": "0c0e04d37d56184c9530da18295f270cd632fd1a3bc6b4a58f6f74e6d90abec0",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FT-ATTN/model_seed_20260924.pt"
+    },
+    "transformer::selected_models/topicA/FT-MEAN/metadata.json": {
+      "expected_sha256": "45b959e53cee8a1991565e71ec0f82f5b53f943fd9758eb14f7e94f5eab155bb",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FT-MEAN/metadata.json"
+    },
+    "transformer::selected_models/topicA/FT-MEAN/model_seed_20260912.pt": {
+      "expected_sha256": "413b0e074bcdebc704b3458eb618386b10139e8553bb58b0737fe44c8d91d77e",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FT-MEAN/model_seed_20260912.pt"
+    },
+    "transformer::selected_models/topicA/FT-MEAN/model_seed_20260918.pt": {
+      "expected_sha256": "1bdf3c09ef65f1614bae2bb43b02557153dfe138cbfafd3fd12ba39540cee636",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FT-MEAN/model_seed_20260918.pt"
+    },
+    "transformer::selected_models/topicA/FT-MEAN/model_seed_20260924.pt": {
+      "expected_sha256": "e88f4944b33dfe3b960da6d4dd672e315074e701a642d6c70e1c3e85edec3255",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/FT-MEAN/model_seed_20260924.pt"
+    },
+    "transformer::selected_models/topicA/RANDOM-512/metadata.json": {
+      "expected_sha256": "7033a097d54d73d4c8398c37ad3915883b248cc5420fda13cce5f5facbd1200c",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/RANDOM-512/metadata.json"
+    },
+    "transformer::selected_models/topicA/RANDOM-512/model_seed_20260904.pt": {
+      "expected_sha256": "f8abed6271a0b9b7d488bf2b03c4e50b23c731eca8b443f564de00c353ffdf8a",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/RANDOM-512/model_seed_20260904.pt"
+    },
+    "transformer::selected_models/topicA/RANDOM-ATTN/metadata.json": {
+      "expected_sha256": "3eafc17137c44f252750871392324240bd985b25f590f0f65a5c72d1abf53f2a",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/RANDOM-ATTN/metadata.json"
+    },
+    "transformer::selected_models/topicA/RANDOM-ATTN/model_seed_20260904.pt": {
+      "expected_sha256": "284629cec31630801b1d03405215571b8cb366f505bbcb5c4d95766676723714",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/RANDOM-ATTN/model_seed_20260904.pt"
+    },
+    "transformer::selected_models/topicA/RANDOM-MEAN/metadata.json": {
+      "expected_sha256": "a24b5a0f8d68dc1e98ee8a4498555a950fb79671b2a18e3a0e0745ab91f362e9",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/RANDOM-MEAN/metadata.json"
+    },
+    "transformer::selected_models/topicA/RANDOM-MEAN/model_seed_20260904.pt": {
+      "expected_sha256": "bbaff4b84dc05d86a644313152918fa761828c86a78f1856a70c08084c3a02a2",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicA/RANDOM-MEAN/model_seed_20260904.pt"
+    },
+    "transformer::selected_models/topicB/FE-512/head_seed_20260912.pt": {
+      "expected_sha256": "aa0647d538f8445fe534f812494ee0b8b5556cdfd3fe571c3fb961007214ee9a",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-512/head_seed_20260912.pt"
+    },
+    "transformer::selected_models/topicB/FE-512/head_seed_20260918.pt": {
+      "expected_sha256": "f7a331ae352b1d666ad2f433930f9a20e45a4fd4f6d3aa8e7fa7fcaed3bbaf6d",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-512/head_seed_20260918.pt"
+    },
+    "transformer::selected_models/topicB/FE-512/head_seed_20260924.pt": {
+      "expected_sha256": "2869db81e01db4b674b99fc175612e063dee17c9d72f979846367f93d640269f",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-512/head_seed_20260924.pt"
+    },
+    "transformer::selected_models/topicB/FE-512/head_seed_20260930.pt": {
+      "expected_sha256": "e5117e8e2387ff374d816c11dc71bdf507bc02756379fd714cd1f8eb15fd05b8",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-512/head_seed_20260930.pt"
+    },
+    "transformer::selected_models/topicB/FE-512/head_seed_20261006.pt": {
+      "expected_sha256": "d8f3b641fcc6c5068ba806c4070a9122ae59deb6bbe597915374b5f433667189",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-512/head_seed_20261006.pt"
+    },
+    "transformer::selected_models/topicB/FE-512/metadata.json": {
+      "expected_sha256": "c39b6c6351ff4478595175d645cb18a3aefb6a21707b704ae7b4d73a22f26b88",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-512/metadata.json"
+    },
+    "transformer::selected_models/topicB/FE-ATTN/head_seed_20260912.pt": {
+      "expected_sha256": "5be8c34b514675f9e67dc0c2b8e165af86ffe2c5f3d9247e5a5a3c92beb8e554",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-ATTN/head_seed_20260912.pt"
+    },
+    "transformer::selected_models/topicB/FE-ATTN/head_seed_20260918.pt": {
+      "expected_sha256": "54fcc2a579061f6a681813125e4f8dbb5a4a5945023002a1d496e8c087cd6105",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-ATTN/head_seed_20260918.pt"
+    },
+    "transformer::selected_models/topicB/FE-ATTN/head_seed_20260924.pt": {
+      "expected_sha256": "2ff4e6fb1c7d08b85b817415f0f0b01fe09bf05c77fb7e4f5c348af44aa280ce",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-ATTN/head_seed_20260924.pt"
+    },
+    "transformer::selected_models/topicB/FE-ATTN/head_seed_20260930.pt": {
+      "expected_sha256": "74bda473d9cdefdcd98dc8c22b0ad8545e9e505636575833e1b3319fb3e0cd30",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-ATTN/head_seed_20260930.pt"
+    },
+    "transformer::selected_models/topicB/FE-ATTN/head_seed_20261006.pt": {
+      "expected_sha256": "29a385f73bdf8f3dbb10b1e88b04c2dbae4d18852a8891efb052ea435010f0ca",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-ATTN/head_seed_20261006.pt"
+    },
+    "transformer::selected_models/topicB/FE-ATTN/metadata.json": {
+      "expected_sha256": "d03efd90e0682396d36ed493fd6a4104cc011ec8b62af2cf55a0677e92b92ccc",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-ATTN/metadata.json"
+    },
+    "transformer::selected_models/topicB/FE-MEAN/head_seed_20260912.pt": {
+      "expected_sha256": "921c0d457d2c1f4d3a188130edba51683bcb2fe69754282bb0bb6a7cd353ebe6",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-MEAN/head_seed_20260912.pt"
+    },
+    "transformer::selected_models/topicB/FE-MEAN/head_seed_20260918.pt": {
+      "expected_sha256": "790f95668d2f2869710ba0b5cee046821e23f4106215c638d665f3668bc1250a",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-MEAN/head_seed_20260918.pt"
+    },
+    "transformer::selected_models/topicB/FE-MEAN/head_seed_20260924.pt": {
+      "expected_sha256": "d39549f24c6430cbec55e250b21ff98e30400dd4f058be30573c4d34e47b65e6",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-MEAN/head_seed_20260924.pt"
+    },
+    "transformer::selected_models/topicB/FE-MEAN/head_seed_20260930.pt": {
+      "expected_sha256": "78cc64285776ed7f6348d90aef1e8be9eb84ad5771da53a7e1cbbd34a774599c",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-MEAN/head_seed_20260930.pt"
+    },
+    "transformer::selected_models/topicB/FE-MEAN/head_seed_20261006.pt": {
+      "expected_sha256": "3976dda7027a21e559989234068b8a84e9ed76d92629e050259199da8c0ccd49",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-MEAN/head_seed_20261006.pt"
+    },
+    "transformer::selected_models/topicB/FE-MEAN/metadata.json": {
+      "expected_sha256": "73c5d33b1098269769e5ef5f701b5ee204edd40845652a067842fcbe84e94c3c",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FE-MEAN/metadata.json"
+    },
+    "transformer::selected_models/topicB/FT-512/metadata.json": {
+      "expected_sha256": "d56284f1fb8edbdcbf1e6cba783c772615d343190dbab504eb53c32dadeb7f49",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FT-512/metadata.json"
+    },
+    "transformer::selected_models/topicB/FT-512/model_seed_20260912.pt": {
+      "expected_sha256": "2a8272706ca9f6f65b44f68b1ac0506eabfcea8fdb67bcd5cc11f2d8049afbe4",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FT-512/model_seed_20260912.pt"
+    },
+    "transformer::selected_models/topicB/FT-512/model_seed_20260918.pt": {
+      "expected_sha256": "c26ec387454bfc85c16b9fa45a7f7537429767fff6a5e805fa9d48079bf40d18",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FT-512/model_seed_20260918.pt"
+    },
+    "transformer::selected_models/topicB/FT-512/model_seed_20260924.pt": {
+      "expected_sha256": "80fd5ad3b5dded0718eca72c38b40315a34cbe536e0720b0b1ac91025a191810",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FT-512/model_seed_20260924.pt"
+    },
+    "transformer::selected_models/topicB/FT-ATTN/metadata.json": {
+      "expected_sha256": "a6fec5f84517c016227641df7731d95468eebae064664916429fb3451f7f4a44",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FT-ATTN/metadata.json"
+    },
+    "transformer::selected_models/topicB/FT-ATTN/model_seed_20260912.pt": {
+      "expected_sha256": "0c983a1b7ab992a6127ba44e31bfcb1533b2fd127cf9ca45e06f25aaa6462b7e",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FT-ATTN/model_seed_20260912.pt"
+    },
+    "transformer::selected_models/topicB/FT-ATTN/model_seed_20260918.pt": {
+      "expected_sha256": "adc4badb3714e2296b20eb7124e639bed1dd3959c81459833d065f917ef0cf11",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FT-ATTN/model_seed_20260918.pt"
+    },
+    "transformer::selected_models/topicB/FT-ATTN/model_seed_20260924.pt": {
+      "expected_sha256": "ce3bc5c079b5e5abf693ec5218b0fa06cc15c50baab7ba377da6731cac6e35fd",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FT-ATTN/model_seed_20260924.pt"
+    },
+    "transformer::selected_models/topicB/FT-MEAN/metadata.json": {
+      "expected_sha256": "812e2596350d61eef26d2d5aae5c9346dd564a72c4ad2385282fc6b9ef456e04",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FT-MEAN/metadata.json"
+    },
+    "transformer::selected_models/topicB/FT-MEAN/model_seed_20260912.pt": {
+      "expected_sha256": "c548303cac87e2d93a15709a89496da0f15b13b7247e7fc082015f72f7dc426b",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FT-MEAN/model_seed_20260912.pt"
+    },
+    "transformer::selected_models/topicB/FT-MEAN/model_seed_20260918.pt": {
+      "expected_sha256": "9ad4bcd8abacf6926c88e916b6f1b285563146c9a9bd8f77e66c878d40799629",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FT-MEAN/model_seed_20260918.pt"
+    },
+    "transformer::selected_models/topicB/FT-MEAN/model_seed_20260924.pt": {
+      "expected_sha256": "841c9e596c7144a761b9532081f6cd632a0d0de20767f9ec7c6ded073ea8ab62",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/FT-MEAN/model_seed_20260924.pt"
+    },
+    "transformer::selected_models/topicB/RANDOM-512/metadata.json": {
+      "expected_sha256": "73a6166dd0b20dfaf27ff624d8c0bf496db16efa61a418170134801a5b92b194",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/RANDOM-512/metadata.json"
+    },
+    "transformer::selected_models/topicB/RANDOM-512/model_seed_20260904.pt": {
+      "expected_sha256": "c98c2469f0f6a7e3d8ec26d6020d46f38d219327a03ffa54a9a62d5338f7f6cc",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/RANDOM-512/model_seed_20260904.pt"
+    },
+    "transformer::selected_models/topicB/RANDOM-ATTN/metadata.json": {
+      "expected_sha256": "45b5a29bd52c7721bd6f2b28f320b8f3b2024b7c4e0904dea6b230131b9dcee9",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/RANDOM-ATTN/metadata.json"
+    },
+    "transformer::selected_models/topicB/RANDOM-ATTN/model_seed_20260904.pt": {
+      "expected_sha256": "7f778c485c58957c59f280b3144e090db336047b13d1329c446b52f25b67088a",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/RANDOM-ATTN/model_seed_20260904.pt"
+    },
+    "transformer::selected_models/topicB/RANDOM-MEAN/metadata.json": {
+      "expected_sha256": "0d29be900c42ccb5d82b64f33ce6559b77aa12142f8727f7d65353e641530f94",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/RANDOM-MEAN/metadata.json"
+    },
+    "transformer::selected_models/topicB/RANDOM-MEAN/model_seed_20260904.pt": {
+      "expected_sha256": "932d64791617a9b95f2805604ce3c91387d8636851e001e2562af53e8b6c1867",
+      "path": "modeling_results/roberta_transformer_final/selected_models/topicB/RANDOM-MEAN/model_seed_20260904.pt"
+    }
+  },
+  "stage_name": "final_evaluation_v2_20260908",
+  "target_scoring_weights": "Use target split frozen balance_weight for all weighted metrics.",
+  "test_unseal_policy": "All predictive models/configurations/seed sets and this evaluation/analysis plan are frozen before corpus test text is parsed. Test results never trigger retraining, reselection, calibration, threshold tuning, or ensemble membership changes."
+}

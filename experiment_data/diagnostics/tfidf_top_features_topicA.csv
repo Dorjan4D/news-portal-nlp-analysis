@@ -1,0 +1,91 @@
+topic,portal,rank,feature,coefficient
+topicA,aljazeera,1,captives,1.5521536901140283
+topicA,aljazeera,2,united,1.5477534887667512
+topicA,aljazeera,3,enclave,1.2531641424862212
+topicA,aljazeera,4,war on,1.1636743512319854
+topicA,aljazeera,5,on gaza,1.1588506523887807
+topicA,aljazeera,6,united states,1.1156341419825202
+topicA,aljazeera,7,united nations,1.073364504671624
+topicA,aljazeera,8,the united,1.0668607394492735
+topicA,aljazeera,9,nations,0.9403902784097088
+topicA,aljazeera,10,states,0.8805177679070105
+topicA,aljazeera,11,the enclave,0.8724203864281719
+topicA,aljazeera,12,israeli captives,0.8180110090292633
+topicA,aljazeera,13,percent,0.7866770402425086
+topicA,aljazeera,14,the captives,0.7501927132275626
+topicA,aljazeera,15,captive,0.7335293631846571
+topicA,aljazeera,16,israel war,0.7169955356345048
+topicA,aljazeera,17,ministry of,0.7076400951893215
+topicA,aljazeera,18,percent of,0.6574014828610272
+topicA,aljazeera,19,palestinians,0.5486319328553035
+topicA,aljazeera,20,palestinian group,0.5163979318932831
+topicA,aljazeera,21,news agency,0.5053425321297952
+topicA,aljazeera,22,states president,0.5034234925713347
+topicA,aljazeera,23,israeli forces,0.48853125699202127
+topicA,aljazeera,24,israeli army,0.4884437772540126
+topicA,aljazeera,25,the palestinian,0.4795347833880493
+topicA,aljazeera,26,139,0.47040097681139226
+topicA,aljazeera,27,captives in,0.46982408806723747
+topicA,aljazeera,28,139 people,0.46492656611354044
+topicA,aljazeera,29,the besieged,0.4552145598962541
+topicA,aljazeera,30,november,0.45455482581486134
+topicA,bbc,1,hamas run,1.3886968504449384
+topicA,bbc,2,run health,1.2305915172511095
+topicA,bbc,3,run,1.1262681827381738
+topicA,bbc,4,mr,1.0065360193731334
+topicA,bbc,5,says,0.9808190160650097
+topicA,bbc,6,idf,0.9702576621502937
+topicA,bbc,7,251,0.9442551220949784
+topicA,bbc,8,251 others,0.8923922862582608
+topicA,bbc,9,200 people,0.8340330634542811
+topicA,bbc,10,sir,0.8265515506675507
+topicA,bbc,11,and 251,0.8176654339818039
+topicA,bbc,12,sir keir,0.7885879225894789
+topicA,bbc,13,the idf,0.7510135917273053
+topicA,bbc,14,response,0.7477323557414207
+topicA,bbc,15,in response,0.7456219684546845
+topicA,bbc,16,health ministry,0.7445211912209183
+topicA,bbc,17,the hamas,0.7322837568952575
+topicA,bbc,18,since then,0.7313179746031365
+topicA,bbc,19,which about,0.7144694260088562
+topicA,bbc,20,about 200,0.71281654237618
+topicA,bbc,21,territory hamas,0.6919628196769677
+topicA,bbc,22,others,0.6781835968286731
+topicA,bbc,23,hostages,0.6639753708384278
+topicA,bbc,24,idf said,0.6536457329200034
+topicA,bbc,25,taken hostage,0.6534257063094621
+topicA,bbc,26,response to,0.6531155782535986
+topicA,bbc,27,uk,0.6072140636479927
+topicA,bbc,28,then according,0.6027112826047506
+topicA,bbc,29,200,0.6026265227852824
+topicA,bbc,30,hostage,0.5827358327061579
+topicA,guardian,1,airstrikes,1.1417040029467824
+topicA,guardian,2,militants,1.0921485453353224
+topicA,guardian,3,militant,0.9037735537583492
+topicA,guardian,4,hostages,0.6623453498380328
+topicA,guardian,5,airstrike,0.6525726071299419
+topicA,guardian,6,militant group,0.6496815029262131
+topicA,guardian,7,did not,0.6248627478262003
+topicA,guardian,8,mostly,0.6100952768394603
+topicA,guardian,9,spokesperson,0.5860629987581624
+topicA,guardian,10,wrote,0.513297692254895
+topicA,guardian,11,mostly civilians,0.4834008329532976
+topicA,guardian,12,the prime,0.4648265889504831
+topicA,guardian,13,did,0.4487174126192734
+topicA,guardian,14,israeli airstrikes,0.4259509362319869
+topicA,guardian,15,officials,0.41899564937553757
+topicA,guardian,16,scale,0.41309967968278505
+topicA,guardian,17,much of,0.412371441599222
+topicA,guardian,18,israeli troops,0.40636698889386347
+topicA,guardian,19,further,0.40364563984857044
+topicA,guardian,20,palestinian militant,0.4020381846185426
+topicA,guardian,21,the militant,0.3974728498004822
+topicA,guardian,22,washington,0.3847840691296993
+topicA,guardian,23,recent,0.37817312508531764
+topicA,guardian,24,the world,0.37649852584371196
+topicA,guardian,25,ordered,0.36817590258712046
+topicA,guardian,26,increase,0.3675232677945129
+topicA,guardian,27,starmer,0.35660012893108206
+topicA,guardian,28,close,0.3561737919232357
+topicA,guardian,29,airstrikes on,0.353337606917294
+topicA,guardian,30,visit,0.35099444535840124

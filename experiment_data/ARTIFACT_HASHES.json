@@ -1,0 +1,12 @@
+{
+  "audit_report.json": "9d706feb53358d6ff6b00ce3bf5dd6d906cdcb0de94eab4ccfc0b24e77d6f1c5",
+  "excluded_articles.csv": "031ddf7c52688c3d04808a4d03a0e1086c39e820e5d81e4899b58b0e7a37bdd5",
+  "experiment_config_resolved.json": "09dd5b7be62f58e05301f937d0863734a14a9195effc8de779c10385faa2f16b",
+  "experiment_manifest.jsonl": "282e1544747c4fe06898a7250043c6d813a8d890b9c88bd40e47bc5f7046ba9f",
+  "length_bins.json": "08d784fa5ffe2a9ae965e26eae6fc49f541bd27242e47dcacfa362e98cb1f59e",
+  "split_summary.json": "881d438618d06da495e3fda1b89507e1bb11e6333f2649c1e855c79d0ec969d1",
+  "stratum_summary.csv": "c85cfa1ccbad414cf5d3667bcab9225e3a95a57e967489d647dee40d8f7260e0",
+  "test_weights.csv": "0be366c9b3f0d962b296590641076902f46297d2666778da37ba2a319fe4f95a",
+  "train_buckets.json": "83e0a1146349672eda25c6dc1edc5fa72ff3a646d11d73c5210ba41144e29794",
+  "validation_weights.csv": "c9951d8a10f88747a8a596fa95b608059284914e2713b1221e7b7153e5cac1a7"
+}

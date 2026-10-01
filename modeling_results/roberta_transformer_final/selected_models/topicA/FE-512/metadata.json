@@ -1,0 +1,25 @@
+{
+  "arch": "512",
+  "confirmation_seeds": [
+    20260912,
+    20260918,
+    20260924,
+    20260930,
+    20261006
+  ],
+  "family": "FE",
+  "selected_config": {
+    "arch": "512",
+    "config_id": "512_lr3e-03_wd0e+00",
+    "config_order": 4,
+    "learning_rate": 0.003,
+    "mean_best_epoch": 28.6,
+    "mean_best_val_weighted_accuracy": 0.6963440860215054,
+    "mean_best_val_weighted_cross_entropy": 0.8234803972510993,
+    "mean_best_val_weighted_macro_f1": 0.6960920938014525,
+    "std_best_val_weighted_macro_f1": 0.031050009092323607,
+    "topic": "topicA",
+    "weight_decay": 0.0
+  },
+  "topic": "topicA"
+}

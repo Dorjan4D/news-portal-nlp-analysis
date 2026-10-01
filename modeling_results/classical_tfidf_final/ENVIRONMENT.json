@@ -1,0 +1,13 @@
+{
+  "joblib": "1.4.2",
+  "mkl_num_threads": "1",
+  "numpy": "2.2.1",
+  "omp_num_threads": "1",
+  "openblas_num_threads": "1",
+  "pandas": "2.3.3",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "protocol_hash": "e17602edbdfe5e440fcac47c3e1b490e2071a37cd88fb4e057422ca85552e8b1",
+  "python": "3.11.11 (main, Dec 11 2024, 16:28:39) [GCC 11.2.0]",
+  "scipy": "1.15.2",
+  "sklearn": "1.6.1"
+}

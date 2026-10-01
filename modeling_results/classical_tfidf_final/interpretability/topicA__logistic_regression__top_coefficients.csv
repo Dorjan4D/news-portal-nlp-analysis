@@ -1,0 +1,241 @@
+topic,family,coefficient_row,direction,rank,feature,coefficient
+topicA,logistic_regression,aljazeera,positive,1,united,5.848694172091407
+topicA,logistic_regression,aljazeera,positive,2,captives,5.74292326702115
+topicA,logistic_regression,aljazeera,positive,3,enclave,4.628434326900512
+topicA,logistic_regression,aljazeera,positive,4,on gaza,4.506946854023386
+topicA,logistic_regression,aljazeera,positive,5,war on,4.506725538046387
+topicA,logistic_regression,aljazeera,positive,6,united states,4.2275356956249235
+topicA,logistic_regression,aljazeera,positive,7,united nations,4.021301060091752
+topicA,logistic_regression,aljazeera,positive,8,the united,3.831984239423379
+topicA,logistic_regression,aljazeera,positive,9,nations,3.4429080458861425
+topicA,logistic_regression,aljazeera,positive,10,states,3.27937915770993
+topicA,logistic_regression,aljazeera,positive,11,the enclave,3.1569308220303145
+topicA,logistic_regression,aljazeera,positive,12,percent,2.9531284933060333
+topicA,logistic_regression,aljazeera,positive,13,israeli captives,2.9043359228388685
+topicA,logistic_regression,aljazeera,positive,14,captive,2.831777177887097
+topicA,logistic_regression,aljazeera,positive,15,ministry of,2.827968085289315
+topicA,logistic_regression,aljazeera,positive,16,the captives,2.797385312231039
+topicA,logistic_regression,aljazeera,positive,17,israel war,2.6820633046353053
+topicA,logistic_regression,aljazeera,positive,18,percent of,2.4295977310139136
+topicA,logistic_regression,aljazeera,positive,19,news agency,2.011072669706241
+topicA,logistic_regression,aljazeera,positive,20,israeli army,1.9753371107254172
+topicA,logistic_regression,aljazeera,positive,21,states president,1.9370094020989472
+topicA,logistic_regression,aljazeera,positive,22,president donald,1.871927459204339
+topicA,logistic_regression,aljazeera,positive,23,palestinian group,1.8458033102739848
+topicA,logistic_regression,aljazeera,positive,24,palestinians,1.8437592733294912
+topicA,logistic_regression,aljazeera,positive,25,news,1.81259322255519
+topicA,logistic_regression,aljazeera,positive,26,el,1.749767141376406
+topicA,logistic_regression,aljazeera,positive,27,el balah,1.73270128938387
+topicA,logistic_regression,aljazeera,positive,28,deir el,1.73270128938387
+topicA,logistic_regression,aljazeera,positive,29,israeli forces,1.7081236607173405
+topicA,logistic_regression,aljazeera,positive,30,captives in,1.677665173172151
+topicA,logistic_regression,aljazeera,positive,31,occupied,1.6708005560310715
+topicA,logistic_regression,aljazeera,positive,32,139 people,1.6683956486953018
+topicA,logistic_regression,aljazeera,positive,33,139,1.6538150161748892
+topicA,logistic_regression,aljazeera,positive,34,the palestinian,1.6483794618811514
+topicA,logistic_regression,aljazeera,positive,35,the besieged,1.64760823499475
+topicA,logistic_regression,aljazeera,positive,36,has killed,1.64282132951451
+topicA,logistic_regression,aljazeera,positive,37,besieged,1.637169379332136
+topicA,logistic_regression,aljazeera,positive,38,added,1.6304425289101645
+topicA,logistic_regression,aljazeera,positive,39,affairs,1.6094928209094423
+topicA,logistic_regression,aljazeera,positive,40,assault,1.5934428492454835
+topicA,logistic_regression,aljazeera,negative,1,hostages,-4.9942981407098
+topicA,logistic_regression,aljazeera,negative,2,idf,-3.8060215268473447
+topicA,logistic_regression,aljazeera,negative,3,hostage,-3.4164345944830568
+topicA,logistic_regression,aljazeera,negative,4,airstrikes,-2.613717281828924
+topicA,logistic_regression,aljazeera,negative,5,the idf,-2.5658068360726176
+topicA,logistic_regression,aljazeera,negative,6,the un,-2.5115943376496883
+topicA,logistic_regression,aljazeera,negative,7,terrorist,-2.3997763403007877
+topicA,logistic_regression,aljazeera,negative,8,israeli hostages,-2.378441088650089
+topicA,logistic_regression,aljazeera,negative,9,uk,-2.2844393421068454
+topicA,logistic_regression,aljazeera,negative,10,hamas,-2.2811668102841653
+topicA,logistic_regression,aljazeera,negative,11,un,-2.2435698981545373
+topicA,logistic_regression,aljazeera,negative,12,had been,-2.218116890952205
+topicA,logistic_regression,aljazeera,negative,13,militant,-2.1051357958865617
+topicA,logistic_regression,aljazeera,negative,14,had,-2.1006236902777013
+topicA,logistic_regression,aljazeera,negative,15,the israel,-2.0712351718804856
+topicA,logistic_regression,aljazeera,negative,16,militants,-2.040377678720609
+topicA,logistic_regression,aljazeera,negative,17,hamas run,-2.03701449692918
+topicA,logistic_regression,aljazeera,negative,18,defense,-2.0274103607571186
+topicA,logistic_regression,aljazeera,negative,19,200 people,-1.9599728886395893
+topicA,logistic_regression,aljazeera,negative,20,taken hostage,-1.9407635157830099
+topicA,logistic_regression,aljazeera,negative,21,conflict,-1.9339964032667047
+topicA,logistic_regression,aljazeera,negative,22,the prime,-1.8756806728095976
+topicA,logistic_regression,aljazeera,negative,23,defense forces,-1.8259780877025877
+topicA,logistic_regression,aljazeera,negative,24,israel defense,-1.8257184973032283
+topicA,logistic_regression,aljazeera,negative,25,it was,-1.8176899186064923
+topicA,logistic_regression,aljazeera,negative,26,by hamas,-1.7740829937352114
+topicA,logistic_regression,aljazeera,negative,27,said it,-1.7536346982633966
+topicA,logistic_regression,aljazeera,negative,28,the territory,-1.6960397355704395
+topicA,logistic_regression,aljazeera,negative,29,mr,-1.684000814547938
+topicA,logistic_regression,aljazeera,negative,30,the uk,-1.6779493903295621
+topicA,logistic_regression,aljazeera,negative,31,health ministry,-1.6376545540564094
+topicA,logistic_regression,aljazeera,negative,32,251,-1.6368028533865997
+topicA,logistic_regression,aljazeera,negative,33,run,-1.6144301543169597
+topicA,logistic_regression,aljazeera,negative,34,about 200,-1.6118333352444003
+topicA,logistic_regression,aljazeera,negative,35,militant group,-1.6068901367130222
+topicA,logistic_regression,aljazeera,negative,36,the hostages,-1.6057802109061516
+topicA,logistic_regression,aljazeera,negative,37,airstrike,-1.6006763026900477
+topicA,logistic_regression,aljazeera,negative,38,200,-1.5912553593801653
+topicA,logistic_regression,aljazeera,negative,39,was,-1.5629740901382336
+topicA,logistic_regression,aljazeera,negative,40,forces idf,-1.5451559330996856
+topicA,logistic_regression,bbc,positive,1,hamas run,5.065956496824368
+topicA,logistic_regression,bbc,positive,2,run health,4.392357684672518
+topicA,logistic_regression,bbc,positive,3,mr,4.373671345716859
+topicA,logistic_regression,bbc,positive,4,says,4.073290973890883
+topicA,logistic_regression,bbc,positive,5,run,4.035425988676617
+topicA,logistic_regression,bbc,positive,6,idf,3.7323390525988285
+topicA,logistic_regression,bbc,positive,7,251,3.4189355892616526
+topicA,logistic_regression,bbc,positive,8,sir,3.414508553385179
+topicA,logistic_regression,bbc,positive,9,sir keir,3.220166056270153
+topicA,logistic_regression,bbc,positive,10,251 others,3.110947572477323
+topicA,logistic_regression,bbc,positive,11,200 people,2.935993022147882
+topicA,logistic_regression,bbc,positive,12,the idf,2.9168683040801007
+topicA,logistic_regression,bbc,positive,13,the hamas,2.824455566141167
+topicA,logistic_regression,bbc,positive,14,response,2.8112244753128923
+topicA,logistic_regression,bbc,positive,15,and 251,2.7764991217039148
+topicA,logistic_regression,bbc,positive,16,in response,2.6011069047384723
+topicA,logistic_regression,bbc,positive,17,uk,2.5647791750052256
+topicA,logistic_regression,bbc,positive,18,since then,2.5393953952705437
+topicA,logistic_regression,bbc,positive,19,others,2.5270080660231367
+topicA,logistic_regression,bbc,positive,20,idf said,2.524904437052717
+topicA,logistic_regression,bbc,positive,21,health ministry,2.51761334495544
+topicA,logistic_regression,bbc,positive,22,spokesman,2.4563469266871034
+topicA,logistic_regression,bbc,positive,23,hostages,2.394595784446909
+topicA,logistic_regression,bbc,positive,24,air strike,2.3943502787905637
+topicA,logistic_regression,bbc,positive,25,about 200,2.3799945871847683
+topicA,logistic_regression,bbc,positive,26,which about,2.375030569631795
+topicA,logistic_regression,bbc,positive,27,ms,2.3571760642336512
+topicA,logistic_regression,bbc,positive,28,hamas,2.3243199999887056
+topicA,logistic_regression,bbc,positive,29,territory hamas,2.322263681855565
+topicA,logistic_regression,bbc,positive,30,air strikes,2.258678788187806
+topicA,logistic_regression,bbc,positive,31,response to,2.2332777517057734
+topicA,logistic_regression,bbc,positive,32,israeli hostages,2.223889794909081
+topicA,logistic_regression,bbc,positive,33,air,2.1732188467547076
+topicA,logistic_regression,bbc,positive,34,taken hostage,2.1508467120052916
+topicA,logistic_regression,bbc,positive,35,200,2.1066984061517346
+topicA,logistic_regression,bbc,positive,36,gazans,2.0414865016796857
+topicA,logistic_regression,bbc,positive,37,people were,1.9727446096257995
+topicA,logistic_regression,bbc,positive,38,then according,1.9543097501718192
+topicA,logistic_regression,bbc,positive,39,others were,1.9504862000496315
+topicA,logistic_regression,bbc,positive,40,seen as,1.8966188949336353
+topicA,logistic_regression,bbc,negative,1,captives,-2.585617135024282
+topicA,logistic_regression,bbc,negative,2,militants,-2.3040004262216645
+topicA,logistic_regression,bbc,negative,3,airstrikes,-2.040001945685817
+topicA,logistic_regression,bbc,negative,4,united,-1.9846537096101984
+topicA,logistic_regression,bbc,negative,5,war on,-1.963984933112117
+topicA,logistic_regression,bbc,negative,6,on gaza,-1.8889967647809351
+topicA,logistic_regression,bbc,negative,7,said in,-1.7750611014488817
+topicA,logistic_regression,bbc,negative,8,spokesperson,-1.743694029462703
+topicA,logistic_regression,bbc,negative,9,killed at,-1.6189773129443783
+topicA,logistic_regression,bbc,negative,10,washington,-1.58599121821817
+topicA,logistic_regression,bbc,negative,11,deaths,-1.567033879869898
+topicA,logistic_regression,bbc,negative,12,united states,-1.5628887935790727
+topicA,logistic_regression,bbc,negative,13,albanese,-1.5407980618801276
+topicA,logistic_regression,bbc,negative,14,enclave,-1.479391533055347
+topicA,logistic_regression,bbc,negative,15,militant,-1.444558938538459
+topicA,logistic_regression,bbc,negative,16,policy,-1.4406906092263392
+topicA,logistic_regression,bbc,negative,17,such,-1.4294243994072435
+topicA,logistic_regression,bbc,negative,18,the united,-1.4138959269226854
+topicA,logistic_regression,bbc,negative,19,claimed,-1.4011968845369296
+topicA,logistic_regression,bbc,negative,20,assault on,-1.3782712780833322
+topicA,logistic_regression,bbc,negative,21,army,-1.3717530785226268
+topicA,logistic_regression,bbc,negative,22,israel war,-1.3706777417946658
+topicA,logistic_regression,bbc,negative,23,on friday,-1.3623187045460647
+topicA,logistic_regression,bbc,negative,24,further,-1.3608247237890727
+topicA,logistic_regression,bbc,negative,25,has killed,-1.344176737477005
+topicA,logistic_regression,bbc,negative,26,israeli army,-1.312172163552577
+topicA,logistic_regression,bbc,negative,27,early,-1.308627509181795
+topicA,logistic_regression,bbc,negative,28,mostly,-1.2985352690920737
+topicA,logistic_regression,bbc,negative,29,toll,-1.294992774692643
+topicA,logistic_regression,bbc,negative,30,public,-1.293058189089865
+topicA,logistic_regression,bbc,negative,31,israeli captives,-1.2885050421162634
+topicA,logistic_regression,bbc,negative,32,from the,-1.2765584500732845
+topicA,logistic_regression,bbc,negative,33,since october,-1.2705491822674437
+topicA,logistic_regression,bbc,negative,34,mostly civilians,-1.2663978876789053
+topicA,logistic_regression,bbc,negative,35,said on,-1.2509790581718816
+topicA,logistic_regression,bbc,negative,36,officials,-1.2500523274747706
+topicA,logistic_regression,bbc,negative,37,friday,-1.2432393587384583
+topicA,logistic_regression,bbc,negative,38,states,-1.2337343171938893
+topicA,logistic_regression,bbc,negative,39,the military,-1.22847635968294
+topicA,logistic_regression,bbc,negative,40,comments,-1.2187520391058024
+topicA,logistic_regression,guardian,positive,1,airstrikes,4.653719227514748
+topicA,logistic_regression,guardian,positive,2,militants,4.344378104942261
+topicA,logistic_regression,guardian,positive,3,militant,3.549694734425035
+topicA,logistic_regression,guardian,positive,4,airstrike,2.647408695002687
+topicA,logistic_regression,guardian,positive,5,hostages,2.599702356262892
+topicA,logistic_regression,guardian,positive,6,did not,2.596449072089619
+topicA,logistic_regression,guardian,positive,7,militant group,2.503967161472395
+topicA,logistic_regression,guardian,positive,8,spokesperson,2.4972288377059635
+topicA,logistic_regression,guardian,positive,9,wrote,2.3942745751310324
+topicA,logistic_regression,guardian,positive,10,mostly,2.358651033504612
+topicA,logistic_regression,guardian,positive,11,the prime,1.8990989298041652
+topicA,logistic_regression,guardian,positive,12,ordered,1.8630099158815245
+topicA,logistic_regression,guardian,positive,13,did,1.820074304002311
+topicA,logistic_regression,guardian,positive,14,washington,1.7690855391094924
+topicA,logistic_regression,guardian,positive,15,scale,1.7665495608977033
+topicA,logistic_regression,guardian,positive,16,mostly civilians,1.758083561149468
+topicA,logistic_regression,guardian,positive,17,much of,1.7421839757370172
+topicA,logistic_regression,guardian,positive,18,israeli airstrikes,1.73737606051578
+topicA,logistic_regression,guardian,positive,19,further,1.711077539524029
+topicA,logistic_regression,guardian,positive,20,israeli troops,1.6976695594931355
+topicA,logistic_regression,guardian,positive,21,officials,1.673607815988694
+topicA,logistic_regression,guardian,positive,22,increase,1.6463382480021793
+topicA,logistic_regression,guardian,positive,23,palestinian militant,1.6070191064811112
+topicA,logistic_regression,guardian,positive,24,hostage,1.5968225876180666
+topicA,logistic_regression,guardian,positive,25,operation,1.5923157322997987
+topicA,logistic_regression,guardian,positive,26,10,1.5825550101597892
+topicA,logistic_regression,guardian,positive,27,in south,1.5592429200691187
+topicA,logistic_regression,guardian,positive,28,the militant,1.547122796348005
+topicA,logistic_regression,guardian,positive,29,starmer,1.5336719205537597
+topicA,logistic_regression,guardian,positive,30,head of,1.5306772233036963
+topicA,logistic_regression,guardian,positive,31,the world,1.514077875146319
+topicA,logistic_regression,guardian,positive,32,probably,1.500406893054655
+topicA,logistic_regression,guardian,positive,33,recent,1.4981530385448203
+topicA,logistic_regression,guardian,positive,34,troops,1.4859499858178484
+topicA,logistic_regression,guardian,positive,35,airstrikes in,1.4842859816260878
+topicA,logistic_regression,guardian,positive,36,visit,1.463332180178326
+topicA,logistic_regression,guardian,positive,37,military said,1.4580771526822598
+topicA,logistic_regression,guardian,positive,38,permission,1.4537712120042732
+topicA,logistic_regression,guardian,positive,39,21,1.43307807439313
+topicA,logistic_regression,guardian,positive,40,deaths,1.4144744825859359
+topicA,logistic_regression,guardian,negative,1,united,-3.8640404624812126
+topicA,logistic_regression,guardian,negative,2,says,-3.8532616693805846
+topicA,logistic_regression,guardian,negative,3,captives,-3.157306131996898
+topicA,logistic_regression,guardian,negative,4,enclave,-3.149042793845154
+topicA,logistic_regression,guardian,negative,5,hamas run,-3.0289419998951637
+topicA,logistic_regression,guardian,negative,6,president donald,-2.8910859079922373
+topicA,logistic_regression,guardian,negative,7,run health,-2.8719302666161406
+topicA,logistic_regression,guardian,negative,8,united nations,-2.8065847681069807
+topicA,logistic_regression,guardian,negative,9,mr,-2.68967053116893
+topicA,logistic_regression,guardian,negative,10,united states,-2.6646469020458525
+topicA,logistic_regression,guardian,negative,11,air strikes,-2.6592381490292745
+topicA,logistic_regression,guardian,negative,12,nations,-2.6206180682933202
+topicA,logistic_regression,guardian,negative,13,on gaza,-2.617950089242432
+topicA,logistic_regression,guardian,negative,14,president,-2.5662654376528296
+topicA,logistic_regression,guardian,negative,15,war on,-2.5427406049342847
+topicA,logistic_regression,guardian,negative,16,sir,-2.4676923061631855
+topicA,logistic_regression,guardian,negative,17,run,-2.42099583435963
+topicA,logistic_regression,guardian,negative,18,the united,-2.4180883125006853
+topicA,logistic_regression,guardian,negative,19,air,-2.405251537490411
+topicA,logistic_regression,guardian,negative,20,sir keir,-2.360770829032905
+topicA,logistic_regression,guardian,negative,21,spokesman,-2.3359662016286005
+topicA,logistic_regression,guardian,negative,22,air strike,-2.262461780950503
+topicA,logistic_regression,guardian,negative,23,israeli air,-2.2247899123003734
+topicA,logistic_regression,guardian,negative,24,the enclave,-2.1389178470685937
+topicA,logistic_regression,guardian,negative,25,others,-2.116500061554058
+topicA,logistic_regression,guardian,negative,26,percent,-2.105484827409463
+topicA,logistic_regression,guardian,negative,27,following,-2.0871140893283773
+topicA,logistic_regression,guardian,negative,28,added,-2.0781588798011548
+topicA,logistic_regression,guardian,negative,29,since then,-2.0519119856040895
+topicA,logistic_regression,guardian,negative,30,states,-2.045644840516033
+topicA,logistic_regression,guardian,negative,31,251 others,-2.0298652846283716
+topicA,logistic_regression,guardian,negative,32,added that,-1.9403081221008116
+topicA,logistic_regression,guardian,negative,33,ms,-1.845680868642706
+topicA,logistic_regression,guardian,negative,34,ministry of,-1.8385697685203486
+topicA,logistic_regression,guardian,negative,35,occupied west,-1.8214611678661126
+topicA,logistic_regression,guardian,negative,36,251,-1.7821327358750523
+topicA,logistic_regression,guardian,negative,37,as part,-1.7785617901539492
+topicA,logistic_regression,guardian,negative,38,percent of,-1.778536253755863
+topicA,logistic_regression,guardian,negative,39,captive,-1.7693467286941098
+topicA,logistic_regression,guardian,negative,40,occupied,-1.7488985742276981

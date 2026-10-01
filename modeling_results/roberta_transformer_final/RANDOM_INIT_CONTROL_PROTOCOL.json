@@ -1,0 +1,70 @@
+{
+  "architectures": [
+    "512",
+    "MEAN",
+    "ATTN"
+  ],
+  "backbone": {
+    "architecture_config_source": "modeling_results/roberta_transformer_final/base_model_assets/config.json",
+    "article_chunk_cap": null,
+    "chunk_overlap": 0,
+    "content_tokens_per_chunk": 510,
+    "encoder_weights": "randomly initialized from the local pinned RoBERTa configuration via AutoModel.from_config; no pretrained encoder weight loading",
+    "max_sequence_length": 512,
+    "model_name_reference": "FacebookAI/roberta-base",
+    "pinned_pretrained_revision_reference": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "tokenizer": "same original pretrained RoBERTa tokenizer/vocabulary as FE/FT; no tokenizer retraining"
+  },
+  "boundary_policy": "The 100-epoch horizon is fixed before results are inspected and is not expanded after validation is seen. If the best epoch is at/near 100 or the curve is still improving there, report that as a limitation/future-work observation.",
+  "checkpoint_selection": {
+    "reason": "avoid artificially judging a scratch model only at a potentially overfit final epoch while still using no early stopping",
+    "retained_checkpoint": "best validation weighted macro-F1; then weighted accuracy; then lower weighted cross-entropy",
+    "training_horizon": "always run all 100 epochs"
+  },
+  "optimization": {
+    "adamw_betas": [
+      0.9,
+      0.999
+    ],
+    "adamw_eps": 1e-08,
+    "early_stopping": null,
+    "effective_article_batch_size": 16,
+    "gradient_clipping_global_norm": 1.0,
+    "hardware_execution": "reuse the already-saved HARDWARE_PREFLIGHT.json implementation selected for mathematically equivalent FT execution; actual selected values are recorded in each run record",
+    "learning_rate": 0.0001,
+    "max_epochs": 100,
+    "mixed_precision": "same FP16 encoder autocast + GradScaler behavior as FT; article pooling/head FP32",
+    "optimizer": "AdamW; no weight decay on bias/LayerNorm",
+    "patience": null,
+    "scheduler": "10% linear warmup then linear decay over the successful-optimizer-step schedule corresponding to the fixed 100-epoch budget; AMP-skipped steps do not advance the scheduler",
+    "weight_decay": 0.01
+  },
+  "parent_base_protocol_hash": "5fa51702be769922b580121397830bc7c99f9a614e6aca58ff8f850629124ba1",
+  "parent_ft_protocol_hash": "3f31db7ebf13f3e6857f609c56aae0cfcf02891b835e5c2dacfe15e18d25c8e3",
+  "purpose": "Estimate how the same RoBERTa-base architecture performs on the supervised portal-classification task without pretrained encoder weights. This is a single predefined reasonable scratch-training control, not an exhaustive scratch hyperparameter search.",
+  "randomness": {
+    "cublas_workspace_config": ":4096:8",
+    "deterministic_algorithms": "strict",
+    "matched_to_transformer_stage1": [
+      "classifier init",
+      "attention init",
+      "training RNG/dropout",
+      "sampler",
+      "global article shuffle"
+    ],
+    "new_encoder_init_stream": "seed32(master_seed, 'random-roberta-encoder-init', topic)",
+    "same_random_encoder_across_architectures_within_topic": true
+  },
+  "revision_id": "random_init_control_20260907",
+  "runs": {
+    "expected_total_runs": 6,
+    "master_seed": 20260904,
+    "one_run_per_topic_architecture": true,
+    "topics": [
+      "topicA",
+      "topicB"
+    ]
+  },
+  "scope": "post-selection random-weight RoBERTa control only; FE/FT selection unchanged",
+  "test_policy": "Test metadata only for integrity; test article text remains sealed."
+}

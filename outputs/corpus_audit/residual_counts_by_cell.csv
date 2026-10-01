@@ -1,0 +1,8 @@
+kind,pattern,portal,topic,articles
+ARTIFACT,copyright,aljazeera,topicB,1
+ARTIFACT,copyright,guardian,topicB,1
+ARTIFACT,newsletter,aljazeera,topicA,1
+ARTIFACT,newsletter,guardian,topicB,3
+ARTIFACT,sign_up,bbc,topicA,4
+ARTIFACT,sign_up,bbc,topicB,2
+ARTIFACT,sign_up,guardian,topicA,4
